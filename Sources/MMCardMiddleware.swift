@@ -50,8 +50,7 @@ class MMCardMiddleware: RouterMiddleware {
 //                                    "zaisheng": 0,
 //                                    "xixue": 0,
 //                                    "fantangwuli": 0,
-//                                    "fantanfashu": 0
-//        ]
+//                                    "fantanfashu": 0]
 //        
 //        
 //        let json = JSON(dict)
@@ -66,8 +65,6 @@ class MMCardMiddleware: RouterMiddleware {
             try response.send(OCTResponse.UserNotExists).end()
             return
         }
-        
-        
         
         
         

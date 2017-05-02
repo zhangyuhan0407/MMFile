@@ -1,0 +1,10 @@
+{
+"key": "jianyu",
+"index": 3,
+"icon": "jianyu",
+"title": "监狱",
+"story": "监狱的故事",
+"boss": ["鱼人队长", "重拳先生", "范克里夫"],
+"slots": {"鱼人队长": [], "重拳先生": [], "范克里夫": []},
+"characters": {"鱼人队长": [{"position":4,"cardkey":"lr_shengcun"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}], "重拳先生": [{"position":4,"cardkey":"ms_jielv"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}], "范克里夫": [{"position":4,"cardkey":"lr_sheji"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}]}
+}

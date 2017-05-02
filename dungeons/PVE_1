@@ -1,0 +1,18 @@
+{
+"key": "siwangkuangjing",
+"index": 1,
+"icon": "siwangkuangjing",
+"title": "死亡矿井",
+"story": "死亡矿井的故事",
+"boss": ["鱼人队长", "重拳先生", "范克里夫"],
+"slots": {
+	"鱼人队长": ["INV_Sword_1", "INV_Sword_2", "INV_Axe_1"],
+	"重拳先生": ["INV_Hammer_1", "INV_Sword_2", "INV_Axe_1"],
+	"范克里夫": ["INV_Sword_3", "INV_Sword_2", "INV_Weapon_Bow_1"]
+},
+"characters": {
+    "鱼人队长": [{"position":4,"cardkey":"lr_shengcun"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}],
+    "重拳先生": [{"position":4,"cardkey":"ms_jielv"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}],
+    "范克里夫": [{"position":4,"cardkey":"lr_sheji"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}]
+}
+}

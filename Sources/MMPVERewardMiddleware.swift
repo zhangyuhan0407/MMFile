@@ -108,8 +108,8 @@ class MMPVEStoryMiddleware: RouterMiddleware {
 
 
 class MMPVEStoryRepo {
-    static let sharedInstance = MMPVEStoryRepo()
     
+    static let sharedInstance = MMPVEStoryRepo()
     
     var stories = [String: JSON]()
     
