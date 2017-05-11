@@ -23,43 +23,20 @@ class MMCardMiddleware: RouterMiddleware {
             try response.send(OCTResponse.InputFormatError).end()
             return
         }
-        
-        
-//        let dict: [String : Any] = ["key": key,
-//                                    "id": 1,
-//                                    "name": "神牛",
-//                                    "rule": 1,
-//                                    "area": 2,
-//                                    "type": 3,
-//                                    "skill1factor": 0.3,
-//                                    "skill2factor": 1,
-//                                    "skill1description": "",
-//                                    "skill2description": "",
-//                                    "ball": 1,
-//                                    "category": 1,
-//                                    "sp": 5,
-//                                    "hp": 100,
-//                                    "atk": 100,
-//                                    "def": 100,
-//                                    "mag": 100,
-//                                    "spd": 100,
-//                                    "baoji": 0,
-//                                    "shanbi": 0,
-//                                    "mingzhong": 0,
-//                                    "gedang": 0,
-//                                    "zaisheng": 0,
-//                                    "xixue": 0,
-//                                    "fantangwuli": 0,
-//                                    "fantanfashu": 0]
-//        
-//        
-//        let json = JSON(dict)
-//        
-//        print(json.description)
-//        
-//        try json.description.write(toFile: "\(CardPath)/\(key)", atomically: true, inAppendMode: false)
-        
-        
+   
+        if key == "all" {
+            
+            
+//            var ret = [String: JSON]()
+//            for key in MMCardRepo.sharedInstance.cards.keys {
+//                if !key.contains("npc") {
+//                    ret.updateValue(MMCardRepo.sharedInstance.cards[key]!, forKey: key)
+//                }
+//            }
+            
+            try response.send(OCTResponse.Succeed(data: JSON(MMCardRepo.sharedInstance.cards))).end()
+            return
+        }
         
         guard let card = MMCardRepo.sharedInstance.cards[key] else {
             try response.send(OCTResponse.UserNotExists).end()
@@ -107,14 +84,19 @@ class MMCardRepo {
         
         cards = [:]
         
-        for card in CARDS {
+        do {
+            let files = try FileManager.default.contentsOfDirectory(atPath: CardPath)
             
-            guard let json = JSON.read(fromFile: "\(CardPath)/\(card)") else {
-                throw OCTError.dataConvert
+            for file in files {
+                if file.contains(".") {
+                    continue
+                }
+                let json = JSON.read(fromFile: "\(CardPath)/\(file)")!
+                cards.updateValue(json, forKey: file)
             }
             
-            cards.updateValue(json, forKey: card)
-            
+        } catch {
+            fatalError()
         }
         
     }

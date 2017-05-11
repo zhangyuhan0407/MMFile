@@ -1,0 +1,10 @@
+{
+"imagename": "INV_Weapon_1",
+"key":"INV_Weapon_1",
+"category":"misc",
+"displayname":"武器等级1",
+"rarity":"green",
+"count":1,
+"usage":"使用获得一个等级1武器",
+"story": ""
+}

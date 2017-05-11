@@ -1,13 +1,63 @@
 {
-"key": "nuyanliegu",
+"key": "yingyanchengbao",
 "index": 2,
-"icon": "nuyanliegu",
-"title": "怒焰裂谷",
-"story": "怒焰裂谷的故事",
-"boss": ["鱼人队长", "重拳先生", "范克里夫"],
-"slots": {"鱼人队长": [], "重拳先生": [], "范克里夫": []},
+"icon": "yingyanchengbao",
+"title": "影牙城堡",
+"story": "在银松森林南部悬崖的焚木村上，影牙城堡犹如一道黑影矗立。从前这里是疯狂大法师阿鲁高狼人们的居所，如今它的废墟被罪恶的力量所占据。席瓦莱恩男爵阴魂不散，高弗雷勋爵和他的幕僚，往昔的吉尔尼斯贵族阴谋对付他们的敌人，无论对方是生者还是亡灵",
+"boss": ["雷希戈尔", "亡灵哨兵文森特", "地狱战马", "屠夫拉佐克劳", "席瓦莱恩男爵",
+	"指挥官斯普林瓦尔", "盲眼守卫奥杜", "死亡之誓", "阿鲁高的虚空行者", "狼王南杜斯",
+	"大法师阿鲁高"],
+"slots": {
+	"雷希戈尔": ["INV_Armor_1", "INV_Armor_2"],
+	"亡灵哨兵文森特": ["INV_Weapon_1", "INV_Armor_2"],
+	"地狱战马": ["INV_Weapon_2", "INV_Armor_2"],
+	"屠夫拉佐克劳": ["INV_Weapon_2", "INV_Armor_2", "INV_Armor_2"],
+	"席瓦莱恩男爵": ["INV_Weapon_2", "INV_Armor_2", "INV_Armor_2"],
+	"指挥官斯普林瓦尔": ["INV_Weapon_2", "INV_Weapon_2", "INV_Armor_2"],
+	"盲眼守卫奥杜": ["INV_Weapon_2", "INV_Weapon_2", "INV_Armor_2"],
+	"死亡之誓": ["INV_Weapon_2", "INV_Weapon_2", "INV_Armor_2", "INV_Armor_2"],
+	"阿鲁高的虚空行者": ["INV_Weapon_2", "INV_Weapon_2", "INV_Armor_3", "INV_Armor_2"],
+	"狼王南杜斯": ["INV_Weapon_3", "INV_Weapon_2", "INV_Armor_3", "INV_Armor_2"],
+	"大法师阿鲁高": ["INV_Weapon_3", "INV_Trinket_2", "INV_Weapon_2", "INV_Armor_3"]
+	},
 "characters": {
-	"鱼人队长": [{"position":4,"cardkey":"lr_shengcun"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}],
-	"重拳先生": [{"position":4,"cardkey":"ms_jielv"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}],
-	"范克里夫": [{"position":4,"cardkey":"lr_sheji"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}]}
+	"雷希戈尔": [{"position":0,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_zs_1"},
+			{"position":5,"cardkey":"npc_boss_201"}],
+			
+	"亡灵哨兵文森特": [{"position":0,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+			{"position":5,"cardkey":"npc_boss_202"}],
+			
+	"地狱战马": [{"position":0,"cardkey":"npc_boss_203"},{"position":2,"cardkey":"npc_boss_203"},
+			{"position":8,"cardkey":"npc_boss_203"},{"position":10,"cardkey":"npc_boss_203"}],
+			
+	"屠夫拉佐克劳": [{"position":0,"cardkey":"npc_zs_2"},{"position":1,"cardkey":"npc_boss_204"},
+			{"position":2,"cardkey":"npc_zs_2"},{"position":5,"cardkey":"npc_fs_2"}],
+			
+	"席瓦莱恩男爵": [{"position":1,"cardkey":"npc_zs_2"},{"position":4,"cardkey":"npc_dz_2"},
+			{"position":5,"cardkey":"npc_boss_205"},{"position":6,"cardkey":"npc_dz_2"}],
+			
+	"指挥官斯普林瓦尔": [{"position":1,"cardkey":"npc_zs_2"},{"position":4,"cardkey":"npc_lr_2"},
+			{"position":5,"cardkey":"npc_boss_206"},{"position":6,"cardkey":"npc_lr_2"},
+			{"position":9,"cardkey":"npc_ms_2"}],
+			
+	"盲眼守卫奥杜": [{"position":0,"cardkey":"npc_zs_2"},{"position":1,"cardkey":"npc_zs_2"},
+			{"position":2,"cardkey":"npc_zs_2"},{"position":8,"cardkey":"npc_boss_207"},
+			{"position":10,"cardkey":"npc_boss_207"}],
+			
+	"死亡之誓": [{"position":0,"cardkey":"npc_dz_2"},{"position":2,"cardkey":"npc_dz_2"},
+			{"position":5,"cardkey":"npc_boss_208"},{"position":8,"cardkey":"npc_dz_2"},
+			{"position":10,"cardkey":"npc_dz_2"}],
+			
+	"阿鲁高的虚空行者": [{"position":1,"cardkey":"npc_boss_209"},{"position":4,"cardkey":"npc_ms_2"},
+			{"position":6,"cardkey":"npc_ms_2"},{"position":8,"cardkey":"npc_fs_2"},
+			{"position":10,"cardkey":"npc_fs_2"}],
+			
+	"狼王南杜斯": [{"position":0,"cardkey":"npc_zs_2"},{"position":1,"cardkey":"npc_boss_210"},
+			{"position":2,"cardkey":"npc_zs_2"},{"position":4,"cardkey":"npc_dz_2"},
+			{"position":6,"cardkey":"npc_dz_2"}],
+			
+	"大法师阿鲁高": [{"position":0,"cardkey":"npc_zs_2"},{"position":3,"cardkey":"npc_zs_2"},
+			{"position":5,"cardkey":"npc_fs_2"},{"position":6,"cardkey":"npc_fs_2"},
+			{"position":9,"cardkey":"npc_fs_2"},{"position":10,"cardkey":"npc_boss_211"}]
+}
 }

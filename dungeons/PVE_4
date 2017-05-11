@@ -1,1 +1,40 @@
-[{"position":1,"cardkey":"dz_zhandou"},{"position":2,"cardkey":"dz_minrui"},{"position":4,"cardkey":"dz_cisha"},{"position":7,"cardkey":"sm_yuansu"},{"position":8,"cardkey":"sm_zengqiang"},{"position":11,"cardkey":"sm_zhiliao"},{"position":13,"cardkey":"xd_zhiliao"},{"position":14,"cardkey":"xd_niao"}]
+{
+"key": "xuesexiudaoyuan",
+"index": 4,
+"icon": "xuesexiudaoyuan",
+"title": "血色修道院",
+"story": "血色修道院是一座由四个区域组成的大型建筑。该修道院原本是洛丹伦王国的骄傲，宗教的朝圣之地，然而在战后成为了狂热的血色十字军在该地区的一座重要要塞。提瑞斯法的幸存者和来自远方的冒险者通常前往这里寻求庇护，每当他们经过法奥之墓时，都要在这里顶礼膜拜一番，以示对这位先辈的尊敬。",
+"boss": ["赫洛德", "驯犬者洛克希", "奥法师杜安", "大检察官怀特迈恩", "血色十字军指挥官莫格莱尼"],
+"slots": {
+	"赫洛德": ["INV_Armor_3", "INV_Weapon_3"],
+	"驯犬者洛克希": ["INV_Armor_4", "INV_Weapon_3"],
+	"奥法师杜安": ["INV_Weapon_4", "INV_Armor_4", "INV_Armor_3"],
+	"大检察官怀特迈恩": ["INV_Weapon_4", "INV_Armor_3", "INV_Armor_4"],
+	"血色十字军指挥官莫格莱尼": ["INV_Trinket_4", "INV_Trinket_3", "INV_Weapon_4", "INV_Armor_4"]
+	},
+"characters": {
+	"赫洛德": [{"position":1,"cardkey":"npc_qs_3"},{"position":2,"cardkey":"npc_qs_3"},
+			      {"position":3,"cardkey":"npc_qs_3"},{"position":5,"cardkey":"npc_ms_4"},
+            {"position":6,"cardkey":"npc_boss_401"},{"position":7,"cardkey":"npc_ms_4"}],
+			
+	"驯犬者洛克希": [{"position":1,"cardkey":"npc_dz_4"},{"position":2,"cardkey":"npc_dz_4"},
+			      {"position":3,"cardkey":"npc_dz_4"},{"position":4,"cardkey":"npc_dz_4"},
+            {"position":8,"cardkey":"npc_dz_4"},{"position":10,"cardkey":"npc_boss_402"},
+            {"position":12,"cardkey":"npc_dz_4"}],
+			
+	"奥法师杜安":[{"position":1,"cardkey":"npc_qs_4"},{"position":2,"cardkey":"npc_qs_4"},
+			      {"position":4,"cardkey":"npc_fs_4"},{"position":7,"cardkey":"npc_fs_4"},
+            {"position":8,"cardkey":"npc_fs_4"},{"position":11,"cardkey":"npc_fs_4"},
+            {"position":12,"cardkey":"npc_boss_403"}],
+			
+	"大检察官怀特迈恩": [{"position":0,"cardkey":"npc_qs_4"},{"position":1,"cardkey":"npc_qs_4"},
+			      {"position":2,"cardkey":"npc_qs_4"},{"position":6,"cardkey":"npc_fs_4"},
+            {"position":7,"cardkey":"npc_qs_4"},{"position":9,"cardkey":"npc_boss_404"},
+            {"position":11,"cardkey":"npc_qs_4"},{"position":15,"cardkey":"npc_qs_4"}],
+			
+	"血色十字军指挥官莫格莱尼":  [{"position":0,"cardkey":"npc_qs_4"},{"position":3,"cardkey":"npc_qs_4"},
+			      {"position":5,"cardkey":"npc_boss_405"},{"position":6,"cardkey":"npc_qs_4"},
+            {"position":9,"cardkey":"npc_qs_4"},{"position":10,"cardkey":"npc_boss_407"},
+            {"position":12,"cardkey":"npc_fs_4"},{"position":15,"cardkey":"npc_fs_4"}]
+}
+}

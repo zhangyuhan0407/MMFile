@@ -1,0 +1,10 @@
+{
+"imagename": "INV_Weapon_3",
+"key":"INV_Weapon_3",
+"category":"misc",
+"displayname":"武器等级3",
+"rarity":"blue",
+"count":1,
+"usage":"使用获得一个等级3武器",
+"story": ""
+}

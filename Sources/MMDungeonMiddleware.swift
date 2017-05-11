@@ -70,9 +70,8 @@ class MMDungeonRepo {
             
             let key = "PVE_\(i)"
             
-            guard let json = JSON.read(fromFile: "\(DungeonPath)/\(key)") else {
-                throw OCTError.dataConvert
-            }
+            let json = JSON.read(fromFile: "\(DungeonPath)/\(key)")!
+            
             
             dungeons.updateValue(json, forKey: "\(i)")
             

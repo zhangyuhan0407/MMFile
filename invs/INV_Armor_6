@@ -1,0 +1,10 @@
+{
+"imagename": "INV_Armor_6",
+"key":"INV_Armor_6",
+"category":"misc",
+"displayname":"护甲等级6",
+"rarity":"blue",
+"count":1,
+"usage":"使用获得一个等级6护甲",
+"story": ""
+}

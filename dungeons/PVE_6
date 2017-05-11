@@ -1,1 +1,41 @@
-[{"position":1,"cardkey":"xuanwu"},{"position":5,"cardkey":"fenghou"},{"position":6,"cardkey":"taotie"},{"position":7,"cardkey":"change"},{"position":8,"cardkey":"xingtian"},{"position":9,"cardkey":"houyi"},{"position":10,"cardkey":"fengbo"},{"position":15,"cardkey":"suanyu"}]
+{
+"key": "zuerfalake",
+"index": 5,
+"icon": "zuerfalake",
+"title": "祖尔法拉克",
+"story": "日光暴晒下的这座城市是沙怒巨魔的家园，他们一向以来都以其无情和黑暗魔法而闻名。巨魔传说中有一把强大的名叫鞭笞者苏萨斯的武器能够让最弱小的人可以击败最强大的敌人。很久以前，这把武器被分成了两半。然而，有传言说这两半可以在祖尔法拉克任何地方找到。据说还有一批加基森派来的雇佣兵进入了城市并被困住。他们的命运还不得而知。但是也许最让人感到不安的是一头远古生物正沉睡在城市中心的一个神圣的水池中——它是一个半神，它会摧毁任何胆敢唤醒它的人。",
+"boss": ["巴纳扎尔", "炮手威利", "奈鲁布恩坎", "苍白的玛勒基", "瑞文戴尔男爵"],
+"slots": {
+	"巴纳扎尔": ["INV_Armor_5", "INV_Weapon_5"],
+	"炮手威利": ["INV_Armor_5", "INV_Weapon_5"],
+	"奈鲁布恩坎": ["INV_Weapon_5", "INV_Armor_5"],
+	"苍白的玛勒基": ["INV_Weapon_5", "INV_Armor_5", "INV_Armor_5"],
+  "瑞文戴尔男爵": ["INV_Armor_5", "INV_Weapon_5", "INV_Weapon_5"]
+	},
+"characters": {
+	"巴纳扎尔": [{"position":0,"cardkey":"npc_zs_5"},{"position":5,"cardkey":"npc_zs_5"},
+			      {"position":6,"cardkey":"npc_zs_5"},{"position":7,"cardkey":"npc_zs_5"},
+            {"position":9,"cardkey":"npc_boss_501"},{"position":10,"cardkey":"npc_dz_5"},
+            {"position":11,"cardkey":"npc_ms_5"},{"position":15,"cardkey":"npc_ms_5"}],
+			
+	"炮手威利": [{"position":0,"cardkey":"npc_zs_5"},{"position":3,"cardkey":"npc_zs_5"},
+			      {"position":5,"cardkey":"npc_ss_hm_5"},{"position":6,"cardkey":"npc_ss_hm_5"},
+            {"position":9,"cardkey":"npc_ss_hm_5"},{"position":10,"cardkey":"npc_boss_502"},
+            {"position":12,"cardkey":"npc_ms_sh_5"},{"position":15,"cardkey":"npc_ms_sh_5"}],
+			
+	"奈鲁布恩坎":[{"position":0,"cardkey":"npc_sm_zq_5"},{"position":2,"cardkey":"npc_sm_zq_5"},
+			      {"position":5,"cardkey":"npc_sm_ys_5"},{"position":7,"cardkey":"npc_sm_ys_5"},
+            {"position":8,"cardkey":"npc_sm_ys_5"},{"position":10,"cardkey":"npc_boss_503"},
+            {"position":13,"cardkey":"npc_sm_zl_5"},{"position":15,"cardkey":"npc_sm_zl_5"}],
+			
+	"苍白的玛勒基": [{"position":1,"cardkey":"npc_qs_5"},{"position":2,"cardkey":"npc_qs_5"},
+			      {"position":4,"cardkey":"npc_boss_504"},{"position":7,"cardkey":"npc_boss_504"},
+            {"position":8,"cardkey":"npc_ms_jl_5"},{"position":11,"cardkey":"npc_ms_jl_5"},
+            {"position":12,"cardkey":"npc_ms_jl_5"},{"position":15,"cardkey":"npc_ms_jl_5"}],
+			
+  "瑞文戴尔男爵": [{"position":0,"cardkey":"npc_qs_5"},{"position":1,"cardkey":"npc_qs_5"},
+			      {"position":2,"cardkey":"npc_qs_5"},{"position":6,"cardkey":"npc_fs_5"},
+            {"position":7,"cardkey":"npc_ms_5"},{"position":9,"cardkey":"npc_boss_505"},
+            {"position":11,"cardkey":"npc_fs_5"},{"position":15,"cardkey":"npc_fs_5"}]
+}
+}

@@ -1,10 +1,38 @@
 {
-"key": "jianyu",
+"key": "tidaogaodi",
 "index": 3,
-"icon": "jianyu",
-"title": "监狱",
-"story": "监狱的故事",
-"boss": ["鱼人队长", "重拳先生", "范克里夫"],
-"slots": {"鱼人队长": [], "重拳先生": [], "范克里夫": []},
-"characters": {"鱼人队长": [{"position":4,"cardkey":"lr_shengcun"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}], "重拳先生": [{"position":4,"cardkey":"ms_jielv"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}], "范克里夫": [{"position":4,"cardkey":"lr_sheji"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}]}
+"icon": "tidaogaodi",
+"title": "剃刀高地",
+"story": "在那错综复杂的荆棘迷宫中居住着大群忠诚的野猪人军 队以及他们的高等牧师——亡首部族。然而最近，一股阴影力量笼罩了这个原始的洞穴。亡灵天灾的人在巫妖寒冰之王亚门纳尔的带领下控制了野猪部族并将荆棘迷宫变成了亡灵力量的堡垒。现在野猪人正奋力战斗来重新夺回他们的城市，并阻止亚门纳尔继续控制贫瘠之地",
+"boss": ["暴食者", "火眼莫德雷斯", "图特卡什", "法瑟蕾丝夫人", "寒冰之王亚门纳尔"],
+"slots": {
+	"暴食者": ["INV_Armor_3", "INV_Weapon_2"],
+	"火眼莫德雷斯": ["INV_Armor_3", "INV_Weapon_3"],
+	"图特卡什": ["INV_Weapon_3", "INV_Armor_3", "INV_Armor_3"],
+	"法瑟蕾丝夫人": ["INV_Weapon_3", "INV_Weapon_3", "INV_Armor_3"],
+	"寒冰之王亚门纳尔": ["INV_Trinket_3", "INV_Trinket_2", "INV_Weapon_3", "INV_Armor_3"]
+	},
+"characters": {
+	"暴食者": [{"position":1,"cardkey":"npc_zs_3"},{"position":2,"cardkey":"npc_zs_3"},
+			      {"position":3,"cardkey":"npc_zs_3"},{"position":5,"cardkey":"npc_zs_3"},
+            {"position":6,"cardkey":"npc_boss_301"},{"position":7,"cardkey":"npc_zs_3"}],
+			
+	"火眼莫德雷斯": [{"position":0,"cardkey":"npc_zs_3"},{"position":3,"cardkey":"npc_zs_3"},
+			      {"position":4,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_zs_3"},
+            {"position":13,"cardkey":"npc_boss_302"},{"position":14,"cardkey":"npc_fs_3"}],
+			
+	"图特卡什":[{"position":0,"cardkey":"npc_zs_3"},{"position":1,"cardkey":"npc_zs_3"},
+			      {"position":2,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_dz_3"},
+            {"position":11,"cardkey":"npc_dz_3"},{"position":15,"cardkey":"npc_boss_303"}],
+			
+	"法瑟蕾丝夫人": [{"position":0,"cardkey":"npc_zs_3"},{"position":1,"cardkey":"npc_zs_3"},
+			      {"position":2,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_ms_3"},
+            {"position":9,"cardkey":"npc_boss_304"},{"position":11,"cardkey":"npc_ms_3"}],
+			
+	"寒冰之王亚门纳尔": [{"position":1,"cardkey":"npc_zs_3"},{"position":2,"cardkey":"npc_zs_3"},
+			      {"position":3,"cardkey":"npc_zs_3"},{"position":4,"cardkey":"npc_fs_3"},
+            {"position":8,"cardkey":"npc_ms_3"},{"position":10,"cardkey":"npc_boss_305"},
+            {"position":12,"cardkey":"npc_ms_3"}]
+}
+      
 }

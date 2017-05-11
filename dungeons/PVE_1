@@ -4,15 +4,27 @@
 "icon": "siwangkuangjing",
 "title": "死亡矿井",
 "story": "死亡矿井的故事",
-"boss": ["鱼人队长", "重拳先生", "范克里夫"],
+"boss": ["拉克佐", "矿工约翰森", "斯尼德", "基尔尼格", "迪菲亚火药", "绿皮队长", "曲奇", "重拳先生", "艾德温·范克利夫"],
 "slots": {
-	"鱼人队长": ["INV_Sword_1", "INV_Sword_2", "INV_Axe_1"],
-	"重拳先生": ["INV_Hammer_1", "INV_Sword_2", "INV_Axe_1"],
-	"范克里夫": ["INV_Sword_3", "INV_Sword_2", "INV_Weapon_Bow_1"]
+	"拉克佐": ["INV_Armor_1"],
+	"矿工约翰森": ["INV_Weapon_1", "INV_Armor_1"],
+	"斯尼德": ["INV_Armor_1"],
+	"基尔尼格": ["INV_Weapon_1"],
+	"迪菲亚火药": ["INV_Weapon_1", "INV_Armor_1"],
+	"绿皮队长": ["INV_Weapon_1", "INV_Armor_1", "INV_Armor_1"],
+	"曲奇": ["INV_Weapon_1", "INV_Weapon_1", "INV_Armor_1"],
+	"重拳先生": ["INV_Weapon_1", "INV_Weapon_1", "INV_Armor_2"],
+	"艾德温·范克利夫": ["INV_Weapon_2", "INV_Armor_2", "INV_Trinket_1"]
 },
 "characters": {
-    "鱼人队长": [{"position":4,"cardkey":"lr_shengcun"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}],
-    "重拳先生": [{"position":4,"cardkey":"ms_jielv"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}],
-    "范克里夫": [{"position":4,"cardkey":"lr_sheji"},{"position":6,"cardkey":"ms_shensheng"},{"position":9,"cardkey":"ms_anying"}]
+    "拉克佐": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}],
+    "矿工约翰森": [{"position":0,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_102"}],
+    "斯尼德": [{"position":0,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_boss_103"}],
+    "基尔尼格": [{"position":1,"cardkey":"npc_zs_1"},{"position":10,"cardkey":"npc_boss_104"}],
+    "迪菲亚火药": [{"position":0,"cardkey":"npc_dz_1"},{"position":3,"cardkey":"npc_dz_1"},{"position":10,"cardkey":"npc_boss_105"}],
+    "绿皮队长": [{"position":5,"cardkey":"npc_zs_1"},{"position":6,"cardkey":"npc_boss_106"},{"position":7,"cardkey":"npc_zs_1"}],
+    "曲奇": [{"position":0,"cardkey":"npc_fs_1"},{"position":3,"cardkey":"npc_fs_1"},{"position":6,"cardkey":"npc_boss_107"}],
+    "重拳先生": [{"position":1,"cardkey":"npc_boss_108"},{"position":9,"cardkey":"npc_lr_1"},{"position":11,"cardkey":"npc_lr_1"}],
+    "艾德温·范克利夫": [{"position":5,"cardkey":"npc_zs_1"},{"position":6,"cardkey":"npc_zs_1"},{"position":7,"cardkey":"npc_zs_1"},{"position":10,"cardkey":"npc_boss_109"}]
 }
 }

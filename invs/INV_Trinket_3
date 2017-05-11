@@ -1,0 +1,10 @@
+{
+"imagename": "INV_Trinket_3",
+"key":"INV_Trinket_3",
+"category":"misc",
+"displayname":"饰品等级3",
+"rarity":"blue",
+"count":1,
+"usage":"使用获得一个等级3饰品",
+"story": ""
+}
