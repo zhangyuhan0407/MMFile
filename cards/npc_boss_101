@@ -4,7 +4,7 @@
 "key":"npc_boss_101",
 "mingzhong":0,
 "skill2description":"",
-"type":3,
+"attacktype":"physics",
 "category":1,
 "xixue":0,
 "id":1101,

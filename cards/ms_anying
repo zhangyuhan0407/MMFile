@@ -1,10 +1,9 @@
 {
 "spd":30,
 "key":"ms_anying",
-"ball":1,
 "mingzhong":0,
 "skill2description":"心灵震爆:对怒气最高敌方单位造成大量伤害,并吸取怒气",
-"type":3,
+"attacktype":"shadow",
 "category":1,
 "xixue":0,
 "id":9,
@@ -17,12 +16,12 @@
 "zaisheng":0,
 "name":"暗牧",
 "fantanfashu":0,
-"skill2factor":1.2,
+"skill2factor":120,
 "hp":90,
 "mag":80,
 "rule":1,
 "shanbi":0,
-"skill1factor":0.3,
+"skill1factor":30,
 "area":2,
 "def":0
 }

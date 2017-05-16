@@ -4,11 +4,10 @@
 "ball":1,
 "mingzhong":0,
 "skill2description":"嗜血:为己方全体添加#嗜血#状态",
-"type":3,
-"category":1,
+"attacktype":"nature",
 "xixue":0,
 "id":22,
-"sp":3,
+"sp":5,
 "gedang":0,
 "atk":0,
 "skill1description":"激流:对生命最少己方单位恢复中量气血",
@@ -20,9 +19,7 @@
 "skill2factor":0,
 "hp":100,
 "mag":80,
-"rule":1,
 "shanbi":0,
 "skill1factor":30,
-"area":2,
 "def":40
 }

@@ -1,11 +1,9 @@
 {
 "spd":20,
 "key":"ss_huimie",
-"ball":1,
 "mingzhong":0,
 "skill2description":"献祭:对一个敌人施加#献祭#并造成少量伤害",
-"type":3,
-"category":1,
+"attacktype":"fire",
 "xixue":0,
 "id":5,
 "sp":5,
@@ -17,12 +15,11 @@
 "zaisheng":0,
 "name":"毁灭术",
 "fantanfashu":0,
-"skill2factor":0.2,
+"skill2factor":20,
 "hp":110,
 "mag":85,
-"rule":1,
 "shanbi":0,
-"skill1factor":0.3,
+"skill1factor":30,
 "area":2,
 "def":5
 }

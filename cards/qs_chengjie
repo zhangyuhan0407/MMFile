@@ -1,11 +1,9 @@
 {
 "spd":40,
 "key":"qs_chengjie",
-"ball":1,
 "mingzhong":0,
 "skill2description":"神圣风暴:对敌方造成神圣伤害,鼓舞身边友军",
-"type":3,
-"category":1,
+"attacktype":"holy",
 "xixue":0,
 "id":26,
 "sp":3,
@@ -20,9 +18,7 @@
 "skill2factor":60,
 "hp":100,
 "mag":0,
-"rule":1,
 "shanbi":0,
 "skill1factor":30,
-"area":2,
 "def":30
 }

@@ -1,11 +1,9 @@
 {
 "spd":60,
 "key":"lr_shengcun",
-"ball":1,
 "mingzhong":10,
 "skill2description":"爆炸射击:造成3*3范围伤害,并减少敌人怒气",
-"type":3,
-"category":1,
+"attacktype":"fire",
 "xixue":0,
 "id":18,
 "sp":3,
@@ -17,12 +15,10 @@
 "zaisheng":0,
 "name":"生存猎",
 "fantanfashu":0,
-"skill2factor":0.7,
+"skill2factor":70,
 "hp":90,
 "mag":0,
-"rule":1,
 "shanbi":0,
-"skill1factor":0.3,
-"area":2,
+"skill1factor":30,
 "def":25
 }

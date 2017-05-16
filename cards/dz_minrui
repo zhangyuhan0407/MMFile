@@ -1,10 +1,9 @@
 {
 "spd":90,
 "key":"dz_minrui",
-"ball":1,
 "mingzhong":0,
 "skill2description":"暗影之舞:对血量最少的单位进行一次伏击,必定暴击",
-"type":3,
+"attacktype":"physics",
 "category":1,
 "xixue":0,
 "id":12,
@@ -20,9 +19,7 @@
 "skill2factor":100,
 "hp":90,
 "mag":0,
-"rule":1,
 "shanbi":30,
 "skill1factor":30,
-"area":2,
 "def":10
 }

@@ -1,11 +1,9 @@
 {
 "spd":50,
 "key":"dz_zhandou",
-"ball":1,
 "mingzhong":0,
 "skill2description":"杀戮盛宴:从天而降,对前排一个区域内的敌人造成总共4次伤害",
-"type":3,
-"category":1,
+"attacktype":"physics",
 "xixue":0,
 "id":11,
 "sp":4,
@@ -17,12 +15,10 @@
 "zaisheng":0,
 "name":"战斗贼",
 "fantanfashu":0,
-"skill2factor":0.4,
+"skill2factor":40,
 "hp":100,
 "mag":0,
-"rule":1,
 "shanbi":5,
-"skill1factor":0.4,
-"area":2,
+"skill1factor":40,
 "def":20
 }

@@ -1,10 +1,9 @@
 {
 "spd":70,
 "key":"dz_cisha",
-"ball":1,
 "mingzhong":0,
 "skill2description":"毁伤:使用两把匕首同时攻击敌人,造成大量伤害",
-"type":3,
+"attacktype":"physics",
 "category":1,
 "xixue":0,
 "id":10,
@@ -17,12 +16,10 @@
 "zaisheng":0,
 "name":"刺杀贼",
 "fantanfashu":0,
-"skill2factor":1.2,
+"skill2factor":120,
 "hp":80,
 "mag":20,
-"rule":1,
 "shanbi":10,
-"skill1factor":0.3,
-"area":2,
+"skill1factor":30,
 "def":20
 }

@@ -1,11 +1,9 @@
 {
 "spd":20,
 "key":"ss_tongku",
-"ball":1,
 "mingzhong":0,
 "skill2description":"腐蚀术:对一个随机敌人施加#腐蚀术#",
-"type":3,
-"category":1,
+"attacktype":"evil",
 "xixue":10,
 "id":6,
 "sp":3,
@@ -17,12 +15,11 @@
 "zaisheng":0,
 "name":"痛苦术",
 "fantanfashu":0,
-"skill2factor":1,
+"skill2factor":100,
 "hp":110,
 "mag":80,
-"rule":1,
 "shanbi":0,
-"skill1factor":0.2,
+"skill1factor":20,
 "area":2,
 "def":10
 }

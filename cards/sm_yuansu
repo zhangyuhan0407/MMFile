@@ -1,11 +1,9 @@
 {
 "spd":30,
 "key":"sm_yuansu",
-"ball":1,
 "mingzhong":0,
 "skill2description":"闪电链:对最多3个单位造成自然伤害,有几率造成过载",
-"type":3,
-"category":1,
+"attacktype":"lightning",
 "xixue":0,
 "id":20,
 "sp":2,
@@ -20,9 +18,7 @@
 "skill2factor":40,
 "hp":100,
 "mag":80,
-"rule":1,
 "shanbi":0,
 "skill1factor":40,
-"area":2,
 "def":40
 }

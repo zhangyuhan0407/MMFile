@@ -4,8 +4,7 @@
 "ball":1,
 "mingzhong":0,
 "skill2description":"天神下凡:变身",
-"type":3,
-"category":1,
+"attacktype":"physics",
 "xixue":5,
 "id":24,
 "sp":5,
@@ -20,9 +19,7 @@
 "skill2factor":60,
 "hp":100,
 "mag":0,
-"rule":1,
 "shanbi":0,
 "skill1factor":30,
-"area":2,
 "def":30
 }

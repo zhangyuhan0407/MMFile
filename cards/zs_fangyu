@@ -1,11 +1,9 @@
 {
 "spd":40,
 "key":"zs_fangyu",
-"ball":1,
 "mingzhong":0,
 "skill2description":"盾墙:减少受到的60%物理伤害,持续1回合",
-"type":3,
-"category":1,
+"attacktype":"physics",
 "xixue":0,
 "id":25,
 "sp":3,
@@ -20,9 +18,7 @@
 "skill2factor":0,
 "hp":120,
 "mag":0,
-"rule":1,
 "shanbi":0,
 "skill1factor":30,
-"area":2,
 "def":45
 }

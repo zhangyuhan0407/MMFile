@@ -1,11 +1,9 @@
 {
 "spd":30,
 "key":"sm_zengqiang",
-"ball":1,
 "mingzhong":0,
 "skill2description":"风怒:连续对敌方造成3次自动攻击伤害",
-"type":3,
-"category":1,
+"attacktype":"lightning",
 "xixue":0,
 "id":21,
 "sp":3,
@@ -20,9 +18,7 @@
 "skill2factor":40,
 "hp":100,
 "mag":0,
-"rule":1,
 "shanbi":0,
 "skill1factor":40,
-"area":2,
 "def":25
 }

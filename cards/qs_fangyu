@@ -1,11 +1,9 @@
 {
 "spd":30,
 "key":"qs_fangyu",
-"ball":1,
 "mingzhong":0,
 "skill2description":"炽热防御者:",
-"type":3,
-"category":1,
+"attacktype":"holy",
 "xixue":0,
 "id":27,
 "sp":5,
@@ -17,12 +15,10 @@
 "zaisheng":0,
 "name":"防骑",
 "fantanfashu":15,
-"skill2factor":1,
+"skill2factor":100,
 "hp":120,
 "mag":0,
-"rule":1,
 "shanbi":0,
 "skill1factor":30,
-"area":2,
 "def":45
 }
