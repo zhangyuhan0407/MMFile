@@ -8,11 +8,8 @@
 
 import Kitura
 import Foundation
-
 import OCTJSON
 import OCTFoundation
-
-
 
 
 class MMCardMiddleware: RouterMiddleware {
