@@ -23,18 +23,9 @@ class MMInventoryMiddleware: RouterMiddleware {
         
         
         let keys = key.components(separatedBy: "-")
-        var jsons = [JSON]()
-        for k in keys {
-            jsons.append(MMInventoryRepo.sharedInstance.invs[k]!)
-        }
         
-//        guard let reward = MMInventoryRepo.sharedInstance.invs[key] else {
-//            try response.send(OCTResponse.InputEmpty).end()
-//            return
-//        }
-        
-        
-        try response.send(OCTResponse.Succeed(data: JSON(jsons))).end()
+        let invs = MMInventoryRepo.sharedInstance.findInvs(keys: keys)
+        try response.send(OCTResponse.Succeed(data: JSON(invs))).end()
         
         
     }
@@ -69,6 +60,11 @@ class MMInventoryRepo {
             let files = try FileManager.default.contentsOfDirectory(atPath: InventoryPath)
             
             for file in files {
+                
+                if file.contains(".") {
+                    continue
+                }
+                
                 let json = JSON.read(fromFile: "\(InventoryPath)/\(file)")!
                 invs.updateValue(json, forKey: file)
             }
@@ -80,7 +76,83 @@ class MMInventoryRepo {
     }
     
     
+    
+    func findInvs(keys: [String]) -> [JSON] {
+        var ret = [JSON]()
+        for k in keys {
+            if k.contains("Gold") {
+                var json = invs["INV_Misc_0_Gold"]!
+                json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
+                ret.append(invs["INV_Misc_0_Gold"]!)
+            }
+            
+            
+            else if k.contains("Silver") {
+                var json = invs["INV_Misc_0_Silver"]!
+                json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
+                ret.append(invs["INV_Misc_0_Silver"]!)
+            }
+            
+            else if k.contains("CARD_Normal_1_Random") {
+                
+                let type = randomClass()
+                
+                var json = invs["CARD_Normal_1_Random"]!
+                json.update(value: "CARD_Normal_" + type, forKey: "imagename")
+                json.update(value: "CARD_Normal_" + type, forKey: "key")
+                
+                
+                ret.append(json)
+            }
+            
+            else {
+                ret.append(invs[k]!)
+            }
+        }
+        return ret
+    }
+    
+    
+    
+    
 }
+
+
+//enum MMClass {
+//    case
+//}
+
+
+func randomClass() -> String {
+    let random = Int.random(max: 9)
+    let ret: String
+    switch random {
+    case 0:
+        ret = "FS"
+    case 1:
+        ret = "MS"
+    case 2:
+        ret = "SS"
+    case 3:
+        ret = "DZ"
+    case 4:
+        ret = "XD"
+    case 5:
+        ret = "SM"
+    case 6:
+        ret = "LR"
+    case 7:
+        ret = "ZS"
+    case 8:
+        ret = "QS"
+    default:
+        fatalError()
+    }
+    
+    return ret
+}
+
+
 
 
 //

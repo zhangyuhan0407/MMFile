@@ -17,11 +17,11 @@
 "name":"恶魔术",
 "fantanfashu":0,
 "skill2factor":0,
-"skill3factor":80,
-"hp":120,
+"skill3factor":30,
+"hp":50,
 "mag":80,
 "shanbi":0,
-"skill1factor":30,
+"skill1factor":10,
 "area":2,
 "def":15
 }

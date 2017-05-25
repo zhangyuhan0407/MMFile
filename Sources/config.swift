@@ -12,6 +12,17 @@ import OCTJSON
 import OCTFoundation
 
 
+#if os(Linux)
+let CardPath = "/home/ubuntu/Developer/MMFile/cards"
+let DungeonPath = "~/Developer/MMFile/dungeons"
+let InventoryPath = "~/Developer/MMFile/invs"
+let MissionPath = "~/Developer/MMFile/missions"
+#else
+let CardPath = "/Users/yorg/Developer/MMFileServer/cards"
+let DungeonPath = "/Users/yorg/Developer/MMFileServer/dungeons"
+let InventoryPath = "/Users/yorg/Developer/MMFileServer/invs"
+let MissionPath = "/Users/yorg/Developer/MMFileServer/missions"
+#endif
 
 
 extension RouterResponse {

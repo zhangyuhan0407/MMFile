@@ -16,12 +16,12 @@
 "zaisheng":0,
 "name":"暗牧",
 "fantanfashu":0,
-"skill2factor":120,
-"hp":90,
+"skill2factor":40,
+"hp":50,
 "mag":80,
 "rule":1,
 "shanbi":0,
-"skill1factor":30,
+"skill1factor":10,
 "area":2,
 "def":0
 }

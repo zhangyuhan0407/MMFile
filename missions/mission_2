@@ -1,0 +1,14 @@
+{
+"key": "mission_2",
+"index": 2,
+"icon": "mission_2",
+"title": "艾尔文灾星2",
+"story": "在艾尔文森林长大的人们经常在多年以后被豺狼人的叫声吓醒，因为无论他们已经多么强大，都不能忘记【艾尔文森林的噩梦】-霍格。",
+"boss": ["霍格2"],
+"slots": {
+	"霍格2": ["INV_Misc_20_Gold", "CARD_Normal_1_Random"]
+},
+"characters": {
+    "霍格2": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}]
+}
+}

@@ -15,10 +15,10 @@
 "zaisheng":0,
 "name":"防战",
 "fantanfashu":0,
-"skill2factor":0,
-"hp":120,
+"skill2factor":10,
+"hp":60,
 "mag":0,
 "shanbi":0,
-"skill1factor":30,
+"skill1factor":10,
 "def":45
 }

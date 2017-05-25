@@ -1,0 +1,10 @@
+{
+"imagename": "CARD_Normal_",
+"key":"CARD_Normal_1_",
+"category":"misc",
+"displayname":"普通随从",
+"rarity":"white",
+"count":0,
+"usage": "随机获得一个该职业随从"
+}
+

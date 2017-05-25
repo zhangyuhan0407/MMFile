@@ -16,10 +16,10 @@
 "zaisheng":0,
 "name":"兽王猎",
 "fantanfashu":0,
-"skill2factor":100,
-"hp":90,
+"skill2factor":40,
+"hp":50,
 "mag":0,
 "shanbi":0,
-"skill1factor":30,
+"skill1factor":15,
 "def":25
 }

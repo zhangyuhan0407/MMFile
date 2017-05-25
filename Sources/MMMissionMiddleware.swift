@@ -1,10 +1,11 @@
 //
-//  MMPVECharactersMiddleware.swift
+//  MMMissionMiddleware.swift
 //  MMFileServer
 //
-//  Created by yuhan zhang on 1/28/17.
+//  Created by yuhan zhang on 5/25/17.
 //
 //
+
 
 import Kitura
 import Foundation
@@ -12,7 +13,7 @@ import OCTJSON
 import OCTFoundation
 
 
-class MMDungeonMiddleware: RouterMiddleware {
+class MMMissionMiddleware: RouterMiddleware {
     
     func handle(request: RouterRequest, response: RouterResponse, next: @escaping () -> Void) throws {
         
@@ -24,8 +25,8 @@ class MMDungeonMiddleware: RouterMiddleware {
         
         
         if index == "all" {
-            let dict = MMDungeonRepo.sharedInstance.dungeons.map({ (k,v) -> [String: Any] in
-                return ["key": k,
+            let dict = MMMissionRepo.sharedInstance.missions.map({ (k,v) -> [String: Any] in
+                return ["key": "mission_\(k)",
                         "icon": v["icon"].string!,
                         "title": v["title"].string!,
                         "story": v["story"].string!,
@@ -46,7 +47,7 @@ class MMDungeonMiddleware: RouterMiddleware {
         }
         
         
-        guard let dungeon = MMDungeonRepo.sharedInstance.dungeons["\(index)"] else {
+        guard let dungeon = MMMissionRepo.sharedInstance.missions["mission_\(index)"] else {
             try response.send(OCTResponse.InputEmpty).end()
             return
         }
@@ -63,13 +64,12 @@ class MMDungeonMiddleware: RouterMiddleware {
 
 
 
-
-class MMDungeonRepo {
+class MMMissionRepo {
     
-    static let sharedInstance = MMDungeonRepo()
+    static let sharedInstance = MMMissionRepo()
     
     
-    var dungeons = [String: JSON]()
+    var missions = [String: JSON]()
     
     
     private init() {
@@ -78,39 +78,42 @@ class MMDungeonRepo {
     
     
     public func reload() {
-        for _ in 0..<5 {
-            do {
-                try loadChars()
-                break
-            } catch {
-                
-            }
-        }
+        loadInvs()
     }
     
     
-    func loadChars() throws {
+    func loadInvs() {
         
-        dungeons = [:]
+        missions = [:]
         
-        for i in 1...PVE_COUNT {
+        do {
+            let files = try FileManager.default.contentsOfDirectory(atPath: MissionPath)
             
-            let key = "PVE_\(i)"
+            for file in files {
+                let json = JSON.read(fromFile: "\(MissionPath)/\(file)")!
+                missions.updateValue(json, forKey: file)
+            }
             
-            let json = JSON.read(fromFile: "\(DungeonPath)/\(key)")!
-            
-            
-            dungeons.updateValue(json, forKey: "\(i)")
-            
+        } catch {
+            fatalError()
         }
         
+    }
+    
+    
+    
+    func findInvs(keys: [String]) -> [JSON] {
+        var ret = [JSON]()
+        for k in keys {
+            ret.append(missions[k]!)
+        }
+        return ret
     }
     
     
     
     
 }
-
 
 
 

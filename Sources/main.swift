@@ -13,15 +13,7 @@ import OCTFoundation
 let router = Router()
 
 
-#if os(Linux)
-let CardPath = "/root/Developer/MMFileServer/card"
-let DungeonPath = "/root/Developer/MMFileServer/dungeons"
-let InventoryPath = "/root/Developer/MMFileServer/invs"
-#else
-let CardPath = "/Users/yorg/Developer/MMFileServer/cards"
-let DungeonPath = "/Users/yorg/Developer/MMFileServer/dungeons"
-let InventoryPath = "/Users/yorg/Developer/MMFileServer/invs"
-#endif
+
 
 
 let PVE_COUNT = 6
@@ -47,6 +39,10 @@ router.get("/dungeon/:index", middleware: MMDungeonMiddleware())
 
 
 router.get("/inventory/:key", middleware: MMInventoryMiddleware())
+
+
+router.get("/mission/:index", middleware: MMMissionMiddleware())
+
 
 //router.get("/pve/:index/characters", middleware: MMPVECharactersMiddleware())
 
