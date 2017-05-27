@@ -93,7 +93,7 @@ class MMDungeonRepo {
         
         dungeons = [:]
         
-        for i in 1...PVE_COUNT {
+        for i in 1...6 {
             
             let key = "PVE_\(i)"
             

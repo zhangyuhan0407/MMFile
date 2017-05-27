@@ -15,23 +15,6 @@ let router = Router()
 
 
 
-
-let PVE_COUNT = 6
-//let CARDS = ["fs_bingshuang", "fs_huoyan", "fs_aoshu",
-//             "ss_emo", "ss_huimie", "ss_tongku",
-//             "ms_shensheng", "ms_jielv", "ms_anying",
-//             "dz_cisha", "dz_zhandou", "dz_minrui",
-//             "xd_xiong", "xd_mao", "xd_niao", "xd_zhiliao",
-//             "lr_shengcun", "lr_sheji", "lr_shouwang",
-//             "sm_yuansu", "sm_zengqiang", "sm_zhiliao",
-//             "zs_wuqi", "zs_kuangbao", "zs_fangyu",
-//             "qs_chengjie", "qs_fangyu", "qs_zhiliao",
-//            "npc_dz_1", "npc_zs_1", "npc_lr_1", "npc_fs_1",
-//            "npc_boss_101", "npc_boss_102", "npc_boss_103", "npc_boss_104", "npc_boss_105", "npc_boss_106", "npc_boss_107"]
-
-
-
-
 router.get("/card/:key", middleware: MMCardMiddleware())
 
 

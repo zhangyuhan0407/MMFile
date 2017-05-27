@@ -1,27 +1,40 @@
 {
-"imagename": "zs_fangyu",
-"spd":0,
 "key":"npc_zs_1",
-"mingzhong":0,
-"skill2description":"",
-"attacktype":"physics",
-"xixue":0,
-"id":1001,
-"sp":0,
-"gedang":30,
-"atk":40,
-"skill1description":"拥有较高的防御和格挡",
-"baoji":5,
-"fantangwuli":0,
-"zaisheng":0,
+
+
 "name":"防战",
-"fantanfashu":0,
-"skill2factor":100,
-"hp":50,
-"mag":0,
-"shanbi":0,
-"skill1factor":10,
-"def":40,
+"id":101,
+"imagename": "zs_fangyu",
+"attacktype":"physics",
+"cls":"防战",
+
+
 "maxhp": 50,
-"maxsp": 0
+"maxsp": 0,
+"hp":50,
+"sp":0,
+"def":40,
+"spd":30,
+
+
+
+"skill1factor":10,
+"skill2factor":0,
+"skill1description":"拥有较高的防御和格挡",
+"skill2description":"",
+
+
+
+"baoji":0,
+"gedang":0,
+"mingzhong":0,
+"shanbi":0,
+
+
+
+"fantangwuli":0,
+"fantanfashu":0,
+"xixue":0,
+"zaisheng":0
+
 }
