@@ -13,12 +13,14 @@ import OCTFoundation
 
 
 #if os(Linux)
-let CardPath = "/home/ubuntu/Developer/MMFile/cards"
-let DungeonPath = "/home/ubuntu/Developer/MMFile/dungeons"
-let InventoryPath = "/home/ubuntu/Developer/MMFile/invs"
-let MissionPath = "/home/ubuntu/Developer/MMFile/missions"
+let CardPath = "/home/ubuntu/Developer/MMFileServer/cards"
+let UnitPath = "/home/ubuntu/Developer/MMFileServer/units"
+let DungeonPath = "/home/ubuntu/Developer/MMFileServer/dungeons"
+let InventoryPath = "/home/ubuntu/Developer/MMFileServer/invs"
+let MissionPath = "/home/ubuntu/Developer/MMFileServer/missions"
 #else
 let CardPath = "/Users/yorg/Developer/MMFileServer/cards"
+let UnitPath = "/Users/yorg/Developer/MMFileServer/units"
 let DungeonPath = "/Users/yorg/Developer/MMFileServer/dungeons"
 let InventoryPath = "/Users/yorg/Developer/MMFileServer/invs"
 let MissionPath = "/Users/yorg/Developer/MMFileServer/missions"

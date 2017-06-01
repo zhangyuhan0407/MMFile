@@ -1,0 +1,29 @@
+{
+"key":"npc_qs_1",
+
+
+"name":"骑士",
+"id":102,
+"imagename": "CARD_Normal_QS",
+"attacktype":"holy",
+"cls":"防骑",
+
+
+"maxhp": 55,
+"maxsp": 0,
+"hp":55,
+"sp":0,
+"def":0,
+"spd":35,
+
+
+
+"skill1factor":5,
+"skill2factor":0,
+"skill1description":"拥有较高的生命值",
+"skill2description":""
+
+
+}
+
+

@@ -1,0 +1,29 @@
+{
+"key":"npc_sm_2",
+
+
+"name":"萨满",
+"id":102,
+"imagename": "CARD_Normal_SM",
+"attacktype":"lightning",
+"cls":"元素萨",
+
+
+"maxhp": 60,
+"maxsp": 2,
+"hp":60,
+"sp":0,
+"def":0,
+"spd":30,
+
+
+
+"skill1factor":15,
+"skill2factor":0,
+"skill1description":"群体法系伤害",
+"skill2description":""
+
+
+}
+
+

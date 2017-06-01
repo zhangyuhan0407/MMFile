@@ -13,26 +13,26 @@
 	"寒冰之王亚门纳尔": ["INV_Trinket_3", "INV_Trinket_2", "INV_Weapon_3", "INV_Armor_3"]
 	},
 "characters": {
-	"暴食者": [{"position":1,"cardkey":"npc_zs_3"},{"position":2,"cardkey":"npc_zs_3"},
-			      {"position":3,"cardkey":"npc_zs_3"},{"position":5,"cardkey":"npc_zs_3"},
-            {"position":6,"cardkey":"npc_boss_301"},{"position":7,"cardkey":"npc_zs_3"}],
+	"暴食者": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+			      {"position":3,"cardkey":"npc_zs_2"},{"position":5,"cardkey":"npc_zs_2"},
+            {"position":6,"cardkey":"npc_boss_301"},{"position":7,"cardkey":"npc_zs_2"}],
 			
-	"火眼莫德雷斯": [{"position":0,"cardkey":"npc_zs_3"},{"position":3,"cardkey":"npc_zs_3"},
-			      {"position":4,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_zs_3"},
-            {"position":13,"cardkey":"npc_boss_302"},{"position":14,"cardkey":"npc_fs_3"}],
+	"火眼莫德雷斯": [{"position":0,"cardkey":"npc_zs_2"},{"position":3,"cardkey":"npc_zs_2"},
+			      {"position":4,"cardkey":"npc_zs_2"},{"position":7,"cardkey":"npc_zs_2"},
+            {"position":13,"cardkey":"npc_boss_302"},{"position":14,"cardkey":"npc_fs_2"}],
 			
-	"图特卡什":[{"position":0,"cardkey":"npc_zs_3"},{"position":1,"cardkey":"npc_zs_3"},
-			      {"position":2,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_dz_3"},
-            {"position":11,"cardkey":"npc_dz_3"},{"position":15,"cardkey":"npc_boss_303"}],
+	"图特卡什":[{"position":0,"cardkey":"npc_zs_2"},{"position":1,"cardkey":"npc_zs_2"},
+			      {"position":2,"cardkey":"npc_zs_2"},{"position":7,"cardkey":"npc_dz_2"},
+            {"position":11,"cardkey":"npc_dz_2"},{"position":15,"cardkey":"npc_boss_303"}],
 			
-	"法瑟蕾丝夫人": [{"position":0,"cardkey":"npc_zs_3"},{"position":1,"cardkey":"npc_zs_3"},
-			      {"position":2,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_ms_3"},
-            {"position":9,"cardkey":"npc_boss_304"},{"position":11,"cardkey":"npc_ms_3"}],
+	"法瑟蕾丝夫人": [{"position":0,"cardkey":"npc_zs_2"},{"position":1,"cardkey":"npc_zs_2"},
+			      {"position":2,"cardkey":"npc_zs_2"},{"position":7,"cardkey":"npc_ms_2"},
+            {"position":9,"cardkey":"npc_boss_304"},{"position":11,"cardkey":"npc_ms_2"}],
 			
-	"寒冰之王亚门纳尔": [{"position":1,"cardkey":"npc_zs_3"},{"position":2,"cardkey":"npc_zs_3"},
-			      {"position":3,"cardkey":"npc_zs_3"},{"position":4,"cardkey":"npc_fs_3"},
-            {"position":8,"cardkey":"npc_ms_3"},{"position":10,"cardkey":"npc_boss_305"},
-            {"position":12,"cardkey":"npc_ms_3"}]
+	"寒冰之王亚门纳尔": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+			      {"position":3,"cardkey":"npc_zs_2"},{"position":4,"cardkey":"npc_fs_2"},
+            {"position":8,"cardkey":"npc_ms_2"},{"position":10,"cardkey":"npc_boss_305"},
+            {"position":12,"cardkey":"npc_ms_2"}]
 }
       
 }

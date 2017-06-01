@@ -4,7 +4,7 @@
 
 "name":"防战",
 "id":101,
-"imagename": "zs_fangyu",
+"imagename": "CARD_Normal_ZS",
 "attacktype":"physics",
 "cls":"防战",
 
@@ -21,20 +21,6 @@
 "skill1factor":10,
 "skill2factor":0,
 "skill1description":"拥有较高的防御和格挡",
-"skill2description":"",
-
-
-
-"baoji":0,
-"gedang":0,
-"mingzhong":0,
-"shanbi":0,
-
-
-
-"fantangwuli":0,
-"fantanfashu":0,
-"xixue":0,
-"zaisheng":0
+"skill2description":""
 
 }

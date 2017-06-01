@@ -1,0 +1,30 @@
+{
+"key":"npc_lr_2",
+
+
+"name":"猎人",
+"id":102,
+"imagename": "CARD_Normal_LR",
+"attacktype":"physics",
+"cls":"射击猎",
+
+
+"maxhp": 45,
+"maxsp": 0,
+"hp":45,
+"sp":0,
+"def":10,
+"spd":50,
+
+
+
+"skill1factor":20,
+"skill2factor":0,
+"skill1description":"远程攻击，拥有较高的攻击和暴击",
+"skill2description":"",
+
+"baoji": 25
+
+}
+
+

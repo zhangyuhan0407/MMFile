@@ -1,0 +1,26 @@
+{
+"key":"npc_fs_1",
+
+
+"name":"法师",
+"id":102,
+"imagename": "CARD_Normal_FS",
+"attacktype":"fire",
+"cls":"火法",
+
+
+"maxhp": 45,
+"maxsp": 0,
+"hp":45,
+"sp":0,
+"def":10,
+"spd":70,
+
+
+
+"skill1factor":15,
+"skill2factor":0,
+"skill1description":"法术攻击，拥有较高的法力",
+"skill2description":""
+
+}

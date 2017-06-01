@@ -1,0 +1,26 @@
+{
+"key":"npc_dz_3",
+
+
+"name":"潜行者",
+"id":102,
+"imagename": "CARD_Normal_DZ",
+"attacktype":"physics",
+"cls":"刺杀贼",
+
+
+"maxhp": 45,
+"maxsp": 0,
+"hp":45,
+"sp":0,
+"def":10,
+"spd":70,
+
+
+
+"skill1factor":25,
+"skill2factor":0,
+"skill1description":"近战攻击，拥有较高的攻击",
+"skill2description":""
+
+}
