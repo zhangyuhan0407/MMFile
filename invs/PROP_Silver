@@ -1,8 +1,9 @@
 {
 "imagename": "INV_Misc_Silver",
-"key":"INV_Misc_Silver",
+"key":"PROP_Silver",
 "category":"misc",
 "displayname":"银币",
 "rarity":"white",
+"type": "prop",
 "count":0
 }

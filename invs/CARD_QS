@@ -1,0 +1,11 @@
+{
+"imagename": "CARD_Normal_QS",
+"key":"CARD_QS",
+"category":"misc",
+"displayname":"骑士随从",
+"rarity":"white",
+"count":0,
+"type": "card",
+"usage": "随机获得一个该职业随从"
+}
+

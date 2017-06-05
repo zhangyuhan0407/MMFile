@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_5_Stone",
+"key":"INV_Misc_5_Stone",
+"category":"misc",
+"displayname":"石头等级5",
+"rarity":"white",
+"type": "none",
+"count":1,
+"usage":"可用于锻造",
+"story": "一种常见的石头"
+}
+

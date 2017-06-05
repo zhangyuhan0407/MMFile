@@ -80,29 +80,29 @@ class MMInventoryRepo {
     func findInvs(keys: [String]) -> [JSON] {
         var ret = [JSON]()
         for k in keys {
+            
+            
+            
+            
             if k.contains("Gold") {
-                var json = invs["INV_Misc_0_Gold"]!
+                var json = invs["PROP_Gold"]!
                 json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
-                ret.append(invs["INV_Misc_0_Gold"]!)
+                ret.append(invs["PROP_Gold"]!)
             }
             
             
             else if k.contains("Silver") {
-                var json = invs["INV_Misc_0_Silver"]!
+                var json = invs["PROP_Silver"]!
                 json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
-                ret.append(invs["INV_Misc_0_Silver"]!)
+                ret.append(invs["PROP_Silver"]!)
             }
             
-            else if k.contains("CARD_Normal_1_Random") {
+            else if k.contains("CARD_Random") {
                 
                 let type = randomClass()
                 
-                var json = invs["CARD_Normal_1_Random"]!
-                json.update(value: "CARD_Normal_" + type, forKey: "imagename")
-                json.update(value: "CARD_Normal_" + type, forKey: "key")
                 
-                
-                ret.append(json)
+                ret.append(invs["CARD_\(type)"]!)
             }
             
             else {

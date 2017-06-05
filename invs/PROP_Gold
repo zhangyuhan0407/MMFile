@@ -1,8 +1,9 @@
 {
 "imagename": "INV_Misc_Gold",
-"key":"INV_Misc_Gold",
+"key":"PROP_Gold",
 "category":"misc",
 "displayname":"金币",
 "rarity":"white",
+"type": "prop",
 "count":0
 }

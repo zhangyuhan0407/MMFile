@@ -47,6 +47,29 @@ class MMMissionMiddleware: RouterMiddleware {
         }
         
         
+        if index.contains("-") {
+            let keys = index.components(separatedBy: "-")
+            var ret = [JSON]()
+            for k in keys {
+                let v = MMMissionRepo.sharedInstance.missions["mission_\(k)"]!
+                let dict: [String: Any] = ["key": "mission_\(k)",
+                            "icon": v["icon"].string!,
+                            "title": v["title"].string!,
+                            "story": v["story"].string!,
+                            "index": v["index"].int!]
+                
+                ret.append(JSON(dict))
+            }
+            
+            try response.send(OCTResponse.Succeed(data: JSON(ret))).end()
+            return
+        }
+        
+        
+        
+        
+        
+        
         guard let dungeon = MMMissionRepo.sharedInstance.missions["mission_\(index)"] else {
             try response.send(OCTResponse.InputEmpty).end()
             return
@@ -90,6 +113,11 @@ class MMMissionRepo {
             let files = try FileManager.default.contentsOfDirectory(atPath: MissionPath)
             
             for file in files {
+                
+                if file.contains(".") {
+                    continue
+                }
+                
                 let json = JSON.read(fromFile: "\(MissionPath)/\(file)")!
                 missions.updateValue(json, forKey: file)
             }

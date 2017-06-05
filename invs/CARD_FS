@@ -1,0 +1,11 @@
+{
+"imagename": "CARD_Normal_FS",
+"key":"CARD_FS",
+"category":"misc",
+"displayname":"法师随从",
+"rarity":"white",
+"count":0,
+"type": "card",
+"usage": "随机获得一个该职业随从"
+}
+

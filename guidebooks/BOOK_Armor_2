@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Armor_2",
+"imagename": "INV_Armor_2",
+"index": "2",
+"displayname":"护甲等级2",
+
+"materials": [  {"key": "INV_Misc_2_Metal", "count": 3},
+{"key": "INV_Misc_2_Stone", "count": 5}
+],
+
+"result": "INV_Armor_2",
+
+
+"usage": "随机获得一个该职业随从"
+}
+

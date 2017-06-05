@@ -1,0 +1,11 @@
+{
+"imagename": "CARD_Normal_XD",
+"key":"CARD_XD",
+"category":"misc",
+"displayname":"德鲁伊随从",
+"rarity":"white",
+"count":0,
+"type": "card",
+"usage": "随机获得一个该职业随从"
+}
+

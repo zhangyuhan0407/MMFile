@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_2_GemGreen",
+"key":"INV_Misc_2_GenmGreen",
+"category":"misc",
+"displayname":"绿宝石等级2",
+"rarity":"green",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加些许生命值",
+"story": "优秀的绿宝石"
+}
+
