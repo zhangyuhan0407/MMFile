@@ -25,7 +25,10 @@ class MMGuideBookMiddleware: RouterMiddleware {
         
         let books = MMGuideBookRepo.sharedInstance.findBooks(forType: type)
         
-        
+        if books.count == 0 {
+            try response.send(OCTResponse.InputFormatError).end()
+            return
+        }
     
         try response.send(OCTResponse.Succeed(data: JSON(books))).end()
         
@@ -57,7 +60,7 @@ class MMGuideBookRepo {
     }
     
     
-    func loadBooks() {
+    private func loadBooks() {
         
         books = [:]
         
@@ -70,8 +73,23 @@ class MMGuideBookRepo {
                     continue
                 }
                 
-                let json = JSON.read(fromFile: "\(GuideBookPath)/\(file)")!
-                missions.updateValue(json, forKey: file)
+                var json = JSON.read(fromFile: "\(GuideBookPath)/\(file)")!
+                let materials = json["materials"].array!
+                var newMaterials = [JSON]()
+                for m in materials {
+                    let k = m["key"].string!
+                    let count = m["count"].int!
+                    
+                    var misc = MMInventoryRepo.sharedInstance.findInv(key: k)
+                    misc["count"] = JSON(count)
+                    newMaterials.append(misc)
+                    
+                }
+
+                
+                json["materials"] = JSON(newMaterials)
+                
+                books.updateValue(json, forKey: file)
             }
             
         } catch {
@@ -104,7 +122,7 @@ class MMGuideBookRepo {
         
         
         for book in books {
-            if book.key.contains(type) {
+            if book.key.lowercased().contains(type.lowercased()) {
                 ret.append(book.value)
             }
         }

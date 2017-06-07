@@ -22,7 +22,6 @@ class MMDungeonMiddleware: RouterMiddleware {
         }
         
         
-        
         if index == "all" {
             let dict = MMDungeonRepo.sharedInstance.dungeons.map({ (k,v) -> [String: Any] in
                 return ["key": k,
@@ -38,20 +37,16 @@ class MMDungeonMiddleware: RouterMiddleware {
                 jsons.append(JSON(d))
             }
             
-            
-            
             try response.send(OCTResponse.Succeed(data: JSON(jsons))).end()
             return
             
         }
         
         
-        guard let dungeon = MMDungeonRepo.sharedInstance.dungeons["\(index)"] else {
+        guard let dungeon = MMDungeonRepo.sharedInstance.dungeons["dungeon_\(index)"] else {
             try response.send(OCTResponse.InputEmpty).end()
             return
         }
-        
-        
         
         
         
@@ -80,7 +75,7 @@ class MMDungeonRepo {
     public func reload() {
         for _ in 0..<5 {
             do {
-                try loadChars()
+                try loadDungeons()
                 break
             } catch {
                 
@@ -89,20 +84,21 @@ class MMDungeonRepo {
     }
     
     
-    func loadChars() throws {
+    private func loadDungeons() throws {
         
         dungeons = [:]
         
-        for i in 1...6 {
-            
-            let key = "PVE_\(i)"
-            
-            let json = JSON.read(fromFile: "\(DungeonPath)/\(key)")!
-            
-            
-            dungeons.updateValue(json, forKey: "\(i)")
-            
+        
+        let files = try FileManager.default.contentsOfDirectory(atPath: DungeonPath)
+        
+        for file in files {
+            if file.contains(".") {
+                continue
+            }
+            let json = JSON.read(fromFile: "\(DungeonPath)/\(file)")!
+            dungeons.updateValue(json, forKey: file)
         }
+
         
     }
     

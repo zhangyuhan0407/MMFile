@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_Metal_2",
+"key":"INV_Misc_Metal_2",
+"category":"misc",
+"displayname":"矿石等级2",
+"rarity":"white",
+"type": "none",
+"count":1,
+"usage":"可用于锻造",
+"story": "一种常见的石头"
+}
+

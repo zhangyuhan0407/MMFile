@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_TwoSword_1001",
+"imagename": "INV_Weapon_TwoSword_1001",
+"index": 1,
+"displayname":"饰品等级1",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 8},
+                {"key": "INV_Misc_Stone_1", "count": 20}
+            ],
+
+"result": "INV_Weapon_TwoSword_1001",
+
+
+"usage": "随机获得一个该职业随从"
+}
+

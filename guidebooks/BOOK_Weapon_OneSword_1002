@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_OneSword_1002",
+"imagename": "INV_Weapon_OneSword_1002",
+"index": 3,
+"displayname":"饰品等级3",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 8},
+                {"key": "INV_Misc_Stone_3", "count": 20}
+            ],
+
+"result": "INV_Weapon_OneSword_1002",
+
+
+"usage": "随机获得一个该职业随从"
+}
+

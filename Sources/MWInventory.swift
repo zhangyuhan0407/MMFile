@@ -25,6 +25,7 @@ class MMInventoryMiddleware: RouterMiddleware {
         let keys = key.components(separatedBy: "-")
         
         let invs = MMInventoryRepo.sharedInstance.findInvs(keys: keys)
+        
         try response.send(OCTResponse.Succeed(data: JSON(invs))).end()
         
         
@@ -39,7 +40,7 @@ class MMInventoryRepo {
     static let sharedInstance = MMInventoryRepo()
     
     
-    var invs = [String: JSON]()
+    private var invs = [String: JSON]()
     
     
     private init() {
@@ -52,7 +53,7 @@ class MMInventoryRepo {
     }
     
     
-    func loadInvs() {
+    private func loadInvs() {
         
         invs = [:]
         
@@ -76,38 +77,81 @@ class MMInventoryRepo {
     }
     
     
-    
-    func findInvs(keys: [String]) -> [JSON] {
-        var ret = [JSON]()
-        for k in keys {
+    func findInv(key: String) -> JSON {
+        
+        let k = key
+        
+        guard let ret = invs[k] else {
             
-            
-            
-            
+            let ret2: JSON
             if k.contains("Gold") {
                 var json = invs["PROP_Gold"]!
                 json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
-                ret.append(invs["PROP_Gold"]!)
+                ret2 = json
             }
-            
-            
+                
+                
             else if k.contains("Silver") {
                 var json = invs["PROP_Silver"]!
                 json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
-                ret.append(invs["PROP_Silver"]!)
+                ret2 = json
             }
-            
+                
             else if k.contains("CARD_Random") {
                 
                 let type = randomClass()
                 
-                
-                ret.append(invs["CARD_\(type)"]!)
+                ret2 = invs["CARD_\(type)"]!
+            }
+            else {
+                fatalError()
             }
             
-            else {
-                ret.append(invs[k]!)
-            }
+            return ret2
+        }
+        
+        
+        return ret
+        
+        
+        
+//        let k = key
+//        let ret: JSON
+//        if k.contains("Gold") {
+//            var json = invs["PROP_Gold"]!
+//            if
+//            json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
+//            ret = json
+//        }
+//            
+//            
+//        else if k.contains("Silver") {
+//            var json = invs["PROP_Silver"]!
+//            json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
+//            ret = json
+//        }
+//            
+//        else if k.contains("CARD_Random") {
+//            
+//            let type = randomClass()
+//            
+//            
+//            ret = invs["CARD_\(type)"]!
+//        }
+//            
+//        else {
+//            ret = invs[k]!
+//        }
+//        
+//        return ret
+        
+    }
+    
+    
+    func findInvs(keys: [String]) -> [JSON] {
+        var ret = [JSON]()
+        for k in keys {
+            ret.append(findInv(key: k))
         }
         return ret
     }

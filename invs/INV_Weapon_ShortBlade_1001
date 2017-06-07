@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_ShortBlade_1001",
+"imagename": "INV_Weapon_ShortBlade_1001",
+"displayname":"断肠",
+
+"index": 2,
+
+"category": "weapon",
+"type": "ShortBlade",
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

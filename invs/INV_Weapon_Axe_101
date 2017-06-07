@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_Axe_101",
+"imagename": "INV_Weapon_Axe_101",
+"displayname":"某单手斧",
+
+"index": 11,
+
+"category": "weapon",
+"type": "Axe",
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

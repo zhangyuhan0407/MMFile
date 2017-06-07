@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_GemGreen_3",
+"key":"INV_Misc_GemGreen_3",
+"category":"misc",
+"displayname":"绿宝石等级3",
+"rarity":"blue",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加较多生命值",
+"story": "稀有的绿宝石"
+}
+

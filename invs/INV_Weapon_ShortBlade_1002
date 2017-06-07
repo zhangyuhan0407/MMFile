@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_ShortBlade_1002",
+"imagename": "INV_Weapon_ShortBlade_1002",
+"displayname":"影刃",
+
+"index": 3,
+
+"category": "weapon",
+"type": "ShortBlade",
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

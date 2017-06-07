@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_OneSword_1002",
+"imagename": "INV_Weapon_OneSword_1002",
+"displayname":"眩光",
+
+"index": 1,
+
+"category": "weapon",
+"type": "OneSword",
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

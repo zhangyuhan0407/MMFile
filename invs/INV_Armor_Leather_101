@@ -1,0 +1,15 @@
+{
+"key":"INV_Armor_Leather_101",
+"imagename": "INV_Armor_Leather_101",
+"displayname":"某皮甲",
+
+"index": 2,
+
+"category": "armor",
+"type": "Leather",
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

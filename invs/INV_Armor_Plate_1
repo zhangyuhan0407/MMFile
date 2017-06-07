@@ -1,0 +1,15 @@
+{
+"key":"INV_Armor_Plate_1",
+"imagename": "INV_Armor_Plate_1",
+"displayname":"某板甲",
+
+"index": 3,
+
+"category": "armor",
+"type": "Plate",
+
+"rarity": "white",
+"count": 1,
+"usage": "",
+"story": ""
+}

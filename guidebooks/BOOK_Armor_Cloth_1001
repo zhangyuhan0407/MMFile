@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Armor_Cloth_1001",
+"imagename": "BOOK_Armor_Cloth_1001",
+"index": 1,
+"displayname":"法式长袍",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 3},
+                {"key": "INV_Misc_Stone_1", "count": 5}
+            ],
+
+"result": "BOOK_Armor_Cloth_1",
+
+
+"usage": "打造一个史诗级别布甲"
+}
+

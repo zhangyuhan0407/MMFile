@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_ShortBlade_1002",
+"imagename": "INV_Weapon_ShortBlade_1002",
+"index": 1,
+"displayname":"武器等级1",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 5},
+                {"key": "INV_Misc_Stone_1", "count": 12}
+            ],
+
+"result": "INV_Weapon_ShortBlade_1002",
+
+
+"usage": "随机获得一个该职业随从"
+}
+

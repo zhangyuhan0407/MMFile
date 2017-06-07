@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_Mace_11",
+"imagename": "INV_Weapon_Mace_11",
+"displayname":"某单手锤",
+
+"index": 11,
+
+"category": "weapon",
+"type": "Mace",
+
+"rarity": "green",
+"count": 1,
+"usage": "",
+"story": ""
+}

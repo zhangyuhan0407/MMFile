@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Armor_Plate_1001",
+"imagename": "BOOK_Armor_Plate_1001",
+"index": 2,
+"displayname":"史诗板甲",
+
+"materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
+                {"key": "INV_Misc_Stone_2", "count": 5}
+],
+
+"result": "BOOK_Armor_Plate_1001",
+
+
+"usage": "打造获得一个史诗板甲"
+}
+

@@ -6,7 +6,7 @@
 "story": "在艾尔文森林长大的人们经常在多年以后被豺狼人的叫声吓醒，因为无论他们已经多么强大，都不能忘记【艾尔文森林的噩梦】-霍格。",
 "boss": ["霍格"],
 "slots": {
-	"霍格": ["PROP_Silver_100", "CARD_Random"]
+	"霍格": ["PROP_Silver_100", "CARD_Random", "INV_Misc_Metal_1"]
 },
 "characters": {
     "霍格": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}]

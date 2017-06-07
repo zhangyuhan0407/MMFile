@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_TwoSword_11",
+"imagename": "INV_Weapon_TwoSword_11",
+"displayname":"某双手剑",
+
+"index": 13,
+
+"category": "weapon",
+"type": "TwoSword",
+
+"rarity": "green",
+"count": 1,
+"usage": "",
+"story": ""
+}

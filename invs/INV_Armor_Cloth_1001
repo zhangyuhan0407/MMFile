@@ -1,0 +1,15 @@
+{
+"key":"INV_Armor_Cloth_1001",
+"imagename": "INV_Armor_Cloth_1001",
+"displayname":"某布甲",
+
+"index": 1,
+
+"category": "armor",
+"type": "Cloth",
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

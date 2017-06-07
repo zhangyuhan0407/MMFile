@@ -1,0 +1,15 @@
+{
+"key":"INV_Armor_Chain_101",
+"imagename": "INV_Armor_Chain_101",
+"displayname":"某锁甲",
+
+"index": 1,
+
+"category": "armor",
+"type": "Chain",
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

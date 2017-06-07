@@ -27,6 +27,9 @@ router.get("/inventory/:key", middleware: MMInventoryMiddleware())
 router.get("/mission/:index", middleware: MMMissionMiddleware())
 
 
+router.get("/guidebook/:type", middleware: MMGuideBookMiddleware())
+
+
 //router.get("/pve/:index/characters", middleware: MMPVECharactersMiddleware())
 
 

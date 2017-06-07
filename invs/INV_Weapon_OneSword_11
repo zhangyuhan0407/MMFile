@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_OneSword_11",
+"imagename": "INV_Weapon_OneSword_11",
+"displayname":"血刃",
+
+"index": 6,
+
+"category": "weapon",
+"type": "OneSword",
+
+"rarity": "green",
+"count": 1,
+"usage": "",
+"story": ""
+}

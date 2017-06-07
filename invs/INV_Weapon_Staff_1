@@ -1,0 +1,16 @@
+{
+"key":"INV_Weapon_Staff_1",
+"imagename": "INV_Weapon_Staff_1",
+"displayname":"乔丹法杖",
+
+
+"index": 4,
+
+"category": "weapon",
+"type": "Staff",
+
+"rarity": "white",
+"count": 1,
+"usage": "",
+"story": ""
+}

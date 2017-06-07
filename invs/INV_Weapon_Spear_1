@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_Spear_1",
+"imagename": "INV_Weapon_Spear_1",
+"displayname":"某长柄武器",
+
+"index": 13,
+
+"category": "weapon",
+"type": "Spear",
+
+"rarity": "white",
+"count": 1,
+"usage": "",
+"story": ""
+}

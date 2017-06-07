@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_Hammer_11",
+"imagename": "INV_Weapon_Hammer_11",
+"displayname":"某双手锤",
+
+"index": 8,
+
+"category": "weapon",
+"type": "Hammer",
+
+"rarity": "green",
+"count": 1,
+"usage": "",
+"story": ""
+}

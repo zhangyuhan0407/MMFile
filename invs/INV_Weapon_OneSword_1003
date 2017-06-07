@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_OneSword_1003",
+"imagename": "INV_Weapon_OneSword_1003",
+"displayname":"克罗之刃",
+
+"index": 5,
+
+"category": "weapon",
+"type": "OneSword",
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

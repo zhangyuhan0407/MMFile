@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Mace_1001",
+"imagename": "INV_Weapon_Mace_1001",
+"index": 2,
+"displayname":"饰品等级2",
+
+"materials": [  {"key": "INV_Misc_Metal_2", "count": 8},
+                {"key": "INV_Misc_Stone_2", "count": 20}
+            ],
+
+"result": "INV_Weapon_Mace_1001",
+
+
+"usage": "随机获得一个该职业随从"
+}
+

@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_Halberd_1001",
+"imagename": "INV_Weapon_Halberd_1001",
+"displayname":"某双手斧",
+
+"index": 7,
+
+"category": "weapon",
+"type": "Halberd",
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

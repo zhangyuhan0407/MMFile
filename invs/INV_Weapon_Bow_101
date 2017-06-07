@@ -1,0 +1,15 @@
+{
+"key":"INV_Weapon_Bow_101",
+"imagename": "INV_Weapon_Bow_101",
+"displayname":"某蓝弓",
+
+"index": 12,
+
+"category": "weapon",
+"type": "Bow",
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}
