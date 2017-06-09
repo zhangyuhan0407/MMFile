@@ -1,29 +1,38 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
+"key":"npc_boss_204",
+
+"name":"席瓦莱恩男爵",
+"id":1102,
+"imagename": "npc_boss_204",
 "attacktype":"physics",
-"xixue":0,
-"id":1101,
+
+
+"cls": "zs_wuqi",
+"displaycls": "武器战",
+
+
+"maxhp": 120,
+"maxsp": 3,
+"hp":120,
 "sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪104",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+
+
+"atk":100,
 "mag":0,
-"rule":1,
-"shanbi":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
 "skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"skill2factor":35,
+"skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
+"skill2description":"致死打击:近战物理攻击附加#致死#状态,每次造成伤害35点",
+
+
+"baoji":15,
+
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

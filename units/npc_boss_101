@@ -3,10 +3,12 @@
 
 "name":"拉克佐",
 "id":1101,
-"imagename": "sm_zengqiang",
-"attacktype":"physics",
-"cls": "增强萨",
-"story": "他足足有3个人那么高!",
+"icon": "npc_boss_101",
+"imagename": "fs_huoyan",
+"attacktype":"fire",
+
+"cls": "fs_huoyan",
+"displaycls": "火法",
 
 
 "maxhp": 100,
@@ -14,28 +16,21 @@
 "hp":100,
 "sp":3,
 
-"atk":100,
-"mag":0,
-"def":40,
+
+"def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"挥舞手中的武器造成伤害${skill1factor}",
-"skill2description":"挥舞手中的武器3次,每次造成伤害${skill2factor}",
+"skill1factor":10,
+"skill2factor":30,
+"skill1description":"火球术:造成伤害${skill1factor}",
+"skill2description":"大火球术:造成伤害${skill2factor}",
 
 
 "baoji":15,
-"shanbi":0,
-"mingzhong": 0,
-"gedang":30,
 
 
-"zaisheng":0,
-"xixue": 0,
-"fantangwuli":0,
-"fantanfashu":0
+"story": "他足足有3个人那么高!"
 
 }

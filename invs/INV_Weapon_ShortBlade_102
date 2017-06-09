@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_ShortBlade_102",
+"imagename": "INV_Weapon_ShortBlade_102",
+"displayname":"寒怒匕首",
+
+"index": 102,
+
+"category": "weapon",
+"type": "ShortBlade",
+
+"atk": 2,
+"baoji": 15,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

@@ -1,14 +1,14 @@
 {
-"key":"BOOK_Armor_Plate_1001",
-"imagename": "BOOK_Armor_Plate_1001",
-"index": 2,
-"displayname":"史诗板甲",
+"key":"BOOK_Weapon_Halberd_1001",
+"imagename": "INV_Weapon_Halberd_1001",
+"index": 1001,
+"displayname":"炽炎战斧",
 
 "materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
                 {"key": "INV_Misc_Stone_2", "count": 5}
 ],
 
-"result": "BOOK_Armor_Plate_1001",
+"result": "INV_Weapon_Halberd_1001",
 
 
 "usage": "打造获得一个史诗板甲"

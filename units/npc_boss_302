@@ -1,42 +1,46 @@
 {
-"key":"npc_boss_102",
+"key":"npc_boss_210",
 
-"name":"矿工约翰森",
+"name":"大法师阿鲁高",
 "id":1102,
-"imagename": "sm_zengqiang",
+"imagename": "npc_boss_210",
 "attacktype":"physics",
-"cls": "增强萨",
-"story": "辛辛苦苦挖了一辈子矿",
 
 
-"maxhp": 100,
+"cls": "fs_aoshu",
+"displaycls": "奥法",
+
+
+"maxhp": 120,
 "maxsp": 3,
-"hp":100,
+"hp":120,
 "sp":3,
 
 
 "atk":100,
 "mag":0,
-"def":40,
+"def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
 "skill1factor":15,
-"skill2factor":15,
-"skill1description":"挥舞手中的武器",
-"skill2description":"挥舞手中的武器3次",
+"skill2factor":35,
+"skill1description":"奥术冲击:对前方敌人造成少量伤害",
+"skill2description":"沉默:沉默怒气最高敌人,如果该敌人怒气达到最大则造成双倍伤害",
 
 
 "baoji":15,
 "shanbi":0,
 "mingzhong": 0,
-"gedang":30,
+"gedang":0,
 
 
 "zaisheng":0,
 "xixue": 0,
 "fantangwuli":0,
-"fantanfashu":0
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

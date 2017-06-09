@@ -1,12 +1,18 @@
 {
 "key":"INV_Weapon_TwoSword_1001",
 "imagename": "INV_Weapon_TwoSword_1001",
-"displayname":"某双手剑",
+"displayname":"鞭笞者苏萨斯",
 
-"index": 13,
+"index": 1001,
 
 "category": "weapon",
 "type": "TwoSword",
+
+
+"atk":10,
+"baoji":10,
+"mingzhong":10,
+
 
 "rarity": "purple",
 "count": 1,

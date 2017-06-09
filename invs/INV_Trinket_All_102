@@ -1,0 +1,18 @@
+{
+"key":"INV_Trinket_All_102",
+"imagename": "INV_Trinket_All_102",
+"displayname":"席瓦莱恩家族徽记",
+
+"index": 102,
+
+"category": "trinket",
+"type": "All",
+
+"hp": 15,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

@@ -1,0 +1,21 @@
+{
+"key":"INV_Armor_Cloth_104",
+"imagename": "INV_Armor_Cloth_104",
+"displayname":"巫妖法袍",
+
+"index": 104,
+
+"category": "armor",
+"type": "Cloth",
+
+
+"hp": 10,
+"baoji": 5,
+
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

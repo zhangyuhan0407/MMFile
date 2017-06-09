@@ -1,0 +1,19 @@
+{
+"key":"INV_Trinket_All_103",
+"imagename": "INV_Trinket_All_103",
+"displayname":"流星碎片",
+
+"index": 103,
+
+"category": "trinket",
+"type": "All",
+
+"hp": 15,
+"baoji": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

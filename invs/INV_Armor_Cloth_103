@@ -1,0 +1,20 @@
+{
+"key":"INV_Armor_Cloth_103",
+"imagename": "INV_Armor_Cloth_103",
+"displayname":"蜘蛛银丝斗篷",
+
+"index": 103,
+
+"category": "armor",
+"type": "Cloth",
+
+
+"hp": 15,
+
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

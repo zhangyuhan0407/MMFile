@@ -1,12 +1,17 @@
 {
 "key":"INV_Weapon_Halberd_101",
 "imagename": "INV_Weapon_Halberd_101",
-"displayname":"某双手斧",
+"displayname":"屠夫的切肉刀",
 
-"index": 7,
+"index": 101,
 
 "category": "weapon",
 "type": "Halberd",
+
+
+"atk": 5,
+
+
 
 "rarity": "blue",
 "count": 1,

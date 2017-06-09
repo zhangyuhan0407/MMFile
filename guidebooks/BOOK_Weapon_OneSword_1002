@@ -1,8 +1,8 @@
 {
 "key":"BOOK_Weapon_OneSword_1002",
 "imagename": "INV_Weapon_OneSword_1002",
-"index": 3,
-"displayname":"饰品等级3",
+"index": 1002,
+"displayname":"眩光",
 
 "materials": [  {"key": "INV_Misc_Metal_3", "count": 8},
                 {"key": "INV_Misc_Stone_3", "count": 20}

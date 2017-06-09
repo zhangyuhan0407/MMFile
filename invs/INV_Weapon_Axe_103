@@ -1,0 +1,22 @@
+{
+"key":"INV_Weapon_Axe_103",
+"imagename": "INV_Weapon_Axe_103",
+"displayname":"加兹瑞拉之牙",
+
+"index": 103,
+
+"category": "weapon",
+"type": "Axe",
+
+"rarity": "blue",
+"count": 1,
+
+
+"atk": 5,
+"baoji": 10,
+
+
+
+"usage": "",
+"story": ""
+}

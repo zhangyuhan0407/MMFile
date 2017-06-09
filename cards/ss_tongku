@@ -3,7 +3,8 @@
 
 
 "name":"痛苦术",
-"cls":"痛苦术",
+"cls": "ss_tongku",
+"displaycls":"痛苦术",
 "id":6,
 "attacktype":"evil",
 

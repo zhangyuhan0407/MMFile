@@ -1,12 +1,15 @@
 {
 "key":"INV_Weapon_Hammer_101",
 "imagename": "INV_Weapon_Hammer_101",
-"displayname":"某双手锤",
+"displayname":"重拳先生的大锤",
 
-"index": 8,
+"index": 101,
 
 "category": "weapon",
 "type": "Hammer",
+
+"atk": 5,
+
 
 "rarity": "blue",
 "count": 1,

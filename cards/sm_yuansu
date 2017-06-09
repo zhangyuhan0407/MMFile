@@ -3,7 +3,8 @@
 
 
 "name":"元素萨",
-"cls":"元素萨",
+"cls": "sm_yuansu",
+"displaycls":"元素萨",
 "id":20,
 "attacktype":"lightning",
 

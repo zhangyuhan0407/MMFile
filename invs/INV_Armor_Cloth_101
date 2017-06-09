@@ -1,12 +1,17 @@
 {
 "key":"INV_Armor_Cloth_101",
 "imagename": "INV_Armor_Cloth_101",
-"displayname":"某布甲",
+"displayname":"海盗的罩衫",
 
-"index": 1,
+"index": 101,
 
 "category": "armor",
 "type": "Cloth",
+
+
+"hp": 10,
+
+
 
 "rarity": "blue",
 "count": 1,

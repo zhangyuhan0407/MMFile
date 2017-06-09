@@ -3,7 +3,8 @@
 
 
 "name":"兽王猎",
-"cls":"兽王猎",
+"cls": "lr_shouwang",
+"displaycls":"兽王猎",
 "id":19,
 "attacktype":"physics",
 

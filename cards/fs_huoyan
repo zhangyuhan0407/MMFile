@@ -6,7 +6,8 @@
 "id":12,
 "attacktype":"fire",
 "name":"火法",
-"cls": "火法",
+"cls": "fs_huoyan",
+"displaycls": "火法",
 
 
 "hp":50,

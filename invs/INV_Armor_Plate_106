@@ -1,0 +1,20 @@
+{
+"key":"INV_Armor_Plate_106",
+"imagename": "INV_Armor_Plate_106",
+"displayname":"光辉盾牌",
+
+"index": 106,
+
+"category": "armor",
+"type": "Plate",
+
+
+"hp": 10,
+"gedang": 15,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

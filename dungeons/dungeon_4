@@ -3,14 +3,14 @@
 "index": 4,
 "icon": "xuesexiudaoyuan",
 "title": "血色修道院",
-"story": "血色修道院是一座由四个区域组成的大型建筑。该修道院原本是洛丹伦王国的骄傲，宗教的朝圣之地，然而在战后成为了狂热的血色十字军在该地区的一座重要要塞。提瑞斯法的幸存者和来自远方的冒险者通常前往这里寻求庇护，每当他们经过法奥之墓时，都要在这里顶礼膜拜一番，以示对这位先辈的尊敬。",
+"story": "血法师萨尔诺斯，血色修道院是一座由四个区域组成的大型建筑。该修道院原本是洛丹伦王国的骄傲，宗教的朝圣之地，然而在战后成为了狂热的血色十字军在该地区的一座重要要塞。提瑞斯法的幸存者和来自远方的冒险者通常前往这里寻求庇护，每当他们经过法奥之墓时，都要在这里顶礼膜拜一番，以示对这位先辈的尊敬。",
 "boss": ["赫洛德", "驯犬者洛克希", "奥法师杜安", "大检察官怀特迈恩", "血色十字军指挥官莫格莱尼"],
 "slots": {
-	"赫洛德": ["INV_Armor_3", "INV_Weapon_3"],
-	"驯犬者洛克希": ["INV_Armor_4", "INV_Weapon_3"],
-	"奥法师杜安": ["INV_Weapon_4", "INV_Armor_4", "INV_Armor_3"],
-	"大检察官怀特迈恩": ["INV_Weapon_4", "INV_Armor_3", "INV_Armor_4"],
-	"血色十字军指挥官莫格莱尼": ["INV_Trinket_4", "INV_Trinket_3", "INV_Weapon_4", "INV_Armor_4"]
+	"赫洛德": ["PROP_Silver_250", "INV_Armor_Plate_106"],
+	"驯犬者洛克希": ["PROP_Silver_250"],
+	"奥法师杜安": ["INV_Weapon_ShortBlade_103", "INV_Weapon_Staff_104", "INV_Trinket_All_1001"],
+	"大检察官怀特迈恩": ["INV_Armor_Cloth_105", "INV_Weapon_Staff_104", "INV_Weapon_TwoSword_102"],
+	"血色十字军指挥官莫格莱尼": ["INV_Armor_Plate_105", "INV_Armor_Plate_106", "INV_Weapon_TwoSword_102", "INV_Weapon_Staff_104"]
 	},
 "characters": {
 	"赫洛德": [{"position":1,"cardkey":"npc_qs_2"},{"position":2,"cardkey":"npc_qs_2"},

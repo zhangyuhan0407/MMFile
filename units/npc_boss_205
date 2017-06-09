@@ -1,29 +1,31 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
+"key":"npc_boss_205",
+
+"name":"指挥官斯普林瓦尔",
+"id":1102,
+"imagename": "npc_boss_205",
 "attacktype":"physics",
-"xixue":0,
-"id":1101,
+
+
+"cls": "qs_chengjie",
+"displaycls": "惩戒骑",
+
+
+"maxhp": 120,
+"maxsp": 3,
+"hp":120,
 "sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪105",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
-"mag":0,
-"rule":1,
-"shanbi":0,
+
+
+
+"skill0description": ["首领", "暴击"],
 "skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"skill2factor":35,
+"skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
+"skill2description":"神圣风暴:对敌方造成神圣伤害,鼓舞身边友军,造成伤害35点",
+
+
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

@@ -104,7 +104,14 @@ class MMInventoryRepo {
                 ret2 = invs["CARD_\(type)"]!
             }
             else {
-                fatalError()
+                
+                
+                if k.contains("INV_Misc") && k.components(separatedBy: "_").count > 4 {
+                    ret2 = invs[k.components(separatedBy: "_").dropLast().joined(separator: "_")]!
+                }
+                else {
+                    fatalError()
+                }
             }
             
             return ret2

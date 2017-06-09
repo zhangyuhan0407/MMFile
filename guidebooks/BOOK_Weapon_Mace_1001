@@ -1,8 +1,8 @@
 {
 "key":"BOOK_Weapon_Mace_1001",
 "imagename": "INV_Weapon_Mace_1001",
-"index": 2,
-"displayname":"饰品等级2",
+"index": 1001,
+"displayname":"热情监护者",
 
 "materials": [  {"key": "INV_Misc_Metal_2", "count": 8},
                 {"key": "INV_Misc_Stone_2", "count": 20}

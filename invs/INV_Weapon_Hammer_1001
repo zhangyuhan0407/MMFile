@@ -1,12 +1,17 @@
 {
 "key":"INV_Weapon_Hammer_1001",
 "imagename": "INV_Weapon_Hammer_1001",
-"displayname":"某双手锤",
+"displayname":"碎灵",
 
-"index": 8,
+"index": 1001,
 
 "category": "weapon",
 "type": "Hammer",
+
+
+"hp":10,
+"sp":1,
+
 
 "rarity": "purple",
 "count": 1,

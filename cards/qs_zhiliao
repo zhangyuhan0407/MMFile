@@ -3,7 +3,8 @@
 
 
 "name":"奶骑",
-"cls":"奶骑",
+"cls": "qs_zhiliao",
+"displaycls":"奶骑",
 "id":28,
 "attacktype":"holy",
 

@@ -1,18 +1,19 @@
 {
-"name":"斯尼德",
-
-
 "key":"npc_boss_103",
-"id":1103,
-"cls": "增强萨",
-"imagename": "sm_zengqiang",
+
+"name":"斯尼德的伐木机",
+"id":1102,
+"imagename": "npc_boss_103",
 "attacktype":"physics",
 
 
+"cls": "zs_wuqi",
+"displaycls": "武器战",
 
-"maxhp": 150,
+
+"maxhp": 100,
 "maxsp": 3,
-"hp":150,
+"hp":100,
 "sp":3,
 
 
@@ -22,21 +23,19 @@
 "spd":0,
 
 
+"skill0description": ["首领", "暴击"],
 "skill1factor":15,
-"skill2factor":15,
-"skill1description":"boss",
-"skill2description":"",
+"skill2factor":30,
+"skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
+"skill2description":"致死打击:近战物理攻击附加#致死#状态,每次造成伤害30点",
 
 
 "baoji":15,
 "shanbi":0,
 "mingzhong": 0,
-"gedang":30,
+"gedang":0,
 
 
-"zaisheng":0,
-"xixue": 0,
-"fantangwuli":0,
-"fantanfashu":0
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

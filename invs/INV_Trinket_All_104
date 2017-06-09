@@ -1,0 +1,19 @@
+{
+"key":"INV_Trinket_All_104",
+"imagename": "INV_Trinket_All_104",
+"displayname":"莫德雷斯的徽记",
+
+"index": 104,
+
+"category": "trinket",
+"type": "All",
+
+"hp": 15,
+"gedang": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

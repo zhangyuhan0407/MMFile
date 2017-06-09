@@ -1,0 +1,18 @@
+{
+"key":"INV_Trinket_All_1001",
+"imagename": "INV_Trinket_All_1001",
+"displayname":"亡者之手",
+
+"index": 1001,
+
+"category": "trinket",
+"type": "All",
+
+"sp": 1,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

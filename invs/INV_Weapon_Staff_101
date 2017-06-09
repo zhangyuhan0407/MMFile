@@ -1,13 +1,17 @@
 {
 "key":"INV_Weapon_Staff_101",
 "imagename": "INV_Weapon_Staff_101",
-"displayname":"乔丹法杖",
+"displayname":"曲奇的搅汤棒",
 
 
-"index": 4,
+"index": 101,
 
 "category": "weapon",
 "type": "Staff",
+
+
+"hp": 10,
+
 
 "rarity": "blue",
 "count": 1,

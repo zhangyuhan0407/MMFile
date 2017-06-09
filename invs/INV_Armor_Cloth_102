@@ -1,0 +1,21 @@
+{
+"key":"INV_Armor_Cloth_102",
+"imagename": "INV_Armor_Cloth_102",
+"displayname":"阿鲁高法袍",
+
+"index": 102,
+
+"category": "armor",
+"type": "Cloth",
+
+
+"hp": 15,
+"baoji": 10,
+
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

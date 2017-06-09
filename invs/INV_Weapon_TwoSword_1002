@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_TwoSword_1002",
+"imagename": "INV_Weapon_TwoSword_1002",
+"displayname":"瑞文戴尔之剑",
+
+"index": 1002,
+
+"category": "weapon",
+"type": "TwoSword",
+
+"hp":10,
+"atk":10,
+"baoji":10,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

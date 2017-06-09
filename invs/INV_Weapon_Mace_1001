@@ -1,12 +1,17 @@
 {
 "key":"INV_Weapon_Mace_1001",
 "imagename": "INV_Weapon_Mace_1001",
-"displayname":"某单手锤",
+"displayname":"热情监护者",
 
-"index": 11,
+"index": 1001,
 
 "category": "weapon",
 "type": "Mace",
+
+
+"hp": 25,
+
+
 
 "rarity": "purple",
 "count": 1,

@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Leather_102",
+"imagename": "INV_Armor_Leather_102",
+"displayname":"兄弟会斗篷",
+
+"index": 102,
+
+"category": "armor",
+"type": "Leather",
+
+
+"shanbi": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

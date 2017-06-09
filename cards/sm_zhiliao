@@ -3,7 +3,8 @@
 
 
 "name":"奶萨",
-"cls":"奶萨",
+"cls": "sm_zhiliao",
+"displaycls":"奶萨",
 "id":22,
 "attacktype":"nature",
 

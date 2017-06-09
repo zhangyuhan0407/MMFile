@@ -4,17 +4,17 @@
 "icon": "zuerfalake",
 "title": "祖尔法拉克",
 "story": "日光暴晒下的这座城市是沙怒巨魔的家园，他们一向以来都以其无情和黑暗魔法而闻名。巨魔传说中有一把强大的名叫鞭笞者苏萨斯的武器能够让最弱小的人可以击败最强大的敌人。很久以前，这把武器被分成了两半。然而，有传言说这两半可以在祖尔法拉克任何地方找到。据说还有一批加基森派来的雇佣兵进入了城市并被困住。他们的命运还不得而知。但是也许最让人感到不安的是一头远古生物正沉睡在城市中心的一个神圣的水池中——它是一个半神，它会摧毁任何胆敢唤醒它的人。",
-"boss": ["督军安图苏尔", "殉教者塞卡", "巫医祖穆拉恩", "耐克鲁姆和布莱中士", "占水师维蕾萨，加兹瑞拉",
-      "加兹瑞拉", "酋长乌克兹·沙顶和卢鲁兹", "暗影祭司塞瑟斯"],
+"boss": ["督军安图苏尔", "殉教者塞卡", "巫医祖穆拉恩", "耐克鲁姆和布莱中士", "占水师维蕾萨",
+      "加兹瑞拉", "酋长乌克兹·沙顶", "暗影祭司塞瑟斯"],
 "slots": {
-	"督军安图苏尔": ["INV_Armor_5", "INV_Weapon_5"],
-	"殉教者塞卡": ["INV_Armor_5", "INV_Weapon_5"],
-	"巫医祖穆拉恩": ["INV_Weapon_5", "INV_Armor_5"],
-	"耐克鲁姆和布莱中士": ["INV_Weapon_5", "INV_Armor_5", "INV_Armor_5"],
-    "占水师维蕾萨，加兹瑞拉": ["INV_Armor_5", "INV_Weapon_5", "INV_Weapon_5"],
-	"加兹瑞拉": ["INV_Weapon_5", "INV_Weapon_5", "INV_Armor_5"],
-	"酋长乌克兹·沙顶和卢鲁兹": ["INV_Weapon_5", "INV_Weapon_5", "INV_Armor_5", "INV_Armor_5"],
-	"暗影祭司塞瑟斯": ["INV_Trinket_5", "INV_Trinket_4", "INV_Weapon_5", "INV_Armor_5"]
+	"督军安图苏尔": ["PROP_Silver_300", "INV_Weapon_Mace_102", "INV_Weapon_OneSword_103"],
+	"殉教者塞卡": ["PROP_Silver_300", "INV_Armor_Chain_103"],
+	"巫医祖穆拉恩": ["PROP_Gold_50", "INV_Weapon_Hammer_102"],
+	"耐克鲁姆和布莱中士": ["INV_Armor_Chain_103", "INV_Weapon_Spear_102"],
+    "占水师维蕾萨": ["INV_Armor_Chain_103", "INV_Weapon_Mace_102"],
+	"加兹瑞拉": ["INV_Weapon_Axe_103", "INV_Weapon_Hammer_102"],
+	"酋长乌克兹·沙顶": ["INV_Weapon_Hammer_102", "INV_Weapon_OneSword_104"],
+	"暗影祭司塞瑟斯": ["INV_Weapon_Hammer_102", "INV_Weapon_OneSword_104", "INV_Weapon_OneSword_103"]
 	},
 "characters": {
 	"督军安图苏尔": [{"position":0,"cardkey":"npc_zs_3"},{"position":5,"cardkey":"npc_zs_3"},
@@ -37,7 +37,7 @@
             {"position":8,"cardkey":"npc_ms_3"},{"position":11,"cardkey":"npc_ms_3"},
             {"position":12,"cardkey":"npc_ms_3"},{"position":15,"cardkey":"npc_ms_3"}],
 			
-  "占水师维蕾萨，加兹瑞拉": [{"position":0,"cardkey":"npc_qs_3"},{"position":1,"cardkey":"npc_qs_3"},
+  "占水师维蕾萨": [{"position":0,"cardkey":"npc_qs_3"},{"position":1,"cardkey":"npc_qs_3"},
 			      {"position":2,"cardkey":"npc_qs_3"},{"position":6,"cardkey":"npc_fs_3"},
             {"position":7,"cardkey":"npc_ms_3"},{"position":9,"cardkey":"npc_boss_505"},
             {"position":11,"cardkey":"npc_fs_3"},{"position":15,"cardkey":"npc_fs_3"}],
@@ -47,7 +47,7 @@
             {"position":8,"cardkey":"npc_ms_3"},{"position":11,"cardkey":"npc_boss_404"},
             {"position":13,"cardkey":"npc_zs_3"},{"position":14,"cardkey":"npc_zs_3"}],
             
-  "酋长乌克兹·沙顶和卢鲁兹": [{"position":0,"cardkey":"npc_zs_3"},{"position":1,"cardkey":"npc_zs_3"},
+  "酋长乌克兹·沙顶": [{"position":0,"cardkey":"npc_zs_3"},{"position":1,"cardkey":"npc_zs_3"},
 			      {"position":2,"cardkey":"npc_dz_3"},{"position":6,"cardkey":"npc_dz_3"},
             {"position":7,"cardkey":"npc_sm_3"},{"position":9,"cardkey":"npc_sm_3"},
             {"position":11,"cardkey":"npc_boss_507"},{"position":15,"cardkey":"npc_boss_507"}],

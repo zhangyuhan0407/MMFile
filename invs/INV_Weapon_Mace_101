@@ -1,12 +1,16 @@
 {
 "key":"INV_Weapon_Mace_101",
 "imagename": "INV_Weapon_Mace_101",
-"displayname":"某单手锤",
+"displayname":"曲奇的吹火棍",
 
-"index": 11,
+"index": 101,
 
 "category": "weapon",
 "type": "Mace",
+
+
+"hp": 10,
+
 
 "rarity": "blue",
 "count": 1,

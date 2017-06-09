@@ -6,7 +6,8 @@
 "id":12,
 "attacktype":"physics",
 "name":"敏锐贼",
-"cls": "敏锐贼",
+"displaycls": "敏锐贼",
+"cls": "dz_minrui",
 
 
 "hp":50,

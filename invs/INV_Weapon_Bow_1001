@@ -1,12 +1,16 @@
 {
 "key":"INV_Weapon_Bow_1001",
 "imagename": "INV_Weapon_Bow_1001",
-"displayname":"某弓",
+"displayname":"灼热弓",
 
-"index": 12,
+"index": 1001,
 
 "category": "weapon",
 "type": "Bow",
+
+"atk": 10,
+"baoji": 10,
+
 
 "rarity": "purple",
 "count": 1,

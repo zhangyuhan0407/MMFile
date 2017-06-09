@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Plate_104",
+"imagename": "INV_Armor_Plate_104",
+"displayname":"冰铁之盔",
+
+"index": 104,
+
+"category": "armor",
+"type": "Plate",
+
+"hp": 15,
+"def": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

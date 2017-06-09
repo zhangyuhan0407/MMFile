@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Chain_102",
+"imagename": "INV_Armor_Chain_102",
+"displayname":"芬鲁斯的外皮",
+
+"index": 102,
+
+"category": "armor",
+"type": "Chain",
+
+"hp": 10,
+"gedang": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

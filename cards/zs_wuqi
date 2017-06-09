@@ -3,7 +3,8 @@
 
 
 "name":"武器战",
-"cls":"武器战",
+"cls":"zs_wuqi",
+"displaycls":"武器战",
 "id":23,
 "attacktype":"physics",
 

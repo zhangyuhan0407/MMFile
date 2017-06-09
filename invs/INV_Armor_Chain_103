@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Chain_103",
+"imagename": "INV_Armor_Chain_103",
+"displayname":"狂乱者的拥抱",
+
+"index": 103,
+
+"category": "armor",
+"type": "Chain",
+
+"hp": 15,
+"gedang": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

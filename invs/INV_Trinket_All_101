@@ -1,0 +1,18 @@
+{
+"key":"INV_Trinket_All_101",
+"imagename": "INV_Trinket_All_101",
+"displayname":"豪华珠宝戒指",
+
+"index": 101,
+
+"category": "trinket",
+"type": "All",
+
+"hp": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

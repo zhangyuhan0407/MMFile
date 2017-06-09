@@ -1,12 +1,17 @@
 {
 "key":"INV_Weapon_OneSword_101",
 "imagename": "INV_Weapon_OneSword_101",
-"displayname":"血刃",
+"displayname":"盗贼之刃",
 
-"index": 6,
+"index": 101,
 
 "category": "weapon",
 "type": "OneSword",
+
+
+"baoji": 5,
+"mingzhong": 5,
+
 
 "rarity": "blue",
 "count": 1,

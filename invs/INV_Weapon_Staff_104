@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Staff_104",
+"imagename": "INV_Weapon_Staff_104",
+"displayname":"幻影法杖",
+
+
+"index": 104,
+
+"category": "weapon",
+"type": "Staff",
+
+"hp": 10,
+"baoji": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

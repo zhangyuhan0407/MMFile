@@ -1,12 +1,16 @@
 {
 "key":"INV_Weapon_TwoSword_101",
 "imagename": "INV_Weapon_TwoSword_101",
-"displayname":"某双手剑",
+"displayname":"鬼魂之刃",
 
-"index": 13,
+"index": 101,
 
 "category": "weapon",
 "type": "TwoSword",
+
+"atk": 5,
+"baoji": 10,
+
 
 "rarity": "blue",
 "count": 1,

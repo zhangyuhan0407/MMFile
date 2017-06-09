@@ -6,7 +6,8 @@
 "id":12,
 "attacktype":"arcane",
 "name":"奥法",
-"cls": "奥法",
+"cls": "fs_aoshu",
+"displaycls": "奥法",
 
 
 "hp":50,

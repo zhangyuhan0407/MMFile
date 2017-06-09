@@ -17,9 +17,9 @@
 
 "skill1factor":10,
 "skill2factor":5,
-"skill1description":"火焰雨:每存在一个受到#献祭#影响的敌人,伤害翻一倍",
-"skill2description":"献祭:对一个敌人施加#献祭#并造成少量伤害",
 
+"skill1description":"献祭:对一个敌人施加#献祭#并造成少量伤害",
+"skill2description":"火焰雨:全体造成5点伤害,每存在一个受到#献祭#影响的敌人,伤害翻一倍",
 
 
 "baoji":0,

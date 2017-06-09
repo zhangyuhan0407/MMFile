@@ -1,0 +1,21 @@
+{
+"key":"INV_Weapon_Axe_102",
+"imagename": "INV_Weapon_Axe_102",
+"displayname":"屠夫的剔骨刀",
+
+"index": 102,
+
+"category": "weapon",
+"type": "Axe",
+
+"rarity": "blue",
+"count": 1,
+
+
+"atk": 7,
+
+
+
+"usage": "",
+"story": ""
+}

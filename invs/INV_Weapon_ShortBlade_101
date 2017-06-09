@@ -1,12 +1,16 @@
 {
 "key":"INV_Weapon_ShortBlade_101",
 "imagename": "INV_Weapon_ShortBlade_101",
-"displayname":"断肠",
+"displayname":"蜂鸣之刃",
 
-"index": 2,
+"index": 101,
 
 "category": "weapon",
 "type": "ShortBlade",
+
+
+"baoji": 10,
+
 
 "rarity": "blue",
 "count": 1,

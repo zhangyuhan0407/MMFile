@@ -3,7 +3,8 @@
 
 
 "name":"防战",
-"cls":"防战",
+"cls":"zs_fangyu",
+"displaycls":"防战",
 "id":25,
 "attacktype":"physics",
 
@@ -16,7 +17,7 @@
 
 
 "skill1factor":5,
-"skill2factor":45,
+"skill2factor":0,
 "skill1description":"自动攻击:自动攻击",
 "skill2description":"盾墙:减少受到的60%物理伤害,持续1回合",
 

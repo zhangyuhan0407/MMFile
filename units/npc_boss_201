@@ -1,41 +1,36 @@
 {
-"key":"npc_boss_101",
+"key":"npc_boss_201",
 
-"name":"拉克佐",
-"id":1101,
-"imagename": "sm_zengqiang",
+"name":"雷希戈尔",
+"id":1102,
+"imagename": "npc_boss_201",
 "attacktype":"physics",
-"cls": "增强萨",
-"story": "他足足有3个人那么高!",
 
 
-"maxhp": 100,
+"cls": "zs_fangyu",
+"displaycls": "防战",
+
+
+"maxhp": 120,
 "maxsp": 3,
-"hp":100,
-"sp":3,
+"hp":120,
+"sp":0,
+
 
 "atk":100,
 "mag":0,
-"def":40,
+"def":20,
 "spd":0,
 
 
-"skill0description": ["首领", "暴击"],
-"skill1factor":15,
+"skill0description": ["首领", "防御"],
+"skill1factor":10,
 "skill2factor":15,
-"skill1description":"挥舞手中的武器造成伤害${skill1factor}",
-"skill2description":"挥舞手中的武器3次,每次造成伤害${skill2factor}",
+"skill1description":"自动攻击:自动攻击,造成10点伤害",
+"skill2description":"盾墙:减少受到的60%物理伤害,持续1回合,并造成15点伤害",
 
 
-"baoji":15,
-"shanbi":0,
-"mingzhong": 0,
-"gedang":30,
 
-
-"zaisheng":0,
-"xixue": 0,
-"fantangwuli":0,
-"fantanfashu":0
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

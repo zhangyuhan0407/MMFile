@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Staff_103",
+"imagename": "INV_Weapon_Staff_103",
+"displayname":"法瑟蕾丝夫人的手指",
+
+
+"index": 103,
+
+"category": "weapon",
+"type": "Staff",
+
+"hp": 10,
+"baoji": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

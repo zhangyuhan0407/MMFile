@@ -1,29 +1,38 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
-"attacktype":"physics",
-"xixue":0,
-"id":1101,
+"key":"npc_boss_106",
+
+"name":"曲奇",
+"id":1102,
+"imagename": "npc_boss_106",
+"attacktype":"fire",
+
+
+"cls": "fs_huoyan",
+"displaycls": "火法",
+
+
+"maxhp": 100,
+"maxsp": 3,
+"hp":100,
 "sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪106",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+
+
+"atk":100,
 "mag":0,
-"rule":1,
-"shanbi":0,
-"skill1factor":15,
-"area":2,
 "def":40,
-"maxhp": 250,
-"maxsp": 3
+"spd":0,
+
+
+"skill0description": ["首领", "高暴击"],
+"skill1factor":15,
+"skill2factor":15,
+"skill1description":"火球术:如果暴击则产生2点怒气",
+"skill2description":"炎爆术:造成大量火焰伤害",
+
+
+"baoji":50,
+
+
+"story": "其实是船上的一个厨子"
+
 }

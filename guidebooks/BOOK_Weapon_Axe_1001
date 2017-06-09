@@ -1,14 +1,14 @@
 {
-"key":"BOOK_Armor_Chain_1001",
-"imagename": "BOOK_Armor_Chain_1001",
-"index": 3,
-"displayname":"史诗锁甲",
+"key":"BOOK_Weapon_Axe_1001",
+"imagename": "INV_Weapon_Axe_1001",
+"index": 1001,
+"displayname":"密林战斧",
 
 "materials": [  {"key": "INV_Misc_Metal_3", "count": 3},
                 {"key": "INV_Misc_Stone_3", "count": 5}
             ],
 
-"result": "BOOK_Armor_Chain_1001",
+"result": "INV_Weapon_Axe_1001",
 
 
 "usage": "打造一个史诗锁甲"

@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_TwoSword_102",
+"imagename": "INV_Weapon_TwoSword_102",
+"displayname":"碎光大剑",
+
+"index": 102,
+
+"category": "weapon",
+"type": "TwoSword",
+
+"atk": 10,
+"baoji": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

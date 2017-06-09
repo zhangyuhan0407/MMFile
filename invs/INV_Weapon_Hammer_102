@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Hammer_102",
+"imagename": "INV_Weapon_Hammer_102",
+"displayname": "酋长的执行者",
+
+"index": 102,
+
+"category": "weapon",
+"type": "Hammer",
+
+"hp": 10,
+"baoji": 10,
+"atk": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

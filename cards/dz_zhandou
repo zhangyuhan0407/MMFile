@@ -6,7 +6,8 @@
 "id":12,
 "attacktype":"physics",
 "name":"战斗贼",
-"cls": "战斗贼",
+"cls": "dz_zhandou",
+"displaycls": "战斗贼",
 
 
 "hp":50,

@@ -1,0 +1,18 @@
+{
+"key":"INV_Armor_Leather_104",
+"imagename": "INV_Armor_Leather_104",
+"displayname":"狼王斗篷",
+
+"index": 104,
+
+"category": "armor",
+"type": "Leather",
+
+"hp": 15,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

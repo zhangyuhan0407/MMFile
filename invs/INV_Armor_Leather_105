@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Leather_105",
+"imagename": "INV_Armor_Leather_105",
+"displayname":"不可宽恕者的面具",
+
+"index": 105,
+
+"category": "armor",
+"type": "Leather",
+
+"hp": 15,
+"baoji": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

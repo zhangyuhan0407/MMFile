@@ -3,7 +3,8 @@
 
 
 "name":"增强萨",
-"cls":"增强萨",
+"cls": "sm_zengqiang",
+"displaycls":"增强萨",
 "id":21,
 "attacktype":"lightning",
 

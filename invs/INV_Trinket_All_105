@@ -1,0 +1,19 @@
+{
+"key":"INV_Trinket_All_105",
+"imagename": "INV_Trinket_All_105",
+"displayname":"白骨手指",
+
+"index": 105,
+
+"category": "trinket",
+"type": "All",
+
+"hp": 15,
+"shanbi": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

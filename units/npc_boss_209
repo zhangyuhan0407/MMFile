@@ -1,29 +1,38 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
+"key":"npc_boss_209",
+
+"name":"狼王南杜斯",
+"id":1102,
+"imagename": "npc_boss_209",
 "attacktype":"physics",
-"xixue":0,
-"id":1101,
+
+
+"cls": "xd_mao",
+"displaycls": "猫得",
+
+
+"maxhp": 120,
+"maxsp": 3,
+"hp":120,
 "sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪109",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+
+
+"atk":100,
 "mag":0,
-"rule":1,
-"shanbi":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
 "skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"skill2factor":35,
+"skill1description":"偷袭:攻击前排单位,造成#眩晕#",
+"skill2description":"跃:攻击敌方最后一个单位,造成#眩晕#",
+
+
+"baoji":20,
+
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

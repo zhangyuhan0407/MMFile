@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Staff_102",
+"imagename": "INV_Weapon_Staff_102",
+"displayname":"火石法杖",
+
+
+"index": 102,
+
+"category": "weapon",
+"type": "Staff",
+
+
+"baoji": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

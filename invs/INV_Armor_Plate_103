@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Plate_103",
+"imagename": "INV_Armor_Plate_103",
+"displayname":"死寒护甲",
+
+"index": 103,
+
+"category": "armor",
+"type": "Plate",
+
+"hp": 15,
+"gedang": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

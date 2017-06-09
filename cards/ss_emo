@@ -3,7 +3,8 @@
 
 
 "name":"恶魔术",
-"cls":"恶魔术",
+"cls": "ss_emo",
+"displaycls":"恶魔术",
 "id":4,
 "attacktype":"evil",
 

@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_OneSword_102",
+"imagename": "INV_Weapon_OneSword_102",
+"displayname":"残酷倒钩",
+
+"index": 102,
+
+"category": "weapon",
+"type": "OneSword",
+
+
+"atk": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

@@ -1,0 +1,21 @@
+{
+"key":"INV_Weapon_Halberd_102",
+"imagename": "INV_Weapon_Halberd_102",
+"displayname":"曲刃战斧",
+
+"index": 102,
+
+"category": "weapon",
+"type": "Halberd",
+
+
+"atk": 5,
+"baoji": 5,
+
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

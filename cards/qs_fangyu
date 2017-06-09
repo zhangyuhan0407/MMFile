@@ -3,7 +3,8 @@
 
 
 "name":"防骑",
-"cls":"防骑",
+"cls": "qs_fangyu",
+"displaycls":"防骑",
 "id":27,
 "attacktype":"holy",
 

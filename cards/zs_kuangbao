@@ -3,7 +3,8 @@
 
 
 "name":"狂暴战",
-"cls":"狂暴战",
+"cls":"zs_kuangbao",
+"displaycls":"狂暴战",
 "id":24,
 "attacktype":"physics",
 
@@ -18,7 +19,7 @@
 "skill1factor":5,
 "skill2factor":25,
 "skill1description":"自动攻击:自动攻击",
-"skill2description":"旋风斩:斩啊斩",
+"skill2description":"旋风斩:横向物理攻击",
 
 
 

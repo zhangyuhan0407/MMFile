@@ -1,14 +1,14 @@
 {
-"key":"BOOK_Armor_Leather_1001",
-"imagename": "BOOK_Armor_Leather_1001",
-"index": 2,
-"displayname":"暗影皮夹",
+"key":"BOOK_Weapon_Hammer_1001",
+"imagename": "INV_Weapon_Hammer_1001",
+"index": 1001,
+"displayname":"碎灵",
 
 "materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
                 {"key": "INV_Misc_Stone_2", "count": 5}
 ],
 
-"result": "BOOK_Armor_Leather_1001",
+"result": "INV_Weapon_Hammer_1001",
 
 
 "usage": "打造获得一个暗影套装"

@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_OneSword_103",
+"imagename": "INV_Weapon_OneSword_103",
+"displayname":"反击者桑萨斯",
+
+"index": 103,
+
+"category": "weapon",
+"type": "OneSword",
+
+
+"atk": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

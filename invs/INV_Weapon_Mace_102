@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Mace_102",
+"imagename": "INV_Weapon_Mace_102",
+"displayname":"安图苏尔之手",
+
+"index": 102,
+
+"category": "weapon",
+"type": "Mace",
+
+
+"hp": 15,
+"atk": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

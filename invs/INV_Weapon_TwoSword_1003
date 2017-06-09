@@ -1,0 +1,21 @@
+{
+"key":"INV_Weapon_TwoSword_1003",
+"imagename": "INV_Weapon_TwoSword_1003",
+"displayname":"命运",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "TwoSword",
+
+
+"atk":10,
+"baoji":10,
+"mingzhong": 15,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

@@ -3,7 +3,8 @@
 
 
 "name":"暗牧",
-"cls":"暗牧",
+"cls": "ms_anying",
+"displaycls":"暗牧",
 "id":9,
 "attacktype":"shadow",
 

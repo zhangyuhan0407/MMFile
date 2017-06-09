@@ -3,8 +3,9 @@
 
 
 "name":"射击猎",
-"cls":"射击猎",
+"displaycls":"射击猎",
 "id":17,
+"cls": "lr_sheji",
 "attacktype":"physics",
 
 

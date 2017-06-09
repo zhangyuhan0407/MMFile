@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_OneSword_104",
+"imagename": "INV_Weapon_OneSword_104",
+"displayname":"保护者迦萨斯",
+
+"index": 104,
+
+"category": "weapon",
+"type": "OneSword",
+
+
+"atk": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

@@ -3,7 +3,8 @@
 
 
 "name":"戒律牧",
-"cls":"戒律牧",
+"cls": "ms_jielv",
+"displaycls":"戒律牧",
 "id":8,
 "attacktype":"holy",
 

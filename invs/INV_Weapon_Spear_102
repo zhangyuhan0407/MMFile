@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Spear_102",
+"imagename": "INV_Weapon_Spear_102",
+"displayname":"魔鬼割皮刀",
+
+"index": 102,
+
+"category": "weapon",
+"type": "Spear",
+
+
+"atk": 10,
+"mingzhong": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

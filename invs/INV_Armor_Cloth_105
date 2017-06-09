@@ -1,0 +1,20 @@
+{
+"key":"INV_Armor_Cloth_105",
+"imagename": "INV_Armor_Cloth_105",
+"displayname":"怀特迈恩的刺绣礼帽",
+
+"index": 105,
+
+"category": "armor",
+"type": "Cloth",
+
+
+"hp": 20,
+
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

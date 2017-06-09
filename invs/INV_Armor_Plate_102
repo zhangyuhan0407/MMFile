@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Plate_102",
+"imagename": "INV_Armor_Plate_102",
+"displayname":"指挥官纹章盾",
+
+"index": 102,
+
+"category": "armor",
+"type": "Plate",
+
+"hp": 5,
+"gedang": 10,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

@@ -6,7 +6,8 @@
 "id":12,
 "attacktype":"ice",
 "name":"冰法",
-"cls": "冰法",
+"cls": "fs_bingshuang",
+"displaycls": "冰法",
 
 
 "hp":50,
@@ -16,7 +17,7 @@
 
 
 "skill1factor":15,
-"skill2factor":0,
+"skill2factor":30,
 "skill1description":"冰枪术:优先攻击#冰环#敌人,对其造成4倍伤害",
 "skill2description":"冰霜新星:对前排波形敌人施加#冰环#",
 

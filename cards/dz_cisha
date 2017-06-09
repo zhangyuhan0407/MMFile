@@ -3,7 +3,8 @@
 
 
 "name":"刺杀贼",
-"cls":"刺杀贼",
+"displaycls": "刺杀贼",
+"cls":"dz_cisha",
 "id":10,
 "attacktype":"physics",
 

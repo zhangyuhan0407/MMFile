@@ -6,11 +6,11 @@
 "story": "在那错综复杂的荆棘迷宫中居住着大群忠诚的野猪人军 队以及他们的高等牧师——亡首部族。然而最近，一股阴影力量笼罩了这个原始的洞穴。亡灵天灾的人在巫妖寒冰之王亚门纳尔的带领下控制了野猪部族并将荆棘迷宫变成了亡灵力量的堡垒。现在野猪人正奋力战斗来重新夺回他们的城市，并阻止亚门纳尔继续控制贫瘠之地",
 "boss": ["暴食者", "火眼莫德雷斯", "图特卡什", "法瑟蕾丝夫人", "寒冰之王亚门纳尔"],
 "slots": {
-	"暴食者": ["INV_Armor_3", "INV_Weapon_2"],
-	"火眼莫德雷斯": ["INV_Armor_3", "INV_Weapon_3"],
-	"图特卡什": ["INV_Weapon_3", "INV_Armor_3", "INV_Armor_3"],
-	"法瑟蕾丝夫人": ["INV_Weapon_3", "INV_Weapon_3", "INV_Armor_3"],
-	"寒冰之王亚门纳尔": ["INV_Trinket_3", "INV_Trinket_2", "INV_Weapon_3", "INV_Armor_3"]
+	"暴食者": ["PROP_Silver_200"],
+	"火眼莫德雷斯": ["PROP_Gold_50", "INV_Trinket_All_104"],
+	"图特卡什": ["PROP_Silver_200", "INV_Armor_Cloth_103"],
+	"法瑟蕾丝夫人": ["INV_Weapon_Staff_103", "INV_Armor_Cloth_104"],
+	"寒冰之王亚门纳尔": ["INV_Armor_Cloth_104", "INV_Armor_Plate_103", "INV_Armor_Plate_104", "INV_Weapon_ShortBlade_102", "INV_Trinket_All_105"]
 	},
 "characters": {
 	"暴食者": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},

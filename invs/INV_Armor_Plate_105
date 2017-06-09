@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Plate_105",
+"imagename": "INV_Armor_Plate_105",
+"displayname":"执政官护胸",
+
+"index": 105,
+
+"category": "armor",
+"type": "Plate",
+
+
+"hp": 25,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

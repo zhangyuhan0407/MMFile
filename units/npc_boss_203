@@ -1,13 +1,14 @@
 {
-"name":"斯尼德",
+"key":"npc_boss_203",
 
-
-"key":"npc_boss_103",
-"id":1103,
-"cls": "增强萨",
-"imagename": "sm_zengqiang",
+"name":"屠夫拉佐克劳",
+"id":1102,
+"imagename": "npc_boss_203",
 "attacktype":"physics",
 
+
+"cls": "zs_wuqi",
+"displaycls": "武器战",
 
 
 "maxhp": 150,
@@ -16,27 +17,16 @@
 "sp":3,
 
 
-"atk":100,
-"mag":0,
-"def":40,
-"spd":0,
 
-
+"skill0description": ["首领", "高生命"],
 "skill1factor":15,
-"skill2factor":15,
-"skill1description":"boss",
-"skill2description":"",
+"skill2factor":35,
+"skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
+"skill2description":"致死打击:近战物理攻击附加#致死#状态,每次造成伤害35点",
 
 
-"baoji":15,
-"shanbi":0,
-"mingzhong": 0,
-"gedang":30,
 
 
-"zaisheng":0,
-"xixue": 0,
-"fantangwuli":0,
-"fantanfashu":0
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

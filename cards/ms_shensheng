@@ -3,7 +3,8 @@
 
 
 "name":"神牧",
-"cls":"神牧",
+"cls": "ms_shensheng",
+"displaycls":"神牧",
 "id":7,
 "attacktype":"holy",
 

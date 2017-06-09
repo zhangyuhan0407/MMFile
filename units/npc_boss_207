@@ -1,29 +1,35 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
+"key":"npc_boss_207",
+
+"name":"死亡之誓",
+"id":1102,
+"imagename": "npc_boss_207",
 "attacktype":"physics",
-"xixue":0,
-"id":1101,
-"sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
+
+
+"cls": "ss_huimie",
+"displaycls": "毁灭术",
+
+
+"maxhp": 120,
+"maxsp": 3,
+"hp":120,
+"sp":0,
+
+
+
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":10,
+"skill2factor":5,
+"skill1description":"献祭:对一个敌人施加#献祭#并造成10点伤害",
+"skill2description":"火焰雨:全体造成5点伤害,每存在一个受到#献祭#影响的敌人,伤害翻一倍",
+
+
 "baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪107",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
-"mag":0,
-"rule":1,
-"shanbi":0,
-"skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

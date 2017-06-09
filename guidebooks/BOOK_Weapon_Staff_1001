@@ -1,8 +1,8 @@
 {
 "key":"BOOK_Weapon_Staff_1001",
 "imagename": "INV_Weapon_Staff_1001",
-"index": 3,
-"displayname":"武器等级3",
+"index": 1001,
+"displayname":"乔丹法杖",
 
 "materials": [  {"key": "INV_Misc_Metal_3", "count": 5},
                 {"key": "INV_Misc_Stone_3", "count": 12}

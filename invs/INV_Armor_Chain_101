@@ -1,12 +1,16 @@
 {
 "key":"INV_Armor_Chain_101",
 "imagename": "INV_Armor_Chain_101",
-"displayname":"某锁甲",
+"displayname":"矿工斗篷",
 
-"index": 1,
+"index": 101,
 
 "category": "armor",
 "type": "Chain",
+
+"hp": 5,
+"gedang": 5,
+
 
 "rarity": "blue",
 "count": 1,

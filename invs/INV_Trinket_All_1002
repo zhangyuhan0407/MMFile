@@ -1,0 +1,19 @@
+{
+"key":"INV_Trinket_All_1002",
+"imagename": "INV_Trinket_All_1002",
+"displayname":"亡者之书",
+
+"index": 1002,
+
+"category": "trinket",
+"type": "All",
+
+
+"sp": 1,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

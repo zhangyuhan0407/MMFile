@@ -1,12 +1,14 @@
 {
 "key":"INV_Weapon_Axe_1001",
 "imagename": "INV_Weapon_Axe_1001",
-"displayname":"某单手斧",
+"displayname":"密林战斧",
 
 "index": 11,
 
 "category": "weapon",
 "type": "Axe",
+
+"atk":15,
 
 "rarity": "purple",
 "count": 1,

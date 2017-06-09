@@ -1,12 +1,16 @@
 {
 "key":"INV_Armor_Plate_101",
 "imagename": "INV_Armor_Plate_101",
-"displayname":"某板甲",
+"displayname":"镀金圆盾",
 
-"index": 3,
+"index": 101,
 
 "category": "armor",
 "type": "Plate",
+
+
+"gedang": 10,
+
 
 "rarity": "blue",
 "count": 1,

@@ -1,0 +1,19 @@
+{
+"key":"INV_Trinket_All_1003",
+"imagename": "INV_Trinket_All_1003",
+"displayname":"死亡军马的缰绳",
+
+"index": 1003,
+
+"category": "trinket",
+"type": "All",
+
+"hp": 10,
+"sp": 1,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

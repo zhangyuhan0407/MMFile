@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Bow_102",
+"imagename": "INV_Weapon_Bow_102",
+"displayname":"尖啸之弓",
+
+"index": 102,
+
+"category": "weapon",
+"type": "Bow",
+
+
+"atk": 5,
+"baoji": 15,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

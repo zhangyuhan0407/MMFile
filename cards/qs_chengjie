@@ -3,7 +3,8 @@
 
 
 "name":"惩戒骑",
-"cls":"惩戒骑",
+"cls": "qs_chengjie",
+"displaycls":"惩戒骑",
 "id":26,
 "attacktype":"holy",
 
@@ -15,8 +16,8 @@
 
 
 
-"skill1factor":5,
-"skill2factor":25,
+"skill1factor":15,
+"skill2factor":15,
 "skill1description":"自动攻击:自动攻击",
 "skill2description":"神圣风暴:对敌方造成神圣伤害,鼓舞身边友军",
 

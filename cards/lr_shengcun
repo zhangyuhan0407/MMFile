@@ -3,7 +3,8 @@
 
 
 "name":"生存猎",
-"cls":"生存猎",
+"cls": "lr_shengcun",
+"displaycls":"生存猎",
 "id":18,
 "attacktype":"physics",
 
@@ -17,7 +18,7 @@
 
 "skill1factor":15,
 "skill2factor":15,
-"skill1description":"自动射击:50%几率造成连击",
+"skill1description":"自动射击:",
 "skill2description":"穿刺射击:对竖排敌人造成伤害",
 
 

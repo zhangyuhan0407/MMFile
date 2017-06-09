@@ -1,0 +1,19 @@
+{
+"key":"INV_Armor_Leather_103",
+"imagename": "INV_Armor_Leather_103",
+"displayname":"猎豹衬肩",
+
+"index": 103,
+
+"category": "armor",
+"type": "Leather",
+
+"hp": 10,
+"shanbi": 5,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

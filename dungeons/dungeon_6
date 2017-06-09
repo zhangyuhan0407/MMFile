@@ -4,13 +4,13 @@
 "icon": "zuerfalake",
 "title": "斯坦索姆",
 "story": "国王泰瑞纳斯的独子——阿尔萨斯王子还是个圣骑士的时候...来到了这被亡灵瘟疫受困的斯坦索姆...",
-"boss": ["巴纳扎尔", "炮手威利", "奈鲁布恩坎", "苍白的玛勒基", "瑞文戴尔男爵"],
+"boss": ["巴纳扎尔", "安娜丝塔丽男爵夫人", "奈鲁布恩坎", "苍白的玛勒基", "瑞文戴尔男爵"],
 "slots": {
-	"巴纳扎尔": ["INV_Armor_5", "INV_Weapon_5"],
-	"炮手威利": ["INV_Armor_5", "INV_Weapon_5"],
-	"奈鲁布恩坎": ["INV_Weapon_5", "INV_Armor_5"],
-	"苍白的玛勒基": ["INV_Weapon_5", "INV_Armor_5", "INV_Armor_5"],
-  "瑞文戴尔男爵": ["INV_Armor_5", "INV_Weapon_5", "INV_Weapon_5"]
+	"巴纳扎尔": ["INV_Trinket_All_1002"],
+	"安娜丝塔丽男爵夫人": ["INV_Weapon_Mace_103", "INV_Weapon_Bow_102"],
+	"奈鲁布恩坎": ["INV_Weapon_Bow_102", "INV_Armor_Leather_105"],
+	"苍白的玛勒基": ["INV_Weapon_Mace_103", "INV_Armor_Leather_105"],
+    "瑞文戴尔男爵": ["INV_Weapon_TwoSword_1002", "INV_Trinket_All_1003"]
 	},
 "characters": {
 	"巴纳扎尔": [{"position":0,"cardkey":"npc_zs_5"},{"position":5,"cardkey":"npc_zs_5"},
@@ -18,7 +18,7 @@
             {"position":9,"cardkey":"npc_boss_501"},{"position":10,"cardkey":"npc_dz_5"},
             {"position":11,"cardkey":"npc_ms_5"},{"position":15,"cardkey":"npc_ms_5"}],
 			
-	"炮手威利": [{"position":0,"cardkey":"npc_zs_5"},{"position":3,"cardkey":"npc_zs_5"},
+	"安娜丝塔丽男爵夫人": [{"position":0,"cardkey":"npc_zs_5"},{"position":3,"cardkey":"npc_zs_5"},
 			      {"position":5,"cardkey":"npc_ss_hm_5"},{"position":6,"cardkey":"npc_ss_hm_5"},
             {"position":9,"cardkey":"npc_ss_hm_5"},{"position":10,"cardkey":"npc_boss_502"},
             {"position":12,"cardkey":"npc_ms_sh_5"},{"position":15,"cardkey":"npc_ms_sh_5"}],

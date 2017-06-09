@@ -3,10 +3,13 @@
 
 "name":"矿工约翰森",
 "id":1102,
-"imagename": "sm_zengqiang",
+"icon": "npc_boss_102",
+"imagename": "zs_wuqi",
 "attacktype":"physics",
-"cls": "增强萨",
-"story": "辛辛苦苦挖了一辈子矿",
+
+
+"cls": "zs_wuqi",
+"displaycls": "武器战",
 
 
 "maxhp": 100,
@@ -15,17 +18,15 @@
 "sp":3,
 
 
-"atk":100,
-"mag":0,
 "def":40,
 "spd":0,
 
 
-"skill0description": ["首领", "暴击"],
+"skill0description": ["首领"],
 "skill1factor":15,
-"skill2factor":15,
-"skill1description":"挥舞手中的武器",
-"skill2description":"挥舞手中的武器3次",
+"skill2factor":30,
+"skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
+"skill2description":"致死打击:近战物理攻击附加#致死#状态,每次造成伤害30点",
 
 
 "baoji":15,
@@ -34,9 +35,6 @@
 "gedang":30,
 
 
-"zaisheng":0,
-"xixue": 0,
-"fantangwuli":0,
-"fantanfashu":0
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

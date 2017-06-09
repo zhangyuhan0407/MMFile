@@ -1,29 +1,46 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
+"key":"npc_boss_210",
+
+"name":"大法师阿鲁高",
+"id":1102,
+"imagename": "npc_boss_210",
 "attacktype":"physics",
-"xixue":0,
-"id":1101,
+
+
+"cls": "fs_aoshu",
+"displaycls": "奥法",
+
+
+"maxhp": 120,
+"maxsp": 3,
+"hp":120,
 "sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪108",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+
+
+"atk":100,
 "mag":0,
-"rule":1,
-"shanbi":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
 "skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"skill2factor":35,
+"skill1description":"奥术冲击:对前方敌人造成少量伤害",
+"skill2description":"沉默:沉默怒气最高敌人,如果该敌人怒气达到最大则造成双倍伤害",
+
+
+"baoji":15,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

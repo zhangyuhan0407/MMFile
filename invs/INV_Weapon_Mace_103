@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_Mace_103",
+"imagename": "INV_Weapon_Mace_103",
+"displayname":"邪恶权杖",
+
+"index": 103,
+
+"category": "weapon",
+"type": "Mace",
+
+
+"hp": 25,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}

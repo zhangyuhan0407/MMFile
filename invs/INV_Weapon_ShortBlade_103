@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_ShortBlade_103",
+"imagename": "INV_Weapon_ShortBlade_103",
+"displayname":"催眠之刃",
+
+"index": 103,
+
+"category": "weapon",
+"type": "ShortBlade",
+
+
+"sp": 1,
+
+
+"rarity": "blue",
+"count": 1,
+"usage": "",
+"story": ""
+}
