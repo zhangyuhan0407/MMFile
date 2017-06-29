@@ -1,7 +1,7 @@
 {
 "key":"BOOK_Weapon_OneSword_1003",
 "imagename": "INV_Weapon_OneSword_1003",
-"index": 1003,
+"index": 1007,
 "displayname":"克罗之刃",
 
 "materials": [  {"key": "INV_Misc_Metal_2", "count": 5},

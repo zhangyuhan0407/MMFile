@@ -1,7 +1,7 @@
 {
 "key":"BOOK_Weapon_Halberd_1001",
 "imagename": "INV_Weapon_Halberd_1001",
-"index": 1001,
+"index": 1003,
 "displayname":"炽炎战斧",
 
 "materials": [  {"key": "INV_Misc_Metal_2", "count": 3},

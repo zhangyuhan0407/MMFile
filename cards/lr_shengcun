@@ -2,36 +2,40 @@
 "key":"lr_shengcun",
 
 
-"name":"生存猎",
+"name":"猎人学徒",
 "cls": "lr_shengcun",
-"displaycls":"生存猎",
+"displaycls":"生存",
 "id":18,
 "attacktype":"physics",
 
 
-"hp":50,
-"sp":3,
-"def":20,
+"maxhp":40,
+"maxsp":3,
+"hp":40,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":55,
 
 
 
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"自动射击:",
-"skill2description":"穿刺射击:对竖排敌人造成伤害",
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"自动射击:远程物理攻击",
+"skill2description":"穿刺射击:对3*3范围造成伤害并减少怒气",
 
 
 
+"mingzhong":10,
+"shanbi":0,
 "baoji":0,
 "gedang":0,
-"mingzhong":0,
-"shanbi":0,
 
 
 "fantangwuli":0,
 "fantanfashu":0,
 "xixue":0,
-"zaisheng":0
+"zaisheng":10
 
 }

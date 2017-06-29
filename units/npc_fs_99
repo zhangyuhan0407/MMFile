@@ -1,0 +1,33 @@
+{
+"key":"npc_fs_99",
+
+
+"name":"法师",
+"id":102,
+"imagename": "fs_normal",
+"attacktype":"fire",
+"displaycls": "火法",
+"cls":"fs_normal",
+
+
+"maxhp": 40,
+"maxsp": 2,
+"hp":40,
+"sp":0,
+"def":0,
+"spd":0,
+
+
+"atk": 15,
+"baoji":0,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"skill1factor":100,
+"skill2factor":300,
+"skill1description":"法术攻击，拥有较高的法力",
+"skill2description":""
+
+}

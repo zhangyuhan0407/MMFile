@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Bow_1502",
+"imagename": "INV_Weapon_Bow_1502",
+"index": 1101,
+"displayname":"上古骨弓",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 3},
+                {"key": "INV_Misc_Stone_1", "count": 5}
+            ],
+
+"result": "INV_Weapon_Bow_1502",
+
+
+"usage": "打造一个史诗级别上古骨弓"
+}
+

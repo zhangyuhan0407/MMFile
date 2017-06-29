@@ -4,26 +4,31 @@
 
 "name":"猎人",
 "id":102,
-"imagename": "CARD_Normal_LR",
+"imagename": "lr_normal",
 "attacktype":"physics",
-"cls":"射击猎",
+"displaycls": "射击猎",
+"cls":"lr_normal",
 
 
-"maxhp": 45,
+"maxhp": 50,
 "maxsp": 0,
-"hp":45,
+"hp":50,
 "sp":0,
-"def":10,
+"def":0,
 "spd":50,
 
 
+"atk": 25,
+"baoji":30,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
 
-"skill1factor":25,
+
+"skill1factor":100,
 "skill2factor":0,
 "skill1description":"远程攻击，拥有较高的攻击和暴击",
-"skill2description":"",
-
-"baoji": 30
+"skill2description":""
 
 }
 

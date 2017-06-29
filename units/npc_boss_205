@@ -3,7 +3,8 @@
 
 "name":"指挥官斯普林瓦尔",
 "id":1102,
-"imagename": "npc_boss_205",
+"icon": "npc_boss_205",
+"imagename": "qs_chengjie",
 "attacktype":"physics",
 
 
@@ -11,16 +12,20 @@
 "displaycls": "惩戒骑",
 
 
-"maxhp": 120,
+"maxhp": 80,
 "maxsp": 3,
-"hp":120,
-"sp":3,
+"hp":80,
+"sp":0,
 
+
+"atk":10,
+"def":0,
+"spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":15,
-"skill2factor":35,
+"skill1factor":150,
+"skill2factor":350,
 "skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
 "skill2description":"神圣风暴:对敌方造成神圣伤害,鼓舞身边友军,造成伤害35点",
 

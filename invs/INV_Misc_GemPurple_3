@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_GemPurple_3",
+"key":"INV_Misc_GemPurple_3",
+"category":"misc",
+"displayname":"大块紫宝石",
+"rarity":"purple",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加较多攻击力",
+"story": "稀有的紫宝石"
+}
+

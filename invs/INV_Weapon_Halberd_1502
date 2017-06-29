@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_Halberd_1502",
+"imagename": "INV_Weapon_Halberd_1502",
+"displayname":"奥金斧",
+
+"index": 7,
+
+"category": "weapon",
+"type": "Halberd",
+
+"hp": 10,
+"atk":10,
+"baoji":10,
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

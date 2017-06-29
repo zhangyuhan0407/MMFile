@@ -2,31 +2,35 @@
 "key":"lr_shouwang",
 
 
-"name":"兽王猎",
+"name":"猎人学徒",
 "cls": "lr_shouwang",
-"displaycls":"兽王猎",
+"displaycls":"兽王",
 "id":19,
 "attacktype":"physics",
 
 
-"hp":50,
-"sp":3,
-"def":20,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 20,
+"def":0,
 "spd":50,
 
 
 
-"skill1factor":15,
-"skill2factor":40,
+"skill1factor":100,
+"skill2factor":200,
 "skill1description":"自动射击:远程物理攻击",
 "skill2description":"杀戮命令:命令你的宠物立即对护甲最低的敌方单位造成一次物理攻击",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":20,
+"gedang":0,
 
 
 "fantangwuli":0,

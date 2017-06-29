@@ -4,21 +4,28 @@
 
 "name":"防战",
 "id":101,
-"imagename": "CARD_Normal_ZS",
+"imagename": "zs_normal",
 "attacktype":"physics",
-"cls":"防战",
+"displaycls": "防战",
+"cls":"zs_normal",
 
 
-"maxhp": 60,
+"maxhp": 50,
 "maxsp": 0,
-"hp":60,
+"hp":50,
 "sp":0,
-"def":40,
+"def":5,
 "spd":30,
 
 
+"atk": 10,
+"baoji":0,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":20,
 
-"skill1factor":10,
+
+"skill1factor":100,
 "skill2factor":0,
 "skill1description":"拥有较高的防御和格挡",
 "skill2description":""

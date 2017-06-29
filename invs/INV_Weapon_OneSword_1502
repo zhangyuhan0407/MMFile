@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_OneSword_1502",
+"imagename": "INV_Weapon_OneSword_1502",
+"displayname":"奎尔塞拉",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "OneSword",
+
+"hp":20,
+"atk": 15,
+"baoji": 10,
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

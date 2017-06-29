@@ -2,31 +2,35 @@
 "key":"ss_tongku",
 
 
-"name":"痛苦术",
+"name":"术士学徒",
 "cls": "ss_tongku",
-"displaycls":"痛苦术",
+"displaycls":"痛苦",
 "id":6,
 "attacktype":"evil",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":40,
+"maxsp":3,
+"hp":40,
+"sp":0,
+
+"atk": 10,
+"def":0,
 "spd":20,
 
 
 
-"skill1factor":10,
-"skill2factor":0,
-"skill1description":"痛苦无常:使#腐蚀术#立即生效,造成的伤害翻倍",
-"skill2description":"腐蚀术:对一个随机敌人施加#腐蚀术#",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"腐蚀术:对一个随机敌人施加#腐蚀术#",
+"skill2description":"痛苦无常:使#腐蚀术#立即生效,造成的伤害翻倍",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

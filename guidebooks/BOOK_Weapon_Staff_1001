@@ -1,7 +1,7 @@
 {
 "key":"BOOK_Weapon_Staff_1001",
 "imagename": "INV_Weapon_Staff_1001",
-"index": 1001,
+"index": 1009,
 "displayname":"乔丹法杖",
 
 "materials": [  {"key": "INV_Misc_Metal_3", "count": 5},

@@ -1,0 +1,38 @@
+{
+"key":"npc_boss_100002",
+
+"name":"虎王邦加拉什",
+"id":100002,
+"icon": "npc_boss_100002",
+"imagename": "npc_boss_100000",
+
+
+"attacktype":"physics",
+"cls": "xd_mao",
+"displaycls": "猫德",
+
+
+"maxhp": 50,
+"maxsp": 4,
+"hp":50,
+"sp":0,
+
+
+"atk":10,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":100,
+"skill2factor":300,
+"skill1description":"自动攻击:造成10点伤害",
+"skill2description":"致死打击:造成30点伤害,无法恢复生命",
+
+
+"baoji":15,
+
+
+"story": "他足足有3个人那么高!"
+
+}

@@ -3,7 +3,8 @@
 
 "name":"盲眼守卫奥杜",
 "id":1102,
-"imagename": "npc_boss_206",
+"icon": "npc_boss_206",
+"imagename": "ss_tongku",
 "attacktype":"evil",
 
 
@@ -11,18 +12,22 @@
 "displaycls": "痛苦术",
 
 
-"maxhp": 120,
+"maxhp": 70,
 "maxsp": 3,
-"hp":120,
+"hp":70,
 "sp":0,
 
 
+"atk":15,
+"def":0,
+"spd":0,
+
 
 "skill0description": ["首领"],
-"skill1factor":15,
-"skill2factor":0,
-"skill1description":"腐蚀术:对一个随机敌人施加#腐蚀术#,每回合开始造成15点伤害",
-"skill2description":"痛苦无常:使#腐蚀术#立即生效,造成的伤害翻倍",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"腐蚀术:对随机敌人施加#腐蚀术#,每回合开始造成15点伤害",
+"skill2description":"痛苦无常:使#腐蚀术#立即生效",
 
 
 

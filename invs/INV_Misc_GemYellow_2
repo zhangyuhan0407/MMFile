@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_GemYellow_2",
+"key":"INV_Misc_GemYellow_2",
+"category":"misc",
+"displayname":"小块猫眼石",
+"rarity":"blue",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加些许属性",
+"story": "优秀的猫眼石"
+}
+

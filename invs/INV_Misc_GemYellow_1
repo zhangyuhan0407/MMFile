@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_GemYellow_1",
+"key":"INV_Misc_GemYellow_1",
+"category":"misc",
+"displayname":"破碎的猫眼石",
+"rarity":"green",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加少许属性",
+"story": "少见的猫眼石"
+}
+

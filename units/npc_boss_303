@@ -1,42 +1,47 @@
 {
-"name":"斯尼德",
+"key":"npc_boss_303",
 
-
-"key":"npc_boss_103",
-"id":1103,
-"cls": "增强萨",
-"imagename": "sm_zengqiang",
+"name":"图特卡什",
+"id":1102,
 "attacktype":"physics",
 
 
+"icon": "npc_boss_303",
+"imagename": "dz_cisha",
+"cls": "dz_cisha",
+"displaycls": "刺杀贼",
 
-"maxhp": 150,
+
+"maxhp": 60,
 "maxsp": 3,
-"hp":150,
-"sp":3,
+"hp":60,
+"sp":0,
 
 
-"atk":100,
+"atk":10,
 "mag":0,
-"def":40,
+"def":0,
 "spd":0,
 
 
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"boss",
-"skill2description":"",
+"skill0description": ["首领", "暴击"],
+"skill1factor":150,
+"skill2factor":350,
+"skill1description":"毒刃:使用副手武器立刻攻击敌人",
+"skill2description":"毁伤:使用两把匕首同时攻击敌人,造成大量伤害",
 
 
 "baoji":15,
 "shanbi":0,
 "mingzhong": 0,
-"gedang":30,
+"gedang":0,
 
 
 "zaisheng":0,
 "xixue": 0,
 "fantangwuli":0,
-"fantanfashu":0
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

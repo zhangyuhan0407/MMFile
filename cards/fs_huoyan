@@ -5,26 +5,30 @@
 
 "id":12,
 "attacktype":"fire",
-"name":"火法",
+"name":"法师学徒",
 "cls": "fs_huoyan",
-"displaycls": "火法",
+"displaycls": "火焰",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":30,
+"maxsp":3,
+"hp":30,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":90,
 
 
-"skill1factor":20,
-"skill2factor":40,
-"skill1description":"火球术:如果暴击则产生2点怒气",
+"skill1factor":100,
+"skill2factor":300,
+"skill1description":"火球术:火焰伤害，如果暴击则产生2点怒气",
 "skill2description":"炎爆术:造成大量火焰伤害",
 
 
 "mingzhong":0,
-"shanbi":30,
-"baoji":15,
+"shanbi":0,
+"baoji":30,
 "gedang":0,
 
 

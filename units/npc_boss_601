@@ -1,0 +1,47 @@
+{
+"key":"npc_boss_601",
+
+"name":"巴纳扎尔",
+"id":1102,
+"attacktype":"evil",
+
+
+"icon": "npc_boss_601",
+"imagename": "ss_emo",
+"cls": "ss_emo",
+"displaycls": "恶魔术",
+
+
+"maxhp": 80,
+"maxsp": 3,
+"hp":80,
+"sp":3,
+
+
+"atk":10,
+"mag":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":200,
+"skill2factor":500,
+"skill1description":"暗影箭:对正前方敌人造成少量伤害",
+"skill2description":"地狱火:对目标及其周围单位造成大幅法术伤害",
+
+
+"baoji":15,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
+}

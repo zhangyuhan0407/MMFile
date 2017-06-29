@@ -1,42 +1,47 @@
 {
-"name":"斯尼德",
+"key":"npc_boss_503",
+
+"name":"巫医祖穆拉恩",
+"id":1102,
+"attacktype":"nature",
 
 
-"key":"npc_boss_103",
-"id":1103,
-"cls": "增强萨",
-"imagename": "sm_zengqiang",
-"attacktype":"physics",
+"icon": "npc_boss_503",
+"imagename": "sm_zhiliao",
+"cls": "sm_zhiliao",
+"displaycls": "奶萨",
 
 
+"maxhp": 70,
+"maxsp": 5,
+"hp":70,
+"sp":5,
 
-"maxhp": 150,
-"maxsp": 3,
-"hp":150,
-"sp":3,
 
-
-"atk":100,
+"atk":40,
 "mag":0,
-"def":40,
+"def":0,
 "spd":0,
 
 
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"boss",
-"skill2description":"",
+"skill0description": ["首领", "暴击"],
+"skill1factor":100,
+"skill2factor":0,
+"skill1description":"激流:对生命最少己方单位恢复中量气血",
+"skill2description":"嗜血:为己方全体添加#嗜血#状态",
 
 
 "baoji":15,
 "shanbi":0,
 "mingzhong": 0,
-"gedang":30,
+"gedang":0,
 
 
 "zaisheng":0,
 "xixue": 0,
 "fantangwuli":0,
-"fantanfashu":0
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_ShortBlade_1502",
+"imagename": "INV_Weapon_ShortBlade_1502",
+"displayname":"恶魔之击",
+
+"index": 3,
+
+"category": "weapon",
+"type": "ShortBlade",
+
+"atk":15,
+"baoji":15,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

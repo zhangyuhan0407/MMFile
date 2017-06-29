@@ -4,23 +4,32 @@
 
 "name":"潜行者",
 "id":102,
-"imagename": "CARD_Normal_DZ",
+"imagename": "dz_normal",
 "attacktype":"physics",
-"cls":"刺杀贼",
+"displaycls": "刺杀贼",
+"cls":"dz_normal",
 
 
-"maxhp": 45,
+"maxhp": 30,
 "maxsp": 0,
-"hp":45,
+"hp":30,
 "sp":0,
-"def":10,
+"def":0,
 "spd":70,
 
 
+"atk": 10,
+"baoji":15,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
 
-"skill1factor":15,
+
+"skill1factor":100,
 "skill2factor":0,
 "skill1description":"近战攻击，拥有较高的攻击",
 "skill2description":""
+
+
 
 }

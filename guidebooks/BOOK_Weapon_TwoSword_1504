@@ -1,0 +1,15 @@
+{
+"key":"BOOK_Weapon_TwoSword_1504",
+"imagename": "INV_Weapon_TwoSword_1504",
+"index": 1112,
+"displayname":"阿什坎迪，兄弟会之剑",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 8},
+                {"key": "INV_Misc_Stone_1", "count": 20}
+            ],
+
+"result": "INV_Weapon_TwoSword_1504",
+
+"usage": "获得阿什坎迪，兄弟会之剑"
+}
+

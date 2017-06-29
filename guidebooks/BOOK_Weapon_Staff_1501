@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Staff_1501",
+"imagename": "INV_Weapon_Staff_1501",
+"index": 1110,
+"displayname":"埃霍恩的冰霜之镰刀",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 5},
+                {"key": "INV_Misc_Stone_3", "count": 12}
+            ],
+
+"result": "INV_Weapon_Staff_1501",
+
+
+"usage": "获得埃霍恩的冰霜之镰刀"
+}
+

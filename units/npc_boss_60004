@@ -1,0 +1,36 @@
+{
+"key":"npc_boss_60004",
+
+"name":"绿皮船长",
+"id":60004,
+"icon": "npc_boss_60004",
+"imagename": "npc_boss_60000",
+"attacktype":"physics",
+
+"cls": "zs_wuqi",
+"displaycls": "武器战",
+
+
+"maxhp": 70,
+"maxsp": 3,
+"hp":70,
+"sp":0,
+
+"atk":20,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":100,
+"skill2factor":300,
+"skill1description":"自动攻击:造成20点伤害",
+"skill2description":"致死打击:造成60点伤害,无法恢复生命",
+
+
+"baoji":15,
+
+
+"story": "他足足有3个人那么高!"
+
+}

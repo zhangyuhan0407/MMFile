@@ -2,36 +2,40 @@
 "key":"qs_fangyu",
 
 
-"name":"防骑",
+"name":"骑士学徒",
 "cls": "qs_fangyu",
-"displaycls":"防骑",
+"displaycls":"防御",
 "id":27,
 "attacktype":"holy",
 
 
-"hp":50,
-"sp":3,
-"def":45,
+"maxhp":60,
+"maxsp":3,
+"hp":60,
+"sp":0,
+
+"atk": 5,
+"def":5,
 "spd":40,
 
 
 
-"skill1factor":5,
-"skill2factor":25,
-"skill1description":"自动攻击:自动攻击",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"自动攻击:近战物理伤害",
 "skill2description":"炽热防御者:我还没想好有什么用",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,
 "fantanfashu":0,
 "xixue":0,
-"zaisheng":0
+"zaisheng":30
 
 }

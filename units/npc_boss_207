@@ -3,7 +3,8 @@
 
 "name":"死亡之誓",
 "id":1102,
-"imagename": "npc_boss_207",
+"icon": "npc_boss_207",
+"imagename": "ss_huimie",
 "attacktype":"physics",
 
 
@@ -11,18 +12,20 @@
 "displaycls": "毁灭术",
 
 
-"maxhp": 120,
+"maxhp": 70,
 "maxsp": 3,
-"hp":120,
-"sp":0,
+"hp":70,
+"sp":3,
 
 
-
+"atk":10,
+"def":0,
+"spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":10,
-"skill2factor":5,
+"skill1factor":100,
+"skill2factor":50,
 "skill1description":"献祭:对一个敌人施加#献祭#并造成10点伤害",
 "skill2description":"火焰雨:全体造成5点伤害,每存在一个受到#献祭#影响的敌人,伤害翻一倍",
 

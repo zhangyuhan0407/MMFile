@@ -1,0 +1,37 @@
+{
+"key": "mission_99",
+"index": 99,
+"icon": "MissionIcon_99",
+"title": "卫兵的晚餐",
+"story": "卫兵托马斯的晚餐",
+"boss": ["托马斯"],
+"slots": {
+    "0": ["PROP_Silver_100"],
+    "1": ["PROP_Silver_100"],
+    "2": ["PROP_Silver_100"],
+    "3": ["PROP_Silver_100"],
+    "11": ["INV_Misc_Stone_1_5"],
+    "12": ["INV_Misc_Stone_1_5"],
+    "13": ["INV_Misc_Stone_1_5"],
+    "101": ["INV_Misc_Metal_1_5"],
+    "102": ["INV_Misc_Metal_1_5"],
+    "103": ["INV_Misc_Metal_1_5"],
+    "1001": ["CARD_MS"],
+    "1002": ["CARD_MS"],
+    "1003": ["CARD_MS"],
+    "9999": ["PROP_Gold_1000"]
+},
+"characters": {
+    "0": [{"position":1,"cardkey":"npc_boss_990001"}],
+    "1": [{"position":1,"cardkey":"npc_boss_990001"}],
+    "2": [{"position":1,"cardkey":"npc_boss_990001"},{"position":2,"cardkey":"npc_fs_99"}],
+    "3": [{"position":1,"cardkey":"npc_boss_990001"},{"position":6,"cardkey":"npc_fs_99"}],
+    "4": [{"position":1,"cardkey":"npc_boss_990001"},{"position":5,"cardkey":"npc_zs_1"}],
+
+
+    "5": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_990001"}],
+    "6": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_990001"}],
+    "7": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_990001"}],
+    "8": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_990001"}]
+}
+}

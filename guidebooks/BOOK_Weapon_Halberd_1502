@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Halberd_1502",
+"imagename": "INV_Weapon_Halberd_1502",
+"index": 1103,
+"displayname":"奥金斧",
+
+"materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
+                {"key": "INV_Misc_Stone_2", "count": 5}
+],
+
+"result": "INV_Weapon_Halberd_1502",
+
+
+"usage": "打造获得一个奥金斧"
+}
+

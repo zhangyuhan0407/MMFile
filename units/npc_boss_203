@@ -3,7 +3,8 @@
 
 "name":"屠夫拉佐克劳",
 "id":1102,
-"imagename": "npc_boss_203",
+"icon": "npc_boss_203",
+"imagename": "zs_wuqi",
 "attacktype":"physics",
 
 
@@ -11,16 +12,20 @@
 "displaycls": "武器战",
 
 
-"maxhp": 150,
+"maxhp": 80,
 "maxsp": 3,
-"hp":150,
-"sp":3,
+"hp":80,
+"sp":0,
 
+
+"atk":10,
+"def":0,
+"spd":0,
 
 
 "skill0description": ["首领", "高生命"],
-"skill1factor":15,
-"skill2factor":35,
+"skill1factor":150,
+"skill2factor":350,
 "skill1description":"自动攻击:近战物理攻击,每次造成伤害15点",
 "skill2description":"致死打击:近战物理攻击附加#致死#状态,每次造成伤害35点",
 

@@ -8,6 +8,10 @@
 "category": "weapon",
 "type": "Spear",
 
+
+"atk":10,
+"mingzhong": 10,
+
 "rarity": "purple",
 "count": 1,
 "usage": "",

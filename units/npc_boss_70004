@@ -1,0 +1,38 @@
+{
+"key":"npc_boss_70004",
+
+"name":"泰希斯",
+"id":70004,
+"icon": "npc_boss_70004",
+"imagename": "npc_boss_70000",
+
+
+"attacktype":"physics",
+"cls": "xd_mao",
+"displaycls": "猫德",
+
+
+"maxhp": 70,
+"maxsp": 3,
+"hp":70,
+"sp":3,
+
+
+"atk":20,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"偷袭:攻击敌方最后一个单位,造成伤害20点伤害",
+"skill2description":"野性位移:攻击并眩晕敌方最后一个单位,造成伤害40点伤害",
+
+
+"baoji":15,
+
+
+"story": "他足足有3个人那么高!"
+
+}

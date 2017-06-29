@@ -1,0 +1,37 @@
+{
+"key":"npc_boss_50002",
+
+"name":"老瞎眼",
+"id":50002,
+"icon": "npc_boss_50002",
+"imagename": "npc_boss_50000",
+
+
+"attacktype":"physics",
+"cls": "sm_zengqiang",
+"displaycls": "增强萨",
+
+
+"maxhp": 50,
+"maxsp": 3,
+"hp":50,
+"sp":0,
+
+"atk":10,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"自动攻击:造成10点伤害,有几率触发风怒",
+"skill2description":"风怒:连续攻击3次,每次造成10点伤害",
+
+
+"baoji":15,
+
+
+"story": "时常出没在西部荒野的海湾"
+
+}

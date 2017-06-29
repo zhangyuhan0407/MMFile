@@ -3,7 +3,8 @@
 
 "name":"雷希戈尔",
 "id":1102,
-"imagename": "npc_boss_201",
+"icon": "npc_boss_201",
+"imagename": "zs_fangyu",
 "attacktype":"physics",
 
 
@@ -11,21 +12,20 @@
 "displaycls": "防战",
 
 
-"maxhp": 120,
+"maxhp": 60,
 "maxsp": 3,
-"hp":120,
+"hp":60,
 "sp":0,
 
 
-"atk":100,
-"mag":0,
-"def":20,
+"atk":10,
+"def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "防御"],
-"skill1factor":10,
-"skill2factor":15,
+"skill1factor":100,
+"skill2factor":150,
 "skill1description":"自动攻击:自动攻击,造成10点伤害",
 "skill2description":"盾墙:减少受到的60%物理伤害,持续1回合,并造成15点伤害",
 

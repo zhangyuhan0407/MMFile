@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_ShortBlade_1501",
+"imagename": "INV_Weapon_ShortBlade_1501",
+"index": 1108,
+"displayname":"毁灭之刃",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 5},
+                {"key": "INV_Misc_Stone_1", "count": 12}
+            ],
+
+"result": "INV_Weapon_ShortBlade_1501",
+
+
+"usage": "获得毁灭之刃"
+}
+

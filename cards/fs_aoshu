@@ -2,31 +2,35 @@
 
 "key":"fs_aoshu",
 
+"id":1,
 
-"id":12,
 "attacktype":"arcane",
-"name":"奥法",
+"name":"法师学徒",
 "cls": "fs_aoshu",
-"displaycls": "奥法",
+"displaycls": "奥术",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":30,
+"maxsp":3,
+"hp":30,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":90,
 
 
 
-"skill1factor":15,
-"skill2factor":30,
-"skill1description":"奥术冲击:对前方敌人造成少量伤害",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"奥术冲击:对前方敌人造成少量奥术伤害",
 "skill2description":"沉默:沉默怒气最高敌人,如果该敌人怒气达到最大则造成双倍伤害",
 
 
 
 "mingzhong":0,
-"shanbi":30,
-"baoji":15,
+"shanbi":0,
+"baoji":0,
 "gedang":0,
 
 

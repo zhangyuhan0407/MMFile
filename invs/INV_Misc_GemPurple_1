@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_GemPurple_1",
+"key":"INV_Misc_GemPurple_1",
+"category":"misc",
+"displayname":"破碎的紫宝石",
+"rarity":"green",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加少许攻击力",
+"story": "少见的紫宝石"
+}
+

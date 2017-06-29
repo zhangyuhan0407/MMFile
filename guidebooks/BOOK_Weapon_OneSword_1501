@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_OneSword_1501",
+"imagename": "INV_Weapon_OneSword_1501",
+"index": 1105,
+"displayname":"玛拉达斯，黑龙军团的符文之剑",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 8},
+                {"key": "INV_Misc_Stone_3", "count": 20}
+            ],
+
+"result": "INV_Weapon_OneSword_1501",
+
+
+"usage": "获得玛拉达斯，黑龙军团的符文之剑"
+}
+

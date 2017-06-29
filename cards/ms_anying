@@ -2,31 +2,35 @@
 "key":"ms_anying",
 
 
-"name":"暗牧",
+"name":"牧师学徒",
 "cls": "ms_anying",
-"displaycls":"暗牧",
+"displaycls":"暗影",
 "id":9,
 "attacktype":"shadow",
 
 
-"hp":50,
-"sp":3,
+"maxhp":30,
+"maxsp":3,
+"hp":30,
+"sp":0,
+
+"atk": 10,
 "def":0,
 "spd":30,
 
 
 
-"skill1factor":10,
-"skill2factor":40,
-"skill1description":"真言术 痛:对正前方敌人施加#真言术 痛#",
+"skill1factor":100,
+"skill2factor":300,
+"skill1description":"真言术 痛:对正前方敌人造成暗影伤害,吸取怒气",
 "skill2description":"心灵震爆:对怒气最高敌方单位造成大量伤害,并吸取怒气",
 
 
 
+"mingzhong":10,
+"shanbi":0,
 "baoji":0,
 "gedang":0,
-"mingzhong":0,
-"shanbi":0,
 
 
 "fantangwuli":0,

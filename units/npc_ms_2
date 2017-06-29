@@ -4,22 +4,25 @@
 
 "name":"牧师",
 "id":102,
-"imagename": "CARD_Normal_MS",
+"imagename": "ms_normal",
 "attacktype":"holy",
-"cls":"神牧",
+"displaycls": "神牧",
+"cls":"ms_shensheng",
 
 
-"maxhp": 55,
+"maxhp": 35,
 "maxsp": 3,
-"hp":45,
+"hp":35,
 "sp":0,
 "def":0,
 "spd":30,
 
 
+"atk": 20,
+
 
 "skill1factor":0,
-"skill2factor":20,
+"skill2factor":100,
 "skill1description":"为全体友军恢复1点怒气",
 "skill2description":"为全体友军恢复1点怒气和少量生命"
 

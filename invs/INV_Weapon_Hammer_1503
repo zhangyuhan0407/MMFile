@@ -1,0 +1,22 @@
+{
+"key":"INV_Weapon_Hammer_1503",
+"imagename": "INV_Weapon_Hammer_1503",
+"displayname":"无坚不摧之力",
+
+"index": 1001,
+
+"category": "weapon",
+"type": "Hammer",
+
+
+"hp":10,
+"atk":15,
+"baoji":15,
+"sp":1,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

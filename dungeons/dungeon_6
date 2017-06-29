@@ -3,7 +3,7 @@
 "index": 6,
 "icon": "zuerfalake",
 "title": "斯坦索姆",
-"story": "国王泰瑞纳斯的独子——阿尔萨斯王子还是个圣骑士的时候...来到了这被亡灵瘟疫受困的斯坦索姆...",
+"story": "国王泰瑞纳斯的独子。－－阿尔萨斯王子。还是个圣骑士的时候。来到了这被亡灵瘟疫受困的斯坦索姆",
 "boss": ["巴纳扎尔", "安娜丝塔丽男爵夫人", "奈鲁布恩坎", "苍白的玛勒基", "瑞文戴尔男爵"],
 "slots": {
 	"巴纳扎尔": ["INV_Trinket_All_1002"],
@@ -13,29 +13,29 @@
     "瑞文戴尔男爵": ["INV_Weapon_TwoSword_1002", "INV_Trinket_All_1003"]
 	},
 "characters": {
-	"巴纳扎尔": [{"position":0,"cardkey":"npc_zs_5"},{"position":5,"cardkey":"npc_zs_5"},
-			      {"position":6,"cardkey":"npc_zs_5"},{"position":7,"cardkey":"npc_zs_5"},
-            {"position":9,"cardkey":"npc_boss_501"},{"position":10,"cardkey":"npc_dz_5"},
-            {"position":11,"cardkey":"npc_ms_5"},{"position":15,"cardkey":"npc_ms_5"}],
+	"巴纳扎尔": [{"position":0,"cardkey":"npc_zs_3"},{"position":5,"cardkey":"npc_zs_3"},
+			      {"position":6,"cardkey":"npc_zs_3"},{"position":7,"cardkey":"npc_zs_3"},
+            {"position":9,"cardkey":"npc_boss_601"},{"position":10,"cardkey":"npc_dz_3"},
+            {"position":11,"cardkey":"npc_ms_3"},{"position":15,"cardkey":"npc_ms_3"}],
 			
-	"安娜丝塔丽男爵夫人": [{"position":0,"cardkey":"npc_zs_5"},{"position":3,"cardkey":"npc_zs_5"},
-			      {"position":5,"cardkey":"npc_ss_hm_5"},{"position":6,"cardkey":"npc_ss_hm_5"},
-            {"position":9,"cardkey":"npc_ss_hm_5"},{"position":10,"cardkey":"npc_boss_502"},
-            {"position":12,"cardkey":"npc_ms_sh_5"},{"position":15,"cardkey":"npc_ms_sh_5"}],
+	"安娜丝塔丽男爵夫人": [{"position":0,"cardkey":"npc_zs_3"},{"position":3,"cardkey":"npc_zs_3"},
+			      {"position":5,"cardkey":"npc_ss_3"},{"position":6,"cardkey":"npc_ss_3"},
+            {"position":9,"cardkey":"npc_ss_3"},{"position":10,"cardkey":"npc_boss_602"},
+            {"position":12,"cardkey":"npc_ms_3"},{"position":15,"cardkey":"npc_ms_3"}],
 			
-	"奈鲁布恩坎":[{"position":0,"cardkey":"npc_sm_zq_5"},{"position":2,"cardkey":"npc_sm_zq_5"},
-			      {"position":5,"cardkey":"npc_sm_ys_5"},{"position":7,"cardkey":"npc_sm_ys_5"},
-            {"position":8,"cardkey":"npc_sm_ys_5"},{"position":10,"cardkey":"npc_boss_503"},
-            {"position":13,"cardkey":"npc_sm_zl_5"},{"position":15,"cardkey":"npc_sm_zl_5"}],
+	"奈鲁布恩坎":[{"position":0,"cardkey":"npc_sm_3"},{"position":2,"cardkey":"npc_sm_3"},
+			      {"position":5,"cardkey":"npc_sm_3"},{"position":7,"cardkey":"npc_sm_3"},
+            {"position":8,"cardkey":"npc_sm_3"},{"position":10,"cardkey":"npc_boss_603"},
+            {"position":13,"cardkey":"npc_sm_3"},{"position":15,"cardkey":"npc_sm_3"}],
 			
-	"苍白的玛勒基": [{"position":1,"cardkey":"npc_qs_5"},{"position":2,"cardkey":"npc_qs_5"},
-			      {"position":4,"cardkey":"npc_boss_504"},{"position":7,"cardkey":"npc_boss_504"},
-            {"position":8,"cardkey":"npc_ms_jl_5"},{"position":11,"cardkey":"npc_ms_jl_5"},
-            {"position":12,"cardkey":"npc_ms_jl_5"},{"position":15,"cardkey":"npc_ms_jl_5"}],
+	"苍白的玛勒基": [{"position":1,"cardkey":"npc_qs_3"},{"position":2,"cardkey":"npc_qs_3"},
+			      {"position":4,"cardkey":"npc_boss_604"},{"position":7,"cardkey":"npc_boss_604"},
+            {"position":8,"cardkey":"npc_ms_3"},{"position":11,"cardkey":"npc_ms_3"},
+            {"position":12,"cardkey":"npc_ms_3"},{"position":15,"cardkey":"npc_ms_3"}],
 			
-  "瑞文戴尔男爵": [{"position":0,"cardkey":"npc_qs_5"},{"position":1,"cardkey":"npc_qs_5"},
-			      {"position":2,"cardkey":"npc_qs_5"},{"position":6,"cardkey":"npc_fs_5"},
-            {"position":7,"cardkey":"npc_ms_5"},{"position":9,"cardkey":"npc_boss_505"},
-            {"position":11,"cardkey":"npc_fs_5"},{"position":15,"cardkey":"npc_fs_5"}]
+  "瑞文戴尔男爵": [{"position":0,"cardkey":"npc_qs_3"},{"position":1,"cardkey":"npc_qs_3"},
+			      {"position":2,"cardkey":"npc_qs_3"},{"position":6,"cardkey":"npc_fs_3"},
+            {"position":7,"cardkey":"npc_ms_3"},{"position":9,"cardkey":"npc_boss_605"},
+            {"position":11,"cardkey":"npc_fs_3"},{"position":15,"cardkey":"npc_fs_3"}]
 }
 }

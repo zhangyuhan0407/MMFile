@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Hammer_1502",
+"imagename": "INV_Weapon_Hammer_1502",
+"index": 10002,
+"displayname":"萨弗拉斯，炎魔拉格纳罗斯之手",
+
+"materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
+                {"key": "INV_Misc_Stone_2", "count": 5}
+],
+
+"result": "INV_Weapon_Hammer_1502",
+"rarity": "orange",
+
+"usage": "打造获得一个暗影套装"
+}
+

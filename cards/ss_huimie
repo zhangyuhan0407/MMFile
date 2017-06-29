@@ -2,30 +2,34 @@
 "key":"ss_huimie",
 
 
-"name":"毁灭术",
-"cls":"毁灭术",
+"name":"术士学徒",
+"displaycls":"毁灭",
+"cls":"ss_huimie",
 "id":5,
 "attacktype":"fire",
 
 
-"hp":50,
-"sp":3,
-"def":15,
+"maxhp":40,
+"maxsp":3,
+"hp":40,
+"sp":0,
+
+"atk": 10,
+"def":0,
 "spd":25,
 
 
 
-"skill1factor":10,
-"skill2factor":5,
-
+"skill1factor":100,
+"skill2factor":50,
 "skill1description":"献祭:对一个敌人施加#献祭#并造成少量伤害",
-"skill2description":"火焰雨:全体造成5点伤害,每存在一个受到#献祭#影响的敌人,伤害翻一倍",
+"skill2description":"火焰之雨:全体造成5点伤害,每存在一个受到#献祭#影响的敌人,伤害翻一倍",
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

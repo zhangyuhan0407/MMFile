@@ -85,24 +85,32 @@ class MMInventoryRepo {
             
             let ret2: JSON
             if k.contains("Gold") {
+                
                 var json = invs["PROP_Gold"]!
                 json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
                 ret2 = json
+                
             }
                 
                 
             else if k.contains("Silver") {
+                
                 var json = invs["PROP_Silver"]!
                 json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
                 ret2 = json
+                
             }
+                
                 
             else if k.contains("CARD_Random") {
                 
                 let type = randomClass()
                 
                 ret2 = invs["CARD_\(type)"]!
+                
             }
+                
+                
             else {
                 
                 
@@ -112,6 +120,8 @@ class MMInventoryRepo {
                 else {
                     fatalError()
                 }
+                
+                
             }
             
             return ret2
@@ -120,37 +130,6 @@ class MMInventoryRepo {
         
         return ret
         
-        
-        
-//        let k = key
-//        let ret: JSON
-//        if k.contains("Gold") {
-//            var json = invs["PROP_Gold"]!
-//            if
-//            json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
-//            ret = json
-//        }
-//            
-//            
-//        else if k.contains("Silver") {
-//            var json = invs["PROP_Silver"]!
-//            json.update(value: k.components(separatedBy: "_")[2], forKey: "count")
-//            ret = json
-//        }
-//            
-//        else if k.contains("CARD_Random") {
-//            
-//            let type = randomClass()
-//            
-//            
-//            ret = invs["CARD_\(type)"]!
-//        }
-//            
-//        else {
-//            ret = invs[k]!
-//        }
-//        
-//        return ret
         
     }
     
@@ -205,71 +184,3 @@ func randomClass() -> String {
 
 
 
-
-//
-//class MMPVEStoryMiddleware: RouterMiddleware {
-//    func handle(request: RouterRequest, response: RouterResponse, next: @escaping () -> Void) throws {
-//        
-//        guard let index = request.parameters["index"] else {
-//            try response.send(OCTResponse.InputFormatError).end()
-//            return
-//        }
-//        
-//        
-//        guard let story = MMPVEStoryRepo.sharedInstance.stories[index] else {
-//            try response.send(OCTResponse.InputEmpty).end()
-//            return
-//        }
-//        
-//        
-//        try response.send(OCTResponse.Succeed(data: story)).end()
-//        
-//        
-//    }
-//}
-//
-//
-//class MMPVEStoryRepo {
-//    
-//    static let sharedInstance = MMPVEStoryRepo()
-//    
-//    var stories = [String: JSON]()
-//    
-//    
-//    private init() {
-//        self.reload()
-//    }
-//    
-//    
-//    public func reload() {
-//        for _ in 0..<5 {
-//            do {
-//                try loadStories()
-//                break
-//            } catch {
-//                continue
-//            }
-//        }
-//    }
-//    
-//    
-//    func loadStories() throws {
-//        
-//        stories = [:]
-//        
-//        for i in 1...PVE_COUNT {
-//            
-//            let key = "PVE_\(i)"
-//            
-//            guard let json = JSON.read(fromFile: "\(StoryPath)/\(key)") else {
-//                throw OCTError.dataConvert
-//            }
-//            
-//            stories.updateValue(json, forKey: "\(i)")
-//            
-//        }
-//        
-//    }
-//
-//}
-//

@@ -3,7 +3,8 @@
 
 "name":"阿鲁高的虚空行者",
 "id":1102,
-"imagename": "npc_boss_208",
+"icon": "npc_boss_208",
+"imagename": "ss_emo",
 "attacktype":"physics",
 
 
@@ -11,21 +12,22 @@
 "displaycls": "恶魔术",
 
 
-"maxhp": 120,
+"maxhp": 80,
 "maxsp": 3,
-"hp":120,
-"sp":3,
+"hp":80,
+"sp":0,
 
 
+"atk":15,
 "def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":15,
-"skill2factor":30,
+"skill1factor":100,
+"skill2factor":200,
 "skill1description":"暗影箭:对正前方敌人造成少量伤害",
-"skill2description":"恶魔变身:变身成#恶魔形态#,属性大幅加强",
+"skill2description":"恶魔变身:对目标及其周围造成大范围暗影伤害",
 
 
 

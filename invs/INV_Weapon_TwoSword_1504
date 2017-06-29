@@ -1,0 +1,22 @@
+{
+"key":"INV_Weapon_TwoSword_1504",
+"imagename": "INV_Weapon_TwoSword_1504",
+"displayname":"阿什坎迪，兄弟会之剑",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "TwoSword",
+
+
+"atk":10,
+"baoji":10,
+"mingzhong": 15,
+"sp":3,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": "刀柄上刻有大写字母A.L"
+}

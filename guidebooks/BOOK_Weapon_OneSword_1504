@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_OneSword_1504",
+"imagename": "INV_Weapon_OneSword_1504",
+"index": 1107,
+"displayname":"提布的炙热长剑",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 8},
+                {"key": "INV_Misc_Stone_3", "count": 20}
+            ],
+
+"result": "INV_Weapon_OneSword_1504",
+
+
+"usage": "使用该物品获得一个任务"
+}
+

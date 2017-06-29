@@ -1,7 +1,7 @@
 {
 "key":"BOOK_Weapon_ShortBlade_1001",
 "imagename": "INV_Weapon_ShortBlade_1001",
-"index": 1001,
+"index": 1008,
 "displayname":"断肠",
 
 "materials": [  {"key": "INV_Misc_Metal_1", "count": 5},

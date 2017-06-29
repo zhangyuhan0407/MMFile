@@ -1,0 +1,22 @@
+{
+"key":"INV_Weapon_TwoSword_1503",
+"imagename": "INV_Weapon_TwoSword_1503",
+"displayname":"堕落的灰烬使者",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "TwoSword",
+
+"hp":30,
+"atk":15,
+"baoji":15,
+"mingzhong": 15,
+"sp":5,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

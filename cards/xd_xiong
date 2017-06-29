@@ -2,31 +2,35 @@
 "key":"xd_xiong",
 
 
-"name":"熊德",
+"name":"德鲁伊学徒",
 "cls": "xd_xiong",
-"displaycls":"熊德",
+"displaycls":"守护",
 "id":15,
 "attacktype":"physics",
 
 
-"hp":50,
-"sp":3,
-"def":30,
+"maxhp":45,
+"maxsp":3,
+"hp":45,
+"sp":0,
+
+"atk": 5,
+"def":5,
 "spd":30,
 
 
 
-"skill1factor":10,
-"skill2factor":20,
-"skill1description":"咆哮:xxx",
-"skill2description":"生存本能:xxx",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"自动攻击:近战物理攻击",
+"skill2description":"生存本能:大幅提高闪避",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":30,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

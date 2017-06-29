@@ -2,24 +2,28 @@
 "key":"xd_zhiliao",
 
 
-"name":"树德",
+"name":"德鲁伊学徒",
 "cls": "xd_zhiliao",
-"displaycls":"树德",
+"displaycls":"恢复",
 "id":16,
 "attacktype":"nature",
 
 
-"hp":50,
-"sp":3,
-"def":15,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":20,
 
 
 
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"回春:xxx",
-"skill2description":"野性生长:xxx",
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"回春:周期性为目标恢复生命",
+"skill2description":"野性生长:周期性为多个目标恢复生命",
 
 
 

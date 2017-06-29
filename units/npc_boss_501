@@ -1,41 +1,47 @@
 {
-"key":"npc_boss_101",
+"key":"npc_boss_501",
 
-"name":"拉克佐",
-"id":1101,
-"imagename": "sm_zengqiang",
+"name":"督军安图苏尔",
+"id":1102,
 "attacktype":"physics",
-"cls": "增强萨",
-"story": "他足足有3个人那么高!",
 
 
-"maxhp": 100,
+"icon": "npc_boss_501",
+"imagename": "zs_wuqi",
+"cls": "zs_wuqi",
+"displaycls": "武器战",
+
+
+"maxhp": 70,
 "maxsp": 3,
-"hp":100,
-"sp":3,
+"hp":70,
+"sp":0,
 
-"atk":100,
+
+"atk":10,
 "mag":0,
-"def":40,
+"def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"挥舞手中的武器造成伤害${skill1factor}",
-"skill2description":"挥舞手中的武器3次,每次造成伤害${skill2factor}",
+"skill1factor":150,
+"skill2factor":350,
+"skill1description":"自动攻击:自动攻击",
+"skill2description":"旋风斩:横向物理攻击",
 
 
 "baoji":15,
 "shanbi":0,
 "mingzhong": 0,
-"gedang":30,
+"gedang":0,
 
 
 "zaisheng":0,
 "xixue": 0,
 "fantangwuli":0,
-"fantanfashu":0
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
 
 }

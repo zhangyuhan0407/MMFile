@@ -2,31 +2,35 @@
 "key":"sm_zhiliao",
 
 
-"name":"奶萨",
+"name":"萨满学徒",
 "cls": "sm_zhiliao",
-"displaycls":"奶萨",
+"displaycls":"恢复",
 "id":22,
 "attacktype":"nature",
 
 
-"hp":50,
-"sp":5,
-"def":30,
+"maxhp":45,
+"maxsp":5,
+"hp":45,
+"sp":0,
+
+"atk": 40,
+"def":0,
 "spd":20,
 
 
 
-"skill1factor":40,
+"skill1factor":100,
 "skill2factor":0,
-"skill1description":"嗜血:为己方全体添加#嗜血#状态",
-"skill2description":"激流:对生命最少己方单位恢复中量气血",
+"skill1description":"激流:对生命最少己方单位恢复中量气血",
+"skill2description":"嗜血:为己方全体添加#嗜血#状态",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

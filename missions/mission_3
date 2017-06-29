@@ -1,14 +1,47 @@
 {
 "key": "mission_3",
 "index": 3,
-"icon": "mission_3",
-"title": "艾尔文灾星",
-"story": "在艾尔文森林长大的人们经常在多年以后被豺狼人的叫声吓醒，因为无论他们已经多么强大，都不能忘记【艾尔文森林的噩梦】-霍格。",
-"boss": ["霍格3"],
+"icon": "MissionIcon_3",
+"title": "麻风侏儒",
+"story": "虽然身为一名麻风侏儒，但他对技术钻研的热情并没有消退，时常能在研究所看到他的身影。",
+"boss": ["吉波维特"],
 "slots": {
-	"霍格3": ["PROP_Silver_100", "CARD_Random"]
+    "0": ["PROP_Silver_50"],
+    "1": ["PROP_Silver_100"],
+    "2": ["PROP_Silver_150"],
+    "3": ["PROP_Silver_200"],
+    "11": ["PROP_Silver_100", "INV_Misc_Stone_1_5"],
+    "12": ["PROP_Silver_100", "INV_Misc_Stone_1_10"],
+    "13": ["PROP_Silver_100", "INV_Misc_Stone_1_15"],
+    "101": ["PROP_Silver_100", "INV_Misc_Stone_1_5", "INV_Misc_GemGreen_1_1"],
+    "102": ["PROP_Silver_100", "INV_Misc_Stone_1_10", "INV_Misc_GemGreen_1_2"],
+    "103": ["PROP_Silver_100", "INV_Misc_Stone_1_15", "INV_Misc_GemGreen_1_3"],
+    "1001": ["PROP_Silver_100", "CARD_FS"],
+    "1002": ["PROP_Silver_100", "CARD_SS"],
+    "1003": ["PROP_Silver_100", "CARD_QS"],
+    "9999": ["PROP_Gold_100"]
 },
 "characters": {
-    "霍格3": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}]
-}
+    "0": [{"position":1,"cardkey":"npc_boss_30001"}],
+    "1": [{"position":1,"cardkey":"npc_boss_30001"}],
+    "2": [{"position":1,"cardkey":"npc_dz_1"},{"position":2,"cardkey":"npc_boss_30001"}],
+    "3": [{"position":1,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_zs_1"},
+            {"position":4,"cardkey":"npc_boss_30001"}],
+    "4": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_1"},
+            {"position":4,"cardkey":"npc_dz_1"},{"position":3,"cardkey":"npc_boss_30002"}],
+    "5": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+            {"position":4,"cardkey":"npc_dz_2"},{"position":7,"cardkey":"npc_dz_2"},
+            {"position":8,"cardkey":"npc_boss_30002"}],
+    "6": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+            {"position":4,"cardkey":"npc_dz_2"},{"position":7,"cardkey":"npc_dz_2"},
+            {"position":11,"cardkey":"npc_dz_2"},{"position":8,"cardkey":"npc_boss_30003"}],
+    "7": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+            {"position":4,"cardkey":"npc_dz_2"},{"position":7,"cardkey":"npc_dz_2"},
+            {"position":11,"cardkey":"npc_dz_2"},{"position":8,"cardkey":"npc_boss_30003"},
+            {"position":2,"cardkey":"npc_dz_2"}],
+    "8": [{"position":1,"cardkey":"npc_zs_2"},{"position":2,"cardkey":"npc_zs_2"},
+            {"position":4,"cardkey":"npc_dz_2"},{"position":7,"cardkey":"npc_dz_2"},
+            {"position":11,"cardkey":"npc_dz_2"},{"position":8,"cardkey":"npc_boss_30004"},
+            {"position":2,"cardkey":"npc_dz_2"},{"position":2,"cardkey":"npc_dz_2"}]
+    }
 }

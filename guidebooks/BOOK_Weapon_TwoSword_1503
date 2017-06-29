@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_TwoSword_1503",
+"imagename": "INV_Weapon_TwoSword_1503",
+"index": 10005,
+"displayname":"堕落的灰烬使者",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 8},
+                {"key": "INV_Misc_Stone_1", "count": 20}
+            ],
+
+"result": "INV_Weapon_TwoSword_1503",
+"rarity": "orange",
+
+"usage": "获得堕落的灰烬使者"
+}
+

@@ -2,11 +2,11 @@
 "imagename": "INV_Misc_GemGreen_1",
 "key":"INV_Misc_GemGreen_1",
 "category":"misc",
-"displayname":"绿宝石等级1",
+"displayname":"破碎绿宝石",
 "rarity":"green",
 "type": "none",
 "count":1,
 "usage":"可用于锻造,增加少许生命值",
-"story": "少见的绿宝石"
+"story": "一种少见的绿宝石"
 }
 

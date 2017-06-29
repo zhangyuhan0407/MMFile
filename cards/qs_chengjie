@@ -2,31 +2,35 @@
 "key":"qs_chengjie",
 
 
-"name":"惩戒骑",
+"name":"骑士学徒",
 "cls": "qs_chengjie",
-"displaycls":"惩戒骑",
+"displaycls":"惩戒",
 "id":26,
 "attacktype":"holy",
 
 
-"hp":50,
-"sp":3,
-"def":30,
+"maxhp":45,
+"maxsp":5,
+"hp":45,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":45,
 
 
 
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"自动攻击:自动攻击",
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"自动攻击:近战物理伤害",
 "skill2description":"神圣风暴:对敌方造成神圣伤害,鼓舞身边友军",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

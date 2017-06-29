@@ -1,29 +1,47 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
+"key":"npc_boss_405",
+
+"name":"血色十字军指挥官莫格莱尼",
+"id":1102,
 "attacktype":"physics",
-"xixue":0,
-"id":1101,
-"sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪105",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+
+
+"icon": "npc_boss_405",
+"imagename": "qs_chengjie",
+"cls": "qs_chengjie",
+"displaycls": "惩戒骑",
+
+
+"maxhp": 80,
+"maxsp": 3,
+"hp":80,
+"sp":0,
+
+
+"atk":10,
 "mag":0,
-"rule":1,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":150,
+"skill2factor":350,
+"skill1description":"自动攻击:自动攻击",
+"skill2description":"神圣风暴:对敌方造成神圣伤害,鼓舞身边友军",
+
+
+"baoji":15,
 "shanbi":0,
-"skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

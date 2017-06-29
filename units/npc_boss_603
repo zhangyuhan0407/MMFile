@@ -1,0 +1,47 @@
+{
+"key":"npc_boss_603",
+
+"name":"奈鲁布恩坎",
+"id":1102,
+"attacktype":"physics",
+
+
+"icon": "npc_boss_603",
+"imagename": "dz_minrui",
+"cls": "dz_minrui",
+"displaycls": "敏锐贼",
+
+
+"maxhp": 70,
+"maxsp": 3,
+"hp":70,
+"sp":3,
+
+
+"atk":10,
+"mag":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":250,
+"skill2factor":350,
+"skill1description":"伏击:近战物理攻击",
+"skill2description":"暗影之舞:对血量最少的单位进行一次伏击,必定暴击",
+
+
+"baoji":15,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
+}

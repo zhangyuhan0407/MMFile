@@ -8,6 +8,9 @@
 "category": "weapon",
 "type": "ShortBlade",
 
+"atk":15,
+
+
 "rarity": "purple",
 "count": 1,
 "usage": "",

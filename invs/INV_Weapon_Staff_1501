@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_Staff_1501",
+"imagename": "INV_Weapon_Staff_1501",
+"displayname":"埃霍恩的冰霜之镰刀",
+
+
+"index": 4,
+
+"category": "weapon",
+"type": "Staff",
+
+"hp": 10,
+"atk": 10,
+"sp": 2,
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

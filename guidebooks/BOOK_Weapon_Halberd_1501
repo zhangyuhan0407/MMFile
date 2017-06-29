@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Halberd_1501",
+"imagename": "INV_Weapon_Halberd_1501",
+"index": 1102,
+"displayname":"古树天敌",
+
+"materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
+                {"key": "INV_Misc_Stone_2", "count": 5}
+],
+
+"result": "INV_Weapon_Halberd_1501",
+
+
+"usage": "获得古树天敌"
+}
+

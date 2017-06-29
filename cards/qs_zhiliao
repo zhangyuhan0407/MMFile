@@ -2,31 +2,35 @@
 "key":"qs_zhiliao",
 
 
-"name":"奶骑",
+"name":"骑士学徒",
 "cls": "qs_zhiliao",
-"displaycls":"奶骑",
+"displaycls":"神圣",
 "id":28,
 "attacktype":"holy",
 
 
-"hp":50,
-"sp":4,
-"def":40,
+"maxhp":45,
+"maxsp":4,
+"hp":45,
+"sp":0,
+
+"atk": 30,
+"def":0,
 "spd":30,
 
 
 
-"skill1factor":40,
-"skill2factor":80,
-"skill1description":"圣光闪现:对气血最少单位恢复中量气血,清除一个有害状态",
-"skill2description":"圣光术:对气血最少单位清除有害状态,并恢复大量气血,清除所有有害状态",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"圣光闪现:对气血最少单位恢复中量气血",
+"skill2description":"圣光术:对气血最少单位恢复大量气血,清除有害状态",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":10,
+"gedang":0,
 
 
 "fantangwuli":0,

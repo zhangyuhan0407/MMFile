@@ -1,0 +1,12 @@
+{
+"imagename": "INV_Misc_GemYellow_3",
+"key":"INV_Misc_GemYellow_3",
+"category":"misc",
+"displayname":"巨型猫眼石",
+"rarity":"purple",
+"type": "none",
+"count":1,
+"usage":"可用于锻造,增加较多属性",
+"story": "稀有的猫眼石"
+}
+

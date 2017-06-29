@@ -1,0 +1,20 @@
+{
+"key":"INV_Weapon_OneSword_1503",
+"imagename": "INV_Weapon_OneSword_1503",
+"displayname":"雷霆之怒，逐风者的祝福之剑",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "OneSword",
+
+"hp":20,
+"atk": 15,
+"baoji": 10,
+"sp":3,
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

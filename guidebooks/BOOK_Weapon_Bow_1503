@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Bow_1503",
+"imagename": "INV_Weapon_Bow_1503",
+"index": 10001,
+"displayname":"伦鲁迪洛尔，上古守护者的长弓",
+
+"materials": [  {"key": "INV_Misc_Metal_1", "count": 3},
+                {"key": "INV_Misc_Stone_1", "count": 5}
+            ],
+
+"result": "INV_Weapon_Bow_1503",
+"rarity": "orange",
+
+"usage": "打造一个史诗级别伦鲁迪洛尔，上古守护者的长弓"
+}
+

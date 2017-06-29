@@ -2,29 +2,33 @@
 
 "key":"fs_bingshuang",
 
+"id":2,
 
-"id":12,
 "attacktype":"ice",
-"name":"冰法",
+"name":"法师学徒",
 "cls": "fs_bingshuang",
-"displaycls": "冰法",
+"displaycls": "冰霜",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":30,
+"maxsp":3,
+"hp":30,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":90,
 
 
-"skill1factor":15,
-"skill2factor":30,
-"skill1description":"冰枪术:优先攻击#冰环#敌人,对其造成4倍伤害",
-"skill2description":"冰霜新星:对前排波形敌人施加#冰环#",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"寒冰箭:单体冰霜伤害",
+"skill2description":"冰霜新星:横排法术攻击",
 
 
 "mingzhong":0,
-"shanbi":30,
-"baoji":15,
+"shanbi":0,
+"baoji":0,
 "gedang":0,
 
 

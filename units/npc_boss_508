@@ -1,29 +1,47 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
-"attacktype":"physics",
-"xixue":0,
-"id":1101,
-"sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪108",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+"key":"npc_boss_508",
+
+"name":"暗影祭司塞瑟斯",
+"id":1102,
+"attacktype":"shadow",
+
+
+"icon": "npc_boss_508",
+"imagename": "ms_anying",
+"cls": "ms_anying",
+"displaycls": "暗牧",
+
+
+"maxhp": 60,
+"maxsp": 2,
+"hp":60,
+"sp":2,
+
+
+"atk":10,
 "mag":0,
-"rule":1,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":200,
+"skill2factor":500,
+"skill1description":"真言术 痛:对正前方敌人施加#真言术 痛#",
+"skill2description":"心灵震爆:对怒气最高敌方单位造成大量伤害,并吸取怒气",
+
+
+"baoji":15,
 "shanbi":0,
-"skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

@@ -3,7 +3,8 @@
 
 "name":"绿皮队长",
 "id":1105,
-"imagename": "npc_boss_105",
+"icon": "npc_boss_105",
+"imagename": "dz_cisha",
 "attacktype":"physics",
 
 
@@ -11,21 +12,20 @@
 "displaycls": "刺杀贼",
 
 
-"maxhp": 100,
+"maxhp": 70,
 "maxsp": 3,
-"hp":100,
-"sp":3,
+"hp":70,
+"sp":0,
 
 
-"atk":100,
-"mag":0,
-"def":40,
+"atk":10,
+"def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":10,
-"skill2factor":30,
+"skill1factor":100,
+"skill2factor":300,
 "skill1description":"毒刃:使用副手武器立刻攻击敌人,造成10点伤害",
 "skill2description":"毁伤:使用两把匕首同时攻击敌人,造成30点伤害",
 

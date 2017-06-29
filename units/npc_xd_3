@@ -1,27 +1,36 @@
 {
-"imagename": "xd_xiong",
-"spd":0,
-"key":"npc_xd_1",
-"mingzhong":10,
-"skill2description":"",
-"attacktype":"physics",
-"xixue":0,
-"id":1002,
-"sp":0,
-"gedang":0,
-"atk":80,
-"skill1description":"坦克高闪避",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
+"key":"npc_xd_3",
+
+
 "name":"德鲁伊",
-"fantanfashu":0,
-"skill2factor":100,
-"hp":50,
-"mag":0,
-"shanbi":5,
-"skill1factor":10,
-"def":15,
+"id":102,
+"imagename": "xd_normal",
+"attacktype":"nature",
+"displaycls": "奶德",
+"cls":"xd_zhiliao",
+
+
 "maxhp": 50,
-"maxsp": 0
+"maxsp": 0,
+"hp":50,
+"sp":0,
+"def":0,
+"spd":30,
+
+
+"atk": 35,
+"baoji":0,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"单体治疗",
+"skill2description":"群体治疗"
+
+
 }
+
+

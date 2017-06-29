@@ -1,0 +1,47 @@
+{
+"key":"npc_boss_605",
+
+"name":"瑞文戴尔男爵",
+"id":1102,
+"attacktype":"evil",
+
+
+"icon": "npc_boss_605",
+"imagename": "dk_normal",
+"cls": "qs_chengjie",
+"displaycls": "死亡骑士",
+
+
+"maxhp": 90,
+"maxsp": 3,
+"hp":90,
+"sp":3,
+
+
+"atk":10,
+"mag":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":200,
+"skill2factor":500,
+"skill1description":"自动攻击:自动攻击",
+"skill2description":"邪恶光环:对敌方造成邪恶伤害,鼓舞身边友军",
+
+
+"baoji":15,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
+}

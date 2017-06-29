@@ -1,0 +1,21 @@
+{
+"key":"INV_Weapon_Hammer_1502",
+"imagename": "INV_Weapon_Hammer_1502",
+"displayname":"萨弗拉斯，炎魔拉格纳罗斯之手",
+
+"index": 1001,
+
+"category": "weapon",
+"type": "Hammer",
+
+
+"hp":20,
+"atk":10,
+"sp":5,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

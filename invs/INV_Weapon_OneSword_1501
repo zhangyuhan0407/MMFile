@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_OneSword_1501",
+"imagename": "INV_Weapon_OneSword_1501",
+"displayname":"玛拉达斯，黑龙军团的符文之剑",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "OneSword",
+
+"hp":10,
+"atk": 10,
+"baoji": 10,
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

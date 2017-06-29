@@ -2,29 +2,33 @@
 "key":"zs_kuangbao",
 
 
-"name":"狂暴战",
+"name":"战士学徒",
 "cls":"zs_kuangbao",
-"displaycls":"狂暴战",
+"displaycls":"狂暴",
 "id":24,
 "attacktype":"physics",
 
 
-"hp":50,
-"sp":3,
-"def":30,
+"maxhp":40,
+"maxsp":3,
+"hp":40,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":50,
 
 
 
-"skill1factor":5,
-"skill2factor":25,
-"skill1description":"自动攻击:自动攻击",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"自动攻击:近战物理攻击",
 "skill2description":"旋风斩:横向物理攻击",
 
 
 
-"baoji":0,
-"gedang":0,
+"baoji":20,
+"gedang":10,
 "mingzhong":0,
 "shanbi":0,
 

@@ -1,0 +1,21 @@
+{
+"key":"INV_Weapon_Bow_1503",
+"imagename": "INV_Weapon_Bow_1503",
+"displayname":"伦鲁迪洛尔，上古守护者的长弓",
+
+"index": 1503,
+
+"category": "weapon",
+"type": "Bow",
+
+"hp": 20,
+"atk": 15,
+"baoji": 15,
+"sp":3,
+
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

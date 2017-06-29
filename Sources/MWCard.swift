@@ -22,19 +22,20 @@ class MMCardMiddleware: RouterMiddleware {
         }
    
         if key == "all" {
-            try response.send(OCTResponse.Succeed(data: JSON(MMCardRepo.sharedInstance.cards))).end()
+            
+            let json = MMCardRepo.sharedInstance.findAll()
+            
+            try response.send(OCTResponse.Succeed(data: JSON(json))).end()
+            
             return
         }
         
         
-        if key.contains("-") {
+        else if key.contains("-") {
             let keys = key.components(separatedBy: "-")
-            var ret = [JSON]()
             
-            for k in keys {
-                let card = MMCardRepo.sharedInstance.cards[k]!
-                ret.append(card)
-            }
+            let ret = MMCardRepo.sharedInstance.findCards(keys: keys)
+            
             
             try response.send(OCTResponse.Succeed(data: JSON(ret))).end()
             return
@@ -42,14 +43,18 @@ class MMCardMiddleware: RouterMiddleware {
         
         
         
-        guard let card = MMCardRepo.sharedInstance.cards[key] else {
-            try response.send(OCTResponse.UserNotExists).end()
+        else {
+            
+            let json = MMCardRepo.sharedInstance.findCard(key: key)
+        
+            try response.send(OCTResponse.Succeed(data: JSON([json]))).end()
+            
             return
+            
         }
         
         
         
-        try response.send(OCTResponse.Succeed(data: card)).end()
         
     }
     
@@ -64,7 +69,9 @@ class MMCardRepo {
     static let sharedInstance = MMCardRepo()
     
     
-    var cards = [String: JSON]()
+    private var cards = [String: JSON]()
+    
+    private var allCards = [JSON]()
     
     
     private init() {
@@ -115,6 +122,34 @@ class MMCardRepo {
             fatalError()
         }
         
+    }
+    
+    
+    
+    func findAll() -> [JSON] {
+        if self.allCards.count != 0 {
+            return self.allCards
+        }
+        
+        
+        for (k, v) in self.cards {
+            if k.contains("npc") {
+                continue
+            }
+            self.allCards.append(v)
+        }
+        
+        return self.allCards
+    }
+    
+    
+    func findCard(key: String) -> JSON {
+        return cards[key]!
+    }
+    
+    
+    func findCards(keys: [String]) -> [JSON] {
+        return keys.map { findCard(key: $0) }
     }
     
     

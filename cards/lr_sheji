@@ -2,31 +2,35 @@
 "key":"lr_sheji",
 
 
-"name":"射击猎",
-"displaycls":"射击猎",
+"name":"猎人学徒",
+"displaycls":"射击",
 "id":17,
 "cls": "lr_sheji",
 "attacktype":"physics",
 
 
-"hp":50,
-"sp":3,
-"def":20,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 20,
+"def":0,
 "spd":60,
 
 
 
-"skill1factor":20,
-"skill2factor":20,
-"skill1description":"自动射击:50%几率造成连击",
-"skill2description":"穿刺射击:对竖排敌人造成伤害",
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"自动射击:远程物理攻击，50%几率连击",
+"skill2description":"穿刺射击:对竖排敌人造成物理伤害",
 
 
 
-"baoji":0,
-"gedang":0,
-"mingzhong":0,
+"mingzhong":15,
 "shanbi":0,
+"baoji":15,
+"gedang":0,
 
 
 "fantangwuli":0,

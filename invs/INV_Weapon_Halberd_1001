@@ -8,6 +8,9 @@
 "category": "weapon",
 "type": "Halberd",
 
+"atk":10,
+"baoji":10,
+
 "rarity": "purple",
 "count": 1,
 "usage": "",

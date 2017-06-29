@@ -8,6 +8,10 @@
 "category": "weapon",
 "type": "OneSword",
 
+"hp":10,
+"atk": 10,
+
+
 "rarity": "purple",
 "count": 1,
 "usage": "",

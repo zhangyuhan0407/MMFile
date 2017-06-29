@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_OneSword_1502",
+"imagename": "INV_Weapon_OneSword_1502",
+"index": 1106,
+"displayname":"弗洛尔的屠龙技术纲要",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 8},
+                {"key": "INV_Misc_Stone_3", "count": 20}
+            ],
+
+"result": "INV_Weapon_OneSword_1502",
+
+
+"usage": "使用该物品获得一个任务"
+}
+

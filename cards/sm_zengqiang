@@ -2,31 +2,35 @@
 "key":"sm_zengqiang",
 
 
-"name":"增强萨",
+"name":"萨满学徒",
 "cls": "sm_zengqiang",
-"displaycls":"增强萨",
+"displaycls":"增强",
 "id":21,
 "attacktype":"lightning",
 
 
-"hp":50,
-"sp":2,
-"def":20,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":20,
 
 
 
-"skill1factor":15,
-"skill2factor":15,
-"skill1description":"风怒:连续对敌方造成3次自动攻击伤害",
-"skill2description":"自动攻击:有几率触发#风怒#",
+"skill1factor":100,
+"skill2factor":100,
+"skill1description":"自动攻击:有几率触发#风怒#",
+"skill2description":"风怒:连续对敌方造成3次自动攻击伤害",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

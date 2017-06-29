@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Hammer_1503",
+"imagename": "INV_Weapon_Hammer_1503",
+"index": 1104,
+"displayname":"无坚不摧之力",
+
+"materials": [  {"key": "INV_Misc_Metal_2", "count": 3},
+                {"key": "INV_Misc_Stone_2", "count": 5}
+],
+
+"result": "INV_Weapon_Hammer_1503",
+
+
+"usage": "获得无坚不摧之力"
+}
+

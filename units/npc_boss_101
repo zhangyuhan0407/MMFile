@@ -11,21 +11,22 @@
 "displaycls": "火法",
 
 
-"maxhp": 100,
+"maxhp": 60,
 "maxsp": 3,
-"hp":100,
-"sp":3,
+"hp":60,
+"sp":0,
 
 
+"atk":10,
 "def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":10,
-"skill2factor":30,
-"skill1description":"火球术:造成伤害${skill1factor}",
-"skill2description":"大火球术:造成伤害${skill2factor}",
+"skill1factor":100,
+"skill2factor":300,
+"skill1description":"火球术:造成10点伤害",
+"skill2description":"大火球术:造成30点伤害",
 
 
 "baoji":15,

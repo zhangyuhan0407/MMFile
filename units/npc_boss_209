@@ -3,7 +3,8 @@
 
 "name":"狼王南杜斯",
 "id":1102,
-"imagename": "npc_boss_209",
+"icon": "npc_boss_209",
+"imagename": "xd_mao",
 "attacktype":"physics",
 
 
@@ -11,21 +12,20 @@
 "displaycls": "猫得",
 
 
-"maxhp": 120,
+"maxhp": 70,
 "maxsp": 3,
-"hp":120,
+"hp":70,
 "sp":3,
 
 
-"atk":100,
-"mag":0,
+"atk":10,
 "def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":15,
-"skill2factor":35,
+"skill1factor":150,
+"skill2factor":350,
 "skill1description":"偷袭:攻击前排单位,造成#眩晕#",
 "skill2description":"跃:攻击敌方最后一个单位,造成#眩晕#",
 

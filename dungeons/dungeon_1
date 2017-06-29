@@ -3,8 +3,7 @@
 "index": 1,
 "icon": "siwangkuangjing",
 "title": "死亡矿井",
-"story": "据说死亡矿井的黄金矿藏能使暴风城积聚的财富增加三分之一。在第一次兽人战争之中，矿井遭到废弃，还曾经冒出闹鬼的传说，导致该处一直荒废。
-直到有一群落草为寇的劳动群众组成迪菲亚兄弟会，前来占据这座迷宫，作为他们对暴风城展开破坏行动的根据地。",
+"story": "矿井遭到废弃，还曾经冒出闹鬼的传说，导致该处一直荒废。直到有一群落草为寇的劳动群众组成迪菲亚兄弟会，前来占据这座迷宫。作为他们对暴风城展开破坏行动的根据地。",
 "boss": ["拉克佐", "矿工约翰森", "斯尼德的伐木机", "基尔尼格", "绿皮队长", "曲奇", "重拳先生", "艾德温·范克利夫"],
 "slots": {
 	"拉克佐": ["PROP_Silver_100"],
@@ -18,13 +17,24 @@
             "INV_Trinket_All_101"]
 },
 "characters": {
-    "拉克佐": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}],
-    "矿工约翰森": [{"position":0,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_102"}],
-    "斯尼德的伐木机": [{"position":0,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_boss_103"}],
-    "基尔尼格": [{"position":1,"cardkey":"npc_zs_1"},{"position":10,"cardkey":"npc_boss_104"}],
-    "绿皮队长": [{"position":5,"cardkey":"npc_zs_1"},{"position":6,"cardkey":"npc_boss_105"},{"position":7,"cardkey":"npc_zs_1"}],
-    "曲奇": [{"position":0,"cardkey":"npc_fs_1"},{"position":3,"cardkey":"npc_fs_1"},{"position":6,"cardkey":"npc_boss_106"}],
-    "重拳先生": [{"position":1,"cardkey":"npc_boss_107"},{"position":9,"cardkey":"npc_lr_1"},{"position":11,"cardkey":"npc_lr_1"}],
-    "艾德温·范克利夫": [{"position":5,"cardkey":"npc_zs_1"},{"position":6,"cardkey":"npc_zs_1"},{"position":7,"cardkey":"npc_zs_1"},{"position":10,"cardkey":"npc_boss_108"}]
+    "拉克佐": [{"position":5,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}],
+
+    "矿工约翰森": [{"position":2,"cardkey":"npc_fs_1"}, {"position":1,"cardkey":"npc_boss_102"}],
+
+    "斯尼德的伐木机": [{"position":6,"cardkey":"npc_fs_1"},{"position":1,"cardkey":"npc_boss_103"}],
+
+    "基尔尼格": [{"position":4,"cardkey":"npc_fs_1"},{"position":1,"cardkey":"npc_boss_104"}],
+
+    "绿皮队长": [{"position":0,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_105"},
+                {"position":2,"cardkey":"npc_zs_1"}],
+
+    "曲奇": [{"position":0,"cardkey":"npc_zs_1"},{"position":2,"cardkey":"npc_zs_1"},
+                {"position":5,"cardkey":"npc_boss_106"}],
+
+    "重拳先生": [{"position":1,"cardkey":"npc_boss_107"},{"position":8,"cardkey":"npc_lr_1"},
+                {"position":10,"cardkey":"npc_lr_1"}],
+
+    "艾德温·范克利夫": [{"position":0,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_zs_1"},
+                {"position":2,"cardkey":"npc_zs_1"},{"position":5,"cardkey":"npc_boss_108"}]
 }
 }

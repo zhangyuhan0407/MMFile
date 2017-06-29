@@ -1,33 +1,34 @@
 {
-"key":"npc_boss_210",
+"key":"npc_boss_301",
 
-"name":"大法师阿鲁高",
+"name":"暴食者",
 "id":1102,
-"imagename": "npc_boss_210",
 "attacktype":"physics",
 
 
-"cls": "fs_aoshu",
-"displaycls": "奥法",
+"icon": "npc_boss_301",
+"imagename": "zs_kuangbao",
+"cls": "zs_kuangbao",
+"displaycls": "狂暴战",
 
 
-"maxhp": 120,
+"maxhp": 60,
 "maxsp": 3,
-"hp":120,
-"sp":3,
+"hp":60,
+"sp":0,
 
 
-"atk":100,
+"atk":10,
 "mag":0,
 "def":0,
 "spd":0,
 
 
 "skill0description": ["首领", "暴击"],
-"skill1factor":15,
-"skill2factor":35,
-"skill1description":"奥术冲击:对前方敌人造成少量伤害",
-"skill2description":"沉默:沉默怒气最高敌人,如果该敌人怒气达到最大则造成双倍伤害",
+"skill1factor":150,
+"skill2factor":350,
+"skill1description":"自动攻击:自动攻击",
+"skill2description":"旋风斩:横向物理攻击",
 
 
 "baoji":15,

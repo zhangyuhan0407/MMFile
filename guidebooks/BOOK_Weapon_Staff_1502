@@ -1,0 +1,17 @@
+{
+"key":"BOOK_Weapon_Staff_1502",
+"imagename": "INV_Weapon_Staff_1502",
+"index": 10004,
+"displayname":"祈福",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 5},
+                {"key": "INV_Misc_Stone_3", "count": 12}
+            ],
+
+"result": "INV_Weapon_Staff_1502",
+"rarity": "orange",
+
+
+"usage": "随机获得一个该职业随从"
+}
+

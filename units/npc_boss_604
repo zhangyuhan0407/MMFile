@@ -1,0 +1,47 @@
+{
+"key":"npc_boss_604",
+
+"name":"苍白的玛勒基",
+"id":1102,
+"attacktype":"holy",
+
+
+"icon": "npc_boss_604",
+"imagename": "qs_fangyu",
+"cls": "qs_fangyu",
+"displaycls": "防骑",
+
+
+"maxhp": 80,
+"maxsp": 3,
+"hp":80,
+"sp":3,
+
+
+"atk":10,
+"mag":0,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":200,
+"skill2factor":500,
+"skill1description":"自动攻击:自动攻击",
+"skill2description":"炽热防御者:我还没想好有什么用",
+
+
+"baoji":15,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
+}

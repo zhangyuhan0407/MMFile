@@ -1,14 +1,47 @@
 {
 "key": "mission_7",
 "index": 7,
-"icon": "mission_7",
-"title": "艾尔文灾星",
+"icon": "MissionIcon_7",
+"title": "猎豹",
 "story": "在艾尔文森林长大的人们经常在多年以后被豺狼人的叫声吓醒，因为无论他们已经多么强大，都不能忘记【艾尔文森林的噩梦】- 霍格。",
-"boss": ["霍格"],
+"boss": ["泰希斯"],
 "slots": {
-	"霍格": ["PROP_Silver_100", "CARD_Random", "INV_Misc_Stone_1"]
+"0": ["PROP_Silver_50"],
+"1": ["PROP_Silver_100"],
+"2": ["PROP_Silver_150"],
+"3": ["PROP_Silver_200"],
+"11": ["PROP_Silver_100", "INV_Misc_Stone_1_5"],
+"12": ["PROP_Silver_100", "INV_Misc_Stone_1_10"],
+"13": ["PROP_Silver_100", "INV_Misc_Stone_1_15"],
+"101": ["PROP_Silver_100", "INV_Misc_Stone_1_5", "INV_Misc_GemGreen_1_1"],
+"102": ["PROP_Silver_100", "INV_Misc_Stone_1_10", "INV_Misc_GemGreen_1_2"],
+"103": ["PROP_Silver_100", "INV_Misc_Stone_1_15", "INV_Misc_GemGreen_1_3"],
+"1001": ["PROP_Silver_100", "CARD_ZS"],
+"1002": ["PROP_Silver_100", "CARD_DZ"],
+"1003": ["PROP_Silver_100", "CARD_XD"],
+"9999": ["PROP_Gold_100"]
 },
 "characters": {
-    "霍格": [{"position":6,"cardkey":"npc_zs_1"},{"position":1,"cardkey":"npc_boss_101"}]
+"0": [{"position":1,"cardkey":"npc_boss_70001"}],
+"1": [{"position":1,"cardkey":"npc_boss_70001"}],
+"2": [{"position":0,"cardkey":"npc_dz_1"},{"position":3,"cardkey":"npc_boss_70001"}],
+"3": [{"position":0,"cardkey":"npc_dz_1"},{"position":4,"cardkey":"npc_boss_70001"},
+        {"position":3,"cardkey":"npc_dz_1"}],
+"4": [{"position":0,"cardkey":"npc_zs_2"},{"position":4,"cardkey":"npc_boss_70002"},
+        {"position":3,"cardkey":"npc_dz_2"}, {"position":7,"cardkey":"npc_dz_2"}],
+"5": [{"position":0,"cardkey":"npc_zs_2"},{"position":4,"cardkey":"npc_boss_70002"},
+        {"position":3,"cardkey":"npc_dz_2"}, {"position":7,"cardkey":"npc_dz_2"},
+        {"position":8,"cardkey":"npc_dz_2"}],
+"6": [{"position":0,"cardkey":"npc_zs_3"},{"position":4,"cardkey":"npc_boss_70003"},
+        {"position":3,"cardkey":"npc_dz_3"}, {"position":7,"cardkey":"npc_dz_3"},
+        {"position":8,"cardkey":"npc_dz_3"}, {"position":11,"cardkey":"npc_dz_3"}],
+"7": [{"position":0,"cardkey":"npc_zs_3"},{"position":4,"cardkey":"npc_boss_70003"},
+        {"position":3,"cardkey":"npc_dz_3"}, {"position":7,"cardkey":"npc_dz_3"},
+        {"position":8,"cardkey":"npc_dz_3"}, {"position":11,"cardkey":"npc_dz_3"},
+        {"position":13,"cardkey":"npc_dz_3"}],
+"8": [{"position":0,"cardkey":"npc_zs_3"},{"position":4,"cardkey":"npc_boss_70004"},
+        {"position":3,"cardkey":"npc_dz_3"}, {"position":7,"cardkey":"npc_dz_3"},
+        {"position":8,"cardkey":"npc_dz_3"}, {"position":11,"cardkey":"npc_dz_3"},
+        {"position":13,"cardkey":"npc_dz_3"}, {"position":14,"cardkey":"npc_dz_3"}]
 }
 }

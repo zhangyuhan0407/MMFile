@@ -4,21 +4,28 @@
 
 "name":"萨满",
 "id":102,
-"imagename": "CARD_Normal_SM",
+"imagename": "sm_normal",
 "attacktype":"lightning",
-"cls":"元素萨",
+"displaycls": "元素萨",
+"cls":"sm_yuansu",
 
 
-"maxhp": 50,
+"maxhp": 30,
 "maxsp": 2,
-"hp":50,
+"hp":30,
 "sp":0,
 "def":0,
 "spd":30,
 
 
+"atk": 10,
+"baoji":0,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
 
-"skill1factor":10,
+
+"skill1factor":100,
 "skill2factor":0,
 "skill1description":"群体法系伤害",
 "skill2description":""

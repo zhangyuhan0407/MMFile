@@ -2,31 +2,35 @@
 "key":"xd_niao",
 
 
-"name":"鸟德",
+"name":"德鲁伊学徒",
 "cls": "xd_niao",
-"displaycls":"鸟德",
+"displaycls":"平衡",
 "id":14,
 "attacktype":"nature",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 20,
+"def":0,
 "spd":60,
 
 
 
-"skill1factor":20,
-"skill2factor":20,
+"skill1factor":100,
+"skill2factor":100,
 "skill1description":"日光术:xxx",
 "skill2description":"月光术:xxx",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,

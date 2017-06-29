@@ -17,73 +17,56 @@ class MMMissionMiddleware: RouterMiddleware {
     
     func handle(request: RouterRequest, response: RouterResponse, next: @escaping () -> Void) throws {
         
-        guard let index = request.parameters["index"] else {
+        guard let params = request.parameters["index"] else {
             try response.send(OCTResponse.InputFormatError).end()
             return
         }
         
         
         
-        if index == "all" {
-            let dict = MMMissionRepo.sharedInstance.missions.map({ (k,v) -> [String: Any] in
-                return ["key": "mission_\(k)",
-                        "icon": v["icon"].string!,
-                        "title": v["title"].string!,
-                        "story": v["story"].string!,
-                        "index": v["index"].int!]
-            })
+        if params == "all" {
             
+            let jsons = MMMissionRepo.sharedInstance.findAllMissions()
             
-            var jsons = [JSON]()
-            for d in dict {
-                jsons.append(JSON(d))
-            }
+            try response.send(OCTResponse.Succeed(data: JSON(jsons))).end()
             
+            return
+            
+        }
+        
+        
+        else if params.contains("-") {
+            
+            let keys = params.components(separatedBy: "-")
+            
+            let jsons = MMMissionRepo.sharedInstance.findMissions(keys: keys)
             
             
             try response.send(OCTResponse.Succeed(data: JSON(jsons))).end()
-            return
             
+            return
         }
-        
-        
-        if index.contains("-") {
-            let keys = index.components(separatedBy: "-")
-            var ret = [JSON]()
-            for k in keys {
-                let v = MMMissionRepo.sharedInstance.missions["mission_\(k)"]!
-                let dict: [String: Any] = ["key": "mission_\(k)",
-                            "icon": v["icon"].string!,
-                            "title": v["title"].string!,
-                            "story": v["story"].string!,
-                            "index": v["index"].int!]
-                
-                ret.append(JSON(dict))
-            }
             
-            try response.send(OCTResponse.Succeed(data: JSON(ret))).end()
+        
+        else {
+            
+            let json = MMMissionRepo.sharedInstance.findMission(key: params)
+            
+            try response.send(OCTResponse.Succeed(data: JSON([json]))).end()
+            
             return
         }
         
-        
-        
-        
-        
-        
-        guard let dungeon = MMMissionRepo.sharedInstance.missions["mission_\(index)"] else {
-            try response.send(OCTResponse.InputEmpty).end()
-            return
-        }
-        
-        
-        
-        
-        
-        try response.send(OCTResponse.Succeed(data: dungeon)).end()
         
     }
     
+    
 }
+
+
+
+
+
 
 
 
@@ -101,11 +84,11 @@ class MMMissionRepo {
     
     
     public func reload() {
-        loadInvs()
+        loadMissions()
     }
     
     
-    func loadInvs() {
+    func loadMissions() {
         
         missions = [:]
         
@@ -129,16 +112,68 @@ class MMMissionRepo {
     }
     
     
+   
     
-    func findInvs(keys: [String]) -> [JSON] {
+    func findMission(key: String) -> JSON {
+        
+        let missionIndex = Int(key)!/1000000
+        let bossIndex = (Int(key)!%1000000)/10000
+        let slotIndex = Int(key)!%10000
+        
+        
+        print("mission index: \(missionIndex)")
+        print("boss index: \(bossIndex)")
+        print("slot index: \(slotIndex)")
+        
+        
+        var json = self.missions["mission_\(missionIndex)"]!
+        
+        json.update(value: key, forKey: "key")
+        json.update(value: Int(key)!, forKey: "index")
+        
+        let boss = json["boss"][0].string!
+        
+        let character = json["characters"]["\(bossIndex)"]
+        let charJSON = JSON([boss: character] as [String: Any])
+        json["characters"] = charJSON
+        
+        
+        let slot = json["slots"]["\(slotIndex)"]
+        let slotJSON = JSON([boss: slot] as [String: Any])
+        json["slots"] = slotJSON
+        
+        
+        return json
+    }
+    
+    
+    func findMissions(keys: [String]) -> [JSON] {
+        
+        
         var ret = [JSON]()
         for k in keys {
-            ret.append(missions[k]!)
+            var v = MMMissionRepo.sharedInstance.findMission(key: "\(k)")
+            v.update(value: Int(k)!, forKey: "index")
+            ret.append(v)
         }
+        
         return ret
     }
     
     
+    func findAllMissions() -> [JSON] {
+        
+        var jsons = [JSON]()
+        let _ = MMMissionRepo.sharedInstance.missions.map {
+            (k, v) -> String in
+            jsons.append(v)
+            return k
+        }
+        
+        
+        return jsons
+        
+    }
     
     
 }

@@ -1,29 +1,47 @@
 {
-"imagename": "sm_zengqiang",
-"spd":0,
-"key":"npc_boss_101",
-"mingzhong":0,
-"skill2description":"",
-"attacktype":"physics",
-"xixue":0,
-"id":1101,
+"key":"npc_boss_304",
+
+"name":"法瑟蕾丝夫人",
+"id":1102,
+"attacktype":"ice",
+
+
+"icon": "npc_boss_304",
+"imagename": "fs_bingshuang",
+"cls": "fs_bingshuang",
+"displaycls": "冰法",
+
+
+"maxhp": 60,
+"maxsp": 3,
+"hp":60,
 "sp":3,
-"gedang":30,
-"atk":80,
-"skill1description":"boss",
-"baoji":15,
-"fantangwuli":0,
-"zaisheng":0,
-"name":"老怪104",
-"fantanfashu":0,
-"skill2factor":10,
-"hp":150,
+
+
+"atk":10,
 "mag":0,
-"rule":1,
+"def":0,
+"spd":0,
+
+
+"skill0description": ["首领", "暴击"],
+"skill1factor":150,
+"skill2factor":350,
+"skill1description":"寒冰箭:远程法术伤害",
+"skill2description":"冰霜新星:对前排波形敌人施加#冰环#",
+
+
+"baoji":15,
 "shanbi":0,
-"skill1factor":15,
-"area":2,
-"def":40,
-"maxhp": 250,
-"maxsp": 3
+"mingzhong": 0,
+"gedang":0,
+
+
+"zaisheng":0,
+"xixue": 0,
+"fantangwuli":0,
+"fantanfashu":0,
+
+"story": "辛辛苦苦挖了一辈子矿"
+
 }

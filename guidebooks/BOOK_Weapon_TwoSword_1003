@@ -1,7 +1,7 @@
 {
 "key":"BOOK_Weapon_TwoSword_1003",
 "imagename": "INV_Weapon_TwoSword_1003",
-"index": 1,
+"index": 1010,
 "displayname":"命运",
 
 "materials": [  {"key": "INV_Misc_Metal_1", "count": 8},

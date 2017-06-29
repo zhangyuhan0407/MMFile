@@ -1,0 +1,19 @@
+{
+"key":"INV_Weapon_OneSword_1504",
+"imagename": "INV_Weapon_OneSword_1504",
+"displayname":"提布的炙热长剑",
+
+"index": 1003,
+
+"category": "weapon",
+"type": "OneSword",
+
+"hp":10,
+"atk": 10,
+"baoji": 10,
+
+"rarity": "purple",
+"count": 1,
+"usage": "",
+"story": ""
+}

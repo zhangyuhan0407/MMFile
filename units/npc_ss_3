@@ -4,24 +4,31 @@
 
 "name":"术士",
 "id":102,
-"imagename": "CARD_Normal_SS",
+"imagename": "ss_normal",
 "attacktype":"fire",
-"cls":"术士",
+"displaycls": "恶魔术",
+"cls":"ss_emo",
 
 
 "maxhp": 50,
-"maxsp": 2,
+"maxsp": 3,
 "hp":50,
 "sp":0,
 "def":0,
 "spd":30,
 
 
+"atk": 20,
+"baoji":0,
+"shanbi":0,
+"mingzhong": 0,
+"gedang":0,
 
-"skill1factor":10,
-"skill2factor":0,
-"skill1description":"群体单体伤害",
-"skill2description":""
+
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"单体法术伤害",
+"skill2description":"群体伤害"
 
 
 

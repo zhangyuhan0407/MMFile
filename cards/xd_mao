@@ -2,31 +2,35 @@
 "key":"xd_mao",
 
 
-"name":"猫德",
+"name":"德鲁伊学徒",
 "cls": "xd_mao",
-"displaycls":"猫德",
+"displaycls":"野性",
 "id":13,
 "attacktype":"physics",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":60,
 
 
 
-"skill1factor":10,
-"skill2factor":20,
-"skill1description":"偷袭:攻击前排单位,造成#眩晕#",
-"skill2description":"跃:攻击敌方最后一个单位,造成#眩晕#",
+"skill1factor":100,
+"skill2factor":200,
+"skill1description":"偷袭:攻击敌方最后一个单位",
+"skill2description":"野性位移:攻击敌方最后一个单位,造成#眩晕#",
 
 
 
-"baoji":0,
+"mingzhong":10,
+"shanbi":10,
+"baoji":10,
 "gedang":0,
-"mingzhong":0,
-"shanbi":0,
 
 
 "fantangwuli":0,

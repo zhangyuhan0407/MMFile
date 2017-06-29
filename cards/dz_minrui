@@ -2,32 +2,36 @@
 
 "key":"dz_minrui",
 
-
 "id":12,
+
 "attacktype":"physics",
-"name":"敏锐贼",
-"displaycls": "敏锐贼",
+"name":"潜行者学徒",
+"displaycls": "敏锐",
 "cls": "dz_minrui",
 
 
-"hp":50,
-"sp":3,
-"def":10,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 10,
+"def":0,
 "spd":90,
 
 
 
-"skill1factor":10,
-"skill2factor":40,
+"skill1factor":100,
+"skill2factor":200,
 "skill1description":"伏击:近战物理攻击",
 "skill2description":"暗影之舞:对血量最少的单位进行一次伏击,必定暴击",
 
 
 
 "mingzhong":0,
-"shanbi":30,
-"baoji":15,
+"baoji":10,
 "gedang":0,
+"shanbi":20,
 
 
 "fantanfashu":0,

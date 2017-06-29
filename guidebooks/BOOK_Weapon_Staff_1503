@@ -1,0 +1,16 @@
+{
+"key":"BOOK_Weapon_Staff_1503",
+"imagename": "INV_Weapon_Staff_1503",
+"index": 1111,
+"displayname":"院长之杖",
+
+"materials": [  {"key": "INV_Misc_Metal_3", "count": 5},
+                {"key": "INV_Misc_Stone_3", "count": 12}
+            ],
+
+"result": "INV_Weapon_Staff_1502",
+
+"story": "光明背面总是伴随着黑暗",
+"usage": "随机获得一个该职业随从"
+}
+

@@ -9,6 +9,10 @@
 "category": "weapon",
 "type": "Staff",
 
+"hp": 10,
+"atk": 5,
+"sp": 1,
+
 "rarity": "purple",
 "count": 1,
 "usage": "",

@@ -2,31 +2,35 @@
 "key":"sm_yuansu",
 
 
-"name":"元素萨",
+"name":"萨满学徒",
 "cls": "sm_yuansu",
-"displaycls":"元素萨",
+"displaycls":"元素",
 "id":20,
 "attacktype":"lightning",
 
 
-"hp":50,
-"sp":2,
-"def":20,
+"maxhp":35,
+"maxsp":3,
+"hp":35,
+"sp":0,
+
+"atk": 15,
+"def":0,
 "spd":20,
 
 
 
-"skill1factor":15,
-"skill2factor":15,
+"skill1factor":100,
+"skill2factor":100,
 "skill1description":"闪电箭:远程法术攻击,造成自然伤害,有几率造成过载",
 "skill2description":"闪电链:对最多3个单位造成自然伤害,有几率造成过载",
 
 
 
-"baoji":0,
-"gedang":0,
 "mingzhong":0,
 "shanbi":0,
+"baoji":0,
+"gedang":0,
 
 
 "fantangwuli":0,
